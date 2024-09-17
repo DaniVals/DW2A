@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<style>
+    table{
+        border: 3px;
+        border-color: black;
+        border-style: solid;
+    }
+    #title{
+        background-color: aqua;
+    }
+
+    .formColumn th:first-child{
+        background-color: blue;
+        width: 100px;
+    }
+    .formColumn th{
+        background-color: yellow;
+        width: 200px;
+    }
+</style>
+
+<body>
+    <table>
+        <form action="">
+            <tr id="title"><th colspan="2">Rellena la encuesta</th></tr>
+
+            <tr class="formColumn">
+                <th>Nombre</th>
+                <th><input type="text"></th>
+            </tr>
+
+            <tr class="formColumn">
+                <th>Alergias</th>
+                <th>
+                    <label for="AlergiaMarisco">Marisco</label><input type="checkbox" id="AlergiaMarisco"><br>
+                    <label for="AlergiaFrutosSecos">Frutos Secos</label><input type="checkbox" id="AlergiaFrutosSecos"><br>
+                </th>
+            </tr>
+
+            <tr class="formColumn">
+                <th></th>
+                <th><input type="submit"></th>
+                
+            </tr>
+
+
+
+
+        </form>
+    </table>
+</body>
+</html>

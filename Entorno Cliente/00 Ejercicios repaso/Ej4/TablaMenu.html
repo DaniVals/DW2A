@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta</title>
+</head>
+
+<style>
+    #CartaPrincipal{
+        border: 3px;
+        border-color: black;
+        border-style: solid;
+        width: 500px;
+
+        background-image: url('AC-pattern grass.jpg');
+    }
+    .SeccionCarta{
+        border: 3px;
+        border-color: black;
+        border-style: solid;
+        background-color: white;
+
+        margin: auto;
+        width: 300px;
+    }
+    .SeccionCarta th{
+        border: 1px;
+        border-color: gray;
+        border-style: solid;
+        min-width: none;
+    }
+    .SeccionCarta th img{
+        margin: 0px;
+        padding: 0px;
+        height: 20px;
+    }
+    .SeccionCarta th:has(img){
+        margin: 0px;
+        padding: 0px;
+        width: 10px !important;
+    }
+</style>
+
+<body>
+    <table id="CartaPrincipal">
+        <tr><th>Casa Manolo</th></tr>
+
+        <tr>
+            <th>
+                <table class="SeccionCarta">
+                    <tr><th colspan="3">efesfsee</th></tr>
+                    <tr>
+                        <th><img src="AC-pattern grass.jpg" alt=""></th>
+                        <th>aaaaaa</th>
+                        <th>€</th>
+                    </tr>
+                    <tr>
+                        <th>bbbbbb</th>
+                        <th>€</th>
+                    </tr>
+                </table>
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
