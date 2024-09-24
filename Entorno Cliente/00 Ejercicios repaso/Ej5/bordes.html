@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordes</title>
+</head>
+<style>
+    #container01{
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        
+        width: 500px;
+    }
+    .borde{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        border-width: 10px;
+    }
+    #b1{
+        border-color: silver;
+        border-style: inset;
+    }
+    #b2{
+        border-color: silver;
+        border-style: outset;
+    }
+    #b3{
+        border-color: blue;
+        border-style: double;
+    }
+    #b4{
+        border-color: blue;
+        border-style: groove;
+    }
+    #b5{
+        border-color: red;
+        border-style: ridge;
+    }
+    #b6{
+        border-color: green;
+        border-style: solid;
+    }
+</style>
+<body>
+    <div id="container01">
+        <p class="borde" id="b1">Borde plata con estilo "inset"</p>
+        <p class="borde" id="b2">Borde plata con estilo "outset"</p>
+        <p class="borde" id="b3">Borde azul con estilo "double"</p>
+        <p class="borde" id="b4">Borde azul con estilo "groove"</p>
+        <p class="borde" id="b5">Borde ridge con estilo "ridge"</p>
+        <p class="borde" id="b6">Borde verde con estilo "solid"</p>
+    </div>
+</body>
+</html>

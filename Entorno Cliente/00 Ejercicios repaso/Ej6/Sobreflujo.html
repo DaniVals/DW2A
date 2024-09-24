@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobreflujo</title>
+</head>
+<style>
+    #container01{
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        
+        width: 400px;
+    }
+    .cuadrado{
+        width: 100px;
+        height: 100px;
+        margin: 30px;
+    }
+    #c1{
+        background-color: aquamarine;
+        overflow: visible;
+    }
+    #c2{
+        background-color: yellow;
+        overflow: hidden;
+    }
+    #c3{
+        background-color: yellowgreen;
+        overflow: auto;
+    }
+    #c4{
+        background-color: palevioletred;
+        overflow: scroll;
+    }
+</style>
+<body>
+    <div id="container01">
+        <p class="cuadrado" id="c1">Sobreflujo visible, Sobreflujo visible, Sobreflujo visible, Sobreflujo visible, Sobreflujo visible, Sobreflujo visible, Sobreflujo visible</p>
+        <p class="cuadrado" id="c2">Sobreflujo oculto, Sobreflujo oculto, Sobreflujo oculto, Sobreflujo oculto, Sobreflujo oculto, Sobreflujo oculto, Sobreflujo oculto</p>
+        <p class="cuadrado" id="c3">Sobreflujo controlado con auto, Sobreflujo controlado con auto, Sobreflujo controlado con auto, Sobreflujo controlado con auto, Sobreflujo controlado con auto, Sobreflujo controlado con auto</p>
+        <p class="cuadrado" id="c4">Sobreflujo controlado usando scroll, Sobreflujo controlado usando scroll, Sobreflujo controlado usando scroll, Sobreflujo controlado usando scroll, Sobreflujo controlado usando scroll, Sobreflujo controlado usando scroll</p>
+    </div>
+</body>
+</html>

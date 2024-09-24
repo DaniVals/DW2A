@@ -1,0 +1,61 @@
+1. Se muestra el funcionamiento de los distintos operadores de asignación.
+<SCRIPT LANGUAGE="Javascript">
+    <!--//Operadores de asingación
+    var num1=3;
+    var num2=5;
+    num2+=num1;
+    num2-=num1;
+    num2*=num1;
+    num2/=num1;
+    num2%=num1;
+    // -->
+</SCRIPT>
+
+2. Se muestra el funcionamiento de los operadores aritméticos.
+<SCRIPT LANGUAGE="Javascript">
+    <!--//Operadores aritméticos
+    var num1=5, num2=8,resultado1, resultado2;
+    resultado1=((num1+num2)*200)/100;
+    resultado2=resultado1%3;
+    resultado1=++num1;
+    resultado2=num2++;
+    resultado1=--num1;
+    resultado2=num2--;
+    resultado1=-resultado2;
+    // -->
+</SCRIPT>
+
+3. Se muestra el resultado de distintas expresiones lógicas.
+<SCRIPT LANGUAGE="Javascript">
+    <!--//Operadores de comparación
+    var a=4;b=5;
+    document.write("<BR>El resultado de la expresión 'a==b' es igual a "+(a==b));
+    document.write("<BR>El resultado de la expresión 'a!=b' es igual a "+(a!=b));
+    document.write("<BR>El resultado de la expresión 'a>b' es igual a "+(a>b));
+    document.write("<BR>El resultado de la expresión 'a<b' es igual a "+(a<b));
+    document.write("<BR>El resultado de la expresión 'a>=b' es igual a "+(a>=b));
+    document.write("<BR>El resultado de la expresión 'a<=b' es igual a "+(a<=b));
+    // -->
+</SCRIPT>
+2
+4. Describe el tipo de datos de distintas variables.
+<HTML>
+<HEAD>
+    <SCRIPT LANGUAGE="Javascript">
+    var ciudad="Oviedo";
+    var edad=6;
+    var carnet=true;
+    document.write("<BR>La variable ciudad es de tipo: "+typeof ciudad+ "<BR>");
+    document.write("La variable edad es de tipo: "+typeof edad + "<BR>");
+    document.write("La variable carnet es de tipo: "+typeof carnet + "<BR>");
+    </SCRIPT>
+</HEAD>
+<BODY>
+</BODY>
+</HTML>
+5. Se pide una expresión numérica y se averiguará el resultado utilizando la función
+eval().
+var expresion,resultado;
+expresion=prompt("Introduce la operación a realizar","");
+resultado=eval(expresion);
+alert ("El resultado de la operacion es "+resultado);
