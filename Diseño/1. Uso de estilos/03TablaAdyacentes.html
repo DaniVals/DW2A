@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<style>
+    /*
+    esto comprueba que hay uno antes, aplica los cambios al que lo comprueba 
+    (en este caso el que tiene tres antes, osea que solo afecta a los dos ultimos)
+    */
+    td + td + td{
+        background-color: aqua;
+    }
+    h1 + h3{
+        background-color: rebeccapurple;
+    }
+    h1 + h2{
+        background-color: fuchsia;
+    }
+</style>
+
+<body>
+    <table border="1">
+    <tr><td>teal</td><td>teal</td><td>teal</td><td>teal</td></tr>
+    <tr><td>red</td><td>red</td><td>red</td><td>red</td></tr>
+    <tr><td>blue</td><td>blue</td><td>blue</td><td>blue</td></tr>
+    <tr><td>orange</td><td>orange</td><td>orange</td><td>orange</td></tr>
+    <tr><td>purple</td><td>purple</td><td>purple</td><td>purple</td></tr>
+    <tr><td>olive</td><td>olive</td><td>olive</td><td>olive</td></tr>
+    <tr><td>fuchsia</td><td>fuchsia</td><td>fuchsia</td><td>fuchsia</td></tr>
+    <tr><td>green</td><td>green</td><td>green</td><td>green</td></tr>
+    </table>
+
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+</body>
+</html>
