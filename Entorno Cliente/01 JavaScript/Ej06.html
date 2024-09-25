@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Ejercicio </title>
+</head>
+<body>
+    <script>
+        /*
+        3. Mayor.html
+        Solicita al usuario 3 números enteros e indica cual es el mayor.
+        */
+
+        var num_teclado1, num_teclado2, num_teclado3;
+        num_teclado1 = parseInt( prompt("Dime un numero",""));
+        num_teclado2 = parseInt( prompt("Dime otro numero",""));
+        num_teclado3 = parseInt( prompt("Dime OTRO numero",""));
+
+        if (isNaN(num_teclado1) || isNaN(num_teclado2) || isNaN(num_teclado3)) {
+            document.write("pon numeros validos");
+        }else{
+            if (num_teclado2 <= num_teclado1 && num_teclado3 <= num_teclado1) {
+                document.write("numero 1 "+num_teclado1);
+
+            }else if (num_teclado3 <= num_teclado2) {
+                document.write("numero 2 "+num_teclado2);
+                
+            }else{
+                document.write("numero 3 "+num_teclado3);
+
+            }
+        }
+    </script>
+</body>
+</html>

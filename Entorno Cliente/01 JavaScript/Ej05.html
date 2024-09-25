@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Ejercicio </title>
+</head>
+<body>
+    <script>
+        /*
+        2. tablaMultiplicar.html
+        Solicita al usuario un número y muestra la tabla de multiplicar de dicho número.
+        */
+
+        var num_teclado;
+        num_teclado=parseInt( prompt("Dime un numero",""));
+
+        if (isNaN(num_teclado)) {
+            document.write("pon un numero valido")
+        }else{
+            for (let i = 1; i <= 10; i++) {                
+                document.write(num_teclado+" x "+i+" = "+(i*num_teclado)+"<br>");
+            }
+        }
+    </script>
+
+</body>
+</html>

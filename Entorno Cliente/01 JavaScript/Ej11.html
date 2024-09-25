@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Ejercicio </title>
+</head>
+<body>
+    <script>
+        /*
+        8. concatenaCadenas.html
+        Programa que pida cadenas de texto hasta que se pulse “cancelar” en la ventana de
+        confirmación. Al salir con “cancelar” deben mostrarse todas las cadenas concatenadas con un
+        guión -.
+        */
+
+        let pedirMas = true;
+        let cadenaPedida;
+
+        cadenaPedida = prompt("Dime cosas, para parar pulsa cancelar");
+        if (cadenaPedida == null || cadenaPedida == "") {
+            pedirMas = false;
+        }else{
+            document.write(cadenaPedida);
+        }
+        while (pedirMas) {
+            cadenaPedida = prompt("Dime cosas, para parar pulsa cancelar");
+            if (cadenaPedida == null || cadenaPedida == "") {
+                pedirMas = false;
+            }else{
+                document.write(" - "+cadenaPedida);
+            }
+        }
+    </script>
+</body>
+</html>

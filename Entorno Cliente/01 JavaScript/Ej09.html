@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Ejercicio </title>
+</head>
+<body>
+    <script>
+        /*
+        6. funcionOrdenar.html
+        Programar una función a la cual le envíe tres enteros y los muestre ordenados de menor a
+        mayor.
+        */
+
+        function ordenarTresInts(n1, n2, n3) {
+            
+            if (n2 <= n1 && n3 <= n1) {
+                if (n2<n3) {
+                    document.write(n2+" - "+n3);
+                }else{
+                    document.write(n3+" - "+n2);
+                }
+                document.write(" - "+n1);
+                
+            }else if (n3 <= n2) {
+                if (n1<n3) {
+                    document.write(n1+" - "+n3);
+                }else{
+                    document.write(n3+" - "+n1);
+                }
+                document.write(" - "+n2);
+                
+            }else{
+                if (n2<n1) {
+                    document.write(n2+" - "+n1);
+                }else{
+                    document.write(n1+" - "+n2);
+                }
+                document.write(" - "+n3);
+
+            }
+            document.write("<br>")
+        }
+
+        ordenarTresInts(1,2,3);
+        ordenarTresInts(1,3,2);
+        ordenarTresInts(2,3,1);
+        ordenarTresInts(2,1,3);
+        ordenarTresInts(3,1,2);
+        ordenarTresInts(3,2,1);
+
+    </script>
+</body>
+</html>

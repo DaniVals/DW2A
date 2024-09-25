@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Ejercicio </title>
+</head>
+<body>
+    <script>
+        /*
+        4. contarPares.html
+        Programa que solicite al usuario 5 números enteros y luego nos informe cuántos valores son
+        pares y cuántos impares
+        */
+       
+        var num_teclado1, num_teclado2, num_teclado3, num_teclado4, num_teclado5;
+        num_teclado1 = parseInt( prompt("Dime un numero",""));
+        num_teclado2 = parseInt( prompt("Dime otro numero",""));
+        num_teclado3 = parseInt( prompt("Dime OTRO numero",""));
+        num_teclado4 = parseInt( prompt("Dime OTRO? numero",""));
+        num_teclado5 = parseInt( prompt("Dime OTRO! numero",""));
+
+        var contador=0;
+
+        if (num_teclado1%2 == 0) {
+            contador++;
+        }
+        if (num_teclado2%2 == 0) {
+            contador++;
+        }
+        if (num_teclado3%2 == 0) {
+            contador++;
+        }
+        if (num_teclado4%2 == 0) {
+            contador++;
+        }
+        if (num_teclado5%2 == 0) {
+            contador++;
+        }
+
+        document.write("numeros pares: "+contador+"<br>numeros impares: "+(5-contador));
+    </script>
+</body>
+</html>

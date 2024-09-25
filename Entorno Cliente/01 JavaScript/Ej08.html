@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Ejercicio </title>
+</head>
+<body>
+    <script>
+        /*
+        5. Notas.html
+        Escribir un programa que lea 10 notas de alumnos y nos informe cuántos alumnos tienen
+        sobresaliente, notable, aprobado y suspenso.
+        Sobresaliente: entre 9 y 10
+        Notable: entre 7 y 8
+        Aprobado: entre 5 y 6
+        Suspenso: menor que 5
+        */
+
+        let num_teclado = [];
+        num_teclado[0] = parseInt( prompt("Dime nota 1",""));
+        num_teclado[1] = parseInt( prompt("Dime nota 2",""));
+        num_teclado[2] = parseInt( prompt("Dime nota 3",""));
+        num_teclado[3] = parseInt( prompt("Dime nota 4",""));
+        num_teclado[4] = parseInt( prompt("Dime nota 5",""));
+        num_teclado[5] = parseInt( prompt("Dime nota 6",""));
+        num_teclado[6] = parseInt( prompt("Dime nota 7",""));
+        num_teclado[7] = parseInt( prompt("Dime nota 8",""));
+        num_teclado[8] = parseInt( prompt("Dime nota 9",""));
+        num_teclado[9] = parseInt( prompt("Dime nota 10",""));
+
+        let contador_sobresalientes = 0;
+        let contador_notables = 0;
+        let contador_aprovado = 0;
+        let contador_suspenso = 0;
+
+        for (let i = 0; i < num_teclado.length; i++) {
+            switch (num_teclado[i]) {
+                case 10:
+                case 9:
+                    contador_sobresalientes++;
+                    break;
+                case 8:
+                case 7:
+                    contador_notables++;
+                    break;
+                case 6:
+                case 5:
+                    contador_aprovado++;
+                    break;
+                default:
+                    contador_suspenso++;
+                    break;
+            }
+            
+        }
+
+        document.write("sobresalientes: "+contador_sobresalientes+"<br>");
+        document.write("notables: "+contador_notables+"<br>");
+        document.write("aprovados: "+contador_aprovado+"<br>");
+        document.write("suspensos: "+contador_suspenso+"<br>");
+
+    </script>
+</body>
+</html>
