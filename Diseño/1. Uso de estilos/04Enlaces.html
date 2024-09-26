@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{   
+        background-color: gray;
+    }
+
+    /* ---------------- */
+
+    * [href] {
+        color: yellowgreen;
+    }
+
+    ol[type] {
+        background-color: aqua;
+    }
+    ol[type="1"] {
+        color: blue;
+    }
+    ol[type="a"] {
+        color: red;
+    }
+
+    /* $ para que detecte si acaba asi */
+    a[href$=".org"]{
+        font-weight: bolder;
+    }
+
+    /* * para que detecte si lo incluye */
+    a[href*="example"]{
+        background-color: blueviolet;
+    }
+
+
+</style>
+<body>
+    <ol type="1">
+        <li>Visual Studio code</li>
+        <li>Chrome</li>
+        <li>Firefox</li>
+    </ol>
+    <ol type="a">
+        <li>Proyector</li>
+        <li>Ordenadores</li>
+    </ol>
+
+    <a href="#internal">Enlace interno</a>
+    <a href="https://example.com">Enlace externo</a>
+    <a href="https://example.org">Ejemplo de enlace</a>
+</body>
+</html>
