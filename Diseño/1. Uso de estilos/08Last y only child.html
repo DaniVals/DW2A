@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{   
+        background-color: gray;
+    }
+    /* ---------------- */
+    li{
+        color: blue;
+    }
+    li:last-child{
+        border: 1px solid brown;
+        color: brown;
+    }
+
+    p:last-child{
+        background-color: brown;
+    }
+
+    h1:only-child{
+        color: green;
+    }
+
+</style>
+<body>
+    <div>
+        <ul>
+            <li>Articulo 1</li>
+            <li>Articulo 2</li>
+            <li>Articulo 3
+                <ul>
+                    <li>Articulo 3.1</li>
+                    <li>Articulo 3.2</li>
+                    <li>Articulo 3.3</li>
+                </ul>
+            </li>
+        </ul>
+        <p>parrafo 1</p>
+        <p>parrafo 2</p>
+    </div>
+    <div>
+        <h1>Soy un hijo unico y solitario</h1>
+    </div>
+    <h1>Soy hijo unico y no solitario</h1>
+</body>
+</html>
