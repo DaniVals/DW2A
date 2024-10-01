@@ -4,22 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "538430f8edf6b2ac",
+        "id": "0df9a0444cf30231",
         "type": "tabs",
         "children": [
           {
-            "id": "ed069bf236c1cb7b",
+            "id": "134fad03bba741c1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "a6594593519e98cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Empresa/T1.md",
+                "file": "Entorno Servidor/T2/Tema 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Empresa/T1.md",
+                "file": "Entorno Servidor/T2/Tema 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Empresa/T1.md",
+                "file": "Entorno Servidor/T2/Tema 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Empresa/T1.md"
+                "file": "Entorno Servidor/T2/Tema 2.md"
               }
             }
           },
@@ -160,34 +169,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ed069bf236c1cb7b",
+  "active": "a6594593519e98cd",
   "lastOpenFiles": [
+    "Entorno Servidor/T2/Diapositivas UD2 01 - Introducción.pdf",
+    "Entorno Servidor/T2/Diapositivas UD2 02.pdf",
+    "Entorno Servidor/T2/Tema 2.md",
+    "Entorno Servidor/T2/Diapositivas UD2 04.pdf",
+    "Entorno Servidor/T2/Diapositivas UD2 03 - Estructuras de control, operadores, arrays y funciones.pdf",
+    "Entorno Servidor/Apuntes Entorno Servidor.md",
     "Entorno Cliente/Apuntes Entorno Cliente.md",
-    "Entorno Cliente/01 JavaScript/JavaScript.md",
-    "Empresa/primer día.md",
-    "Empresa/Apuntes Empresa.md",
-    "Diseño/ejercicioGenerico.html",
+    "Entorno Servidor/T2/Diapositivas UD2 3.pdf",
+    "Entorno Servidor/Diapositivas UD2 3.pdf",
+    "Entorno Servidor/Diapositivas UD2 04.pdf",
+    "Entorno Servidor/T2/Ejemplos profe/Ejemplo cabecera con include o require/cabecera_santander.php",
+    "Entorno Servidor/T2/Ejemplos profe/Ejemplo cabecera con include o require/hipotecas.php",
+    "Entorno Servidor/T2/Ejemplos profe/Funciones/funcion.php",
+    "Entorno Servidor/T2/Funciones.png",
+    "Entorno Servidor/T2/Funciones arrays y string.png",
+    "Entorno Servidor/T2/Apuntes Entorno Servidor.md",
+    "Entorno Servidor/Funciones.png",
+    "Entorno Servidor/descarga.png",
+    "Despliegue Apps/ApuntesT1/Comandos apache.md",
+    "Despliegue Apps/Apuntes Despliegue.md",
+    "Despliegue Apps/ApuntesT1/Arquitectura Web.md",
+    "Despliegue Apps/ApuntesT2/Comandos Docker.md",
+    "Despliegue Apps/ApuntesT1/Untitled.canvas",
     "Diseño/Apuntes Diseño.md",
+    "Empresa/Apuntes Empresa.md",
+    "Empresa/T1/T1.md",
+    "Empresa/T1/primer día.md",
+    "AAA/Ejemplos Obsidian.md",
+    "Entorno Cliente/01 JavaScript/JavaScript.md",
     "Diseño/3 Unidades de medida y colores/Tema 3.md",
-    "Diseño/3 Unidades de medida y colores/1.UsoEstilos30-38.pdf",
-    "Diseño/3 Unidades de medida y colores/01.html",
-    "Diseño/3 Unidades de medida y colores",
     "Diseño/1-2 Uso de estilos/Importante.md",
-    "Diseño/1-2 Uso de estilos/1.UsoEstilos1-29.pdf",
     "Diseño/1-2 Uso de estilos/Tema 1 y 2.md",
-    "Diseño/1-2 Uso de estilos/09Hover y activo.html",
-    "Diseño/1-2 Uso de estilos/10Primera linea.html",
-    "Diseño/1-2 Uso de estilos/07First child.html",
-    "Diseño/1-2 Uso de estilos/08Last y only child.html",
-    "Diseño/1-2 Uso de estilos/05Herencia.html",
     "().md",
-    "Empresa/T1.md",
     "Empresa/Apuntes primer día.md",
     "README.md",
-    "Despliegue Apps/ApuntesT2/Comandos Docker.md",
     "Diseño/PDFs de clase/Importante.md",
     "Despliegue Apps/ApuntesT2/Drawing 2024-09-30 12.23.15.excalidraw.md",
-    "AAA/Ejemplos Obsidian.md",
     "AAA/Pasted image 20240930095929.png",
     "AAA/attachments/Pasted image 20240930095846.png"
   ]

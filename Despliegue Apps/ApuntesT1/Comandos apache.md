@@ -1,17 +1,37 @@
-1. Comandos
-    = Basicos =
-        nano (editar un archivo de texto)
-        apt (para llamar al servidor de paquetes, hay mas) {install (instalar) / remove (desinstalar) / update (buscar actualizaciones) /upgrade (actualizar)} (lo que vas a installar, como apache2)
-        su (dar admin en debian)
+[[Apuntes Despliegue|Home]]
 
-    = Procesos =
-        ps aux (para listar todos los procesos)
+---
 
-= Servicios =
+# Basicos
+```bash
+nano (editar un archivo de texto)
+```
+```bash
+apt [opcion] [nombre]
+```
+para llamar al servidor de paquetes, hay mas
+
+### opcion
+- install (instalar)
+- remove (desinstalar) 
+- update (buscar actualizaciones) 
+- upgrade (actualizar) 
+### Nombre
+(el nombre de lo que vas a installar, como apache2)
+```bash
+su (dar admin en debian)
+```
+
+# Procesos
+```bash
+ps aux (para listar todos los procesos)
+```
+# Servicios
 ```bash
 systemctl {status/start/stop/restart} (nombre del servicio)
 ```
 
-    
-2. Donde se crea el fichero base de Apache2
-    /var/www/html/index.html
+---
+
+==Donde se crea el fichero base de Apache2==
+/var/www/html/index.html

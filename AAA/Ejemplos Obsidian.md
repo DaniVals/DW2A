@@ -7,3 +7,5 @@ $$
 console.log("hola mundo!!!!");
 ```
 [[README|el readme]]
+# encabezado
+[[#encabezado]]
