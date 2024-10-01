@@ -7,5 +7,7 @@
 			"path": "../../../../../../xampp/htdocs"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DW2A"
+	}
 }

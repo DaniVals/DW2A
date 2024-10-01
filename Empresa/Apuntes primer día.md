@@ -8,7 +8,7 @@ se puede usar para el TFG
 
 
 # Dia 2
-- Que es un start up
+- Que es un startup
 - Es una idea pequeña que genera una empresa con menos coste inicial (y por ende riesgo),
 - Suele centrarse en perfeccionar esa pequeña idea con un equipo pequeño
 - El producto puede llevar a la banca rota, ser comprado por una empresa mas grande o ser

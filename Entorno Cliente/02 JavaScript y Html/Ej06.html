@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<script>
+    function calcularCuadrado() {
+
+        let numero = document.getElementById("input_numero").value;
+
+        if (!isNaN(numero)) {
+            
+            document.getElementById("input_cuadrado").value = parseFloat(numero) * parseFloat(numero);
+        }
+    }
+</script>
+
+<body>
+    
+    <input id="input_numero" type="text">
+    <input id="input_cuadrado" type="text">
+    <button onclick="calcularCuadrado()">cuadrado</button>
+
+</body>
+</html>
