@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3eaa485fdb14a1ba",
+        "id": "bbebace277d619a8",
         "type": "tabs",
         "children": [
           {
-            "id": "f4802e9f1c0d434e",
+            "id": "e48c41ef55db69f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AAA/Ejemplos Obsidian.md",
+                "file": "Despliegue Apps/ApuntesT1/Comandos apache.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AAA/Ejemplos Obsidian.md",
+                "file": "Despliegue Apps/ApuntesT1/Comandos apache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AAA/Ejemplos Obsidian.md",
+                "file": "Despliegue Apps/ApuntesT1/Comandos apache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,15 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AAA/Ejemplos Obsidian.md"
+                "file": "Despliegue Apps/ApuntesT1/Comandos apache.md"
               }
             }
+          },
+          {
+            "id": "e6e3cbac92ca8c85",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -151,13 +160,34 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f4802e9f1c0d434e",
+  "active": "e48c41ef55db69f8",
   "lastOpenFiles": [
-    "AAA/Pasted image 20240930095929.png",
+    "Despliegue Apps/ApuntesT1/Arquitectura Web.md",
+    "Despliegue Apps/ApuntesT1/Comandos apache.md",
+    "Despliegue Apps/Apuntes Despliegue.md",
     "AAA/Ejemplos Obsidian.md",
-    "Empresa/Apuntes primer día.md",
-    "AAA/attachments/Pasted image 20240930095846.png",
+    "Empresa/primer día.md",
+    "Empresa/Apuntes Empresa.md",
+    "Entorno Cliente/Apuntes Entorno Cliente.md",
+    "Diseño/Apuntes Diseño.md",
+    "Diseño/1-2 Uso de estilos/Tema 1 y 2.md",
+    "Diseño/1-2 Uso de estilos/1.UsoEstilos1-29.pdf",
+    "Diseño/3 Unidades de medida y colores/Tema 3.md",
+    "Entorno Cliente/01 JavaScript/JavaScript.md",
     "README.md",
-    "AAA/attachments"
+    "Diseño/3 Unidades de medida y colores/1.UsoEstilos30-38.pdf",
+    "Apuntes_Obsidian.md",
+    "Apuntes.md",
+    "Tema.md",
+    "Diseño/3 Unidades de medida y colores/01.html",
+    "Diseño/1-2 Uso de estilos/10Primera linea.html",
+    "Diseño/1-2 Uso de estilos/09Hover y activo.html",
+    "Diseño/1-2 Uso de estilos/08Last y only child.html",
+    "Diseño/1-2 Uso de estilos/07First child.html",
+    "Diseño/1-2 Uso de estilos/06Prioridad.html",
+    "Diseño/1-2 Uso de estilos/05Herencia.html",
+    "Diseño/1-2 Uso de estilos/04Enlaces.html",
+    "AAA/Pasted image 20240930095929.png",
+    "AAA/attachments/Pasted image 20240930095846.png"
   ]
 }

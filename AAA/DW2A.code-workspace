@@ -4,5 +4,58 @@
 			"path": ".."
 		}
 	],
-	"settings": {}
+	"settings": {
+		
+		
+		"folder-path-color.folders": [
+			{ 
+				"path": "AAA", 
+				"color": "custom1"
+			},
+			{ 
+				"path": ".obsidian", 
+				"color": "custom1"
+			},
+			{ 
+				"path": "README.md", 
+				"color": "custom1"
+			},
+			{
+				"path": "Entorno Cliente", 
+				"color": "yellow"
+			},
+			{ 
+				"path": "Empresa", 
+				"color": "green"
+			},
+			{ 
+				"path": "Diseño", 
+				"color": "red"
+			},
+			{ 
+				"path": "Entorno Servidor", 
+				"color": "blue"
+			},
+			{ 
+				"path": "Despliegue", 
+				"color": "magenta"
+			},
+			
+		],
+		"workbench.colorCustomizations": {
+			"folderPathColor.custom1": "#888",
+		},
+		//plugin carpetas e iconos
+		"material-icon-theme.hidesExplorerArrows": true,
+		"material-icon-theme.opacity": 1,
+		"material-icon-theme.folders.associations": {
+			"AAA": "config",
+			".obsidian": "config",
+			"Entorno Cliente": "javascript",
+			"Diseño": "home",
+			"Entorno Servidor": "php",
+			"Empresa": "admin",
+			"Despliegue Apps": "shared",
+		},
+	}
 }

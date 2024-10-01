@@ -7,4 +7,6 @@
 
 
 = Servicios =
-    systemctl {status/start/stop/restart} (nombre del servicio)
+```bash
+systemctl {status/start/stop/restart} (nombre del servicio)
+```
