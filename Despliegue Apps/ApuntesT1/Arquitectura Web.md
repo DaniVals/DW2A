@@ -1,5 +1,28 @@
 1. Tipos de arquitectura
-    Cliente-Servidor
+    = Cliente-Servidor =
+        - escalabilidad a nivel de servidor
+        - tienes que tener tu un servidor y mantenerlo
+
+    = Micro servicios =
+        - ventaja si se cae uno no afecta al resto
+        - desventaja dificil la comunicacion entre ellos puede ser dificil y generar latencia
+
+    = Serverless =
+        - ventaja reduce los costos iniciales y las tareas de mantenimiento (te lo hacen xd)
+        - desventaja necesitas una nube (Azure, AWS...)
+
+    = Single Page App = (ejemplo apple)
+        - es barato
+        - es mucho JS
+
+
+
+
+    = escalabilidad a volumen de peticiones =
+        poder pasar de un maximo de 1000 de solicitudes a 25000 solicitudes
+
+    = escalabilidad a volumen de datos =
+        poder gestionar mas datos de forma sencilla sin modificar mucho el codigo (abrir un nuevo contenedor por ejemplo) (balanceador de carga)
 
 2. Peticiones Web
     = http = 
@@ -41,11 +64,13 @@
 5. Contenedor
     Los contenedores es una aplicacion, su objetivo es virtualizar servicios, algo que cuando le solicitemos vaya a funcionar
     Estan pensados para configurarse una vez y no volver a tocarlos mas
+    Son como mini maquinas viruales
+
     = docker = 
-        la aplicacion que permite configurar contenedores
+        la aplicacion que permite configurar y gestionar contenedores
         el server de apache de linux de docker se llama httpd
         se enciende con el comando:
-        docker run -p {81}:80 (esto para cambiar el puerto del original a otro) -d (para ejecutarlo en segundo plano) --name nombre (darle un nombre, si no le da uno aleatorio) httpd (el nombre del contenedor)
+        docker run -p {81}:80 (esto para mapear/cambiar el puerto del original a otro) -d (para ejecutarlo en segundo plano) --name nombre (darle un nombre, si no le da uno aleatorio) httpd (el nombre del contenedor)
 
         docker ps (para ver los contenedores activos)
         (pregunta de empresa, ¿sabrias crear un contenedor de esta aplicacion que tenemos nosotros?)
