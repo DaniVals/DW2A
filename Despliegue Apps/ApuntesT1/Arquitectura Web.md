@@ -1,4 +1,3 @@
-[[Apuntes Despliegue|Home]]
 # Tipos de arquitectura
 Cliente-Servidor =
 - escalabilidad a nivel de servidor
@@ -67,7 +66,7 @@ Los contenedores es una aplicacion, su objetivo es virtualizar servicios, algo q
 Estan pensados para configurarse una vez y no volver a tocarlos mas
 Son como mini maquinas viruales
 
-= docker = 
+## [[Comandos Docker|Docker]] 
 la aplicacion que permite configurar y gestionar contenedores
 el server de apache de linux de docker se llama httpd
 

@@ -11,28 +11,21 @@
       "query": "path:\"Despliegue Apps\"  ",
       "color": {
         "a": 1,
-        "rgb": 14429951
-      }
-    },
-    {
-      "query": "path:\"Entorno Cliente\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 16772388
+        "rgb": 16711914
       }
     },
     {
       "query": "path:Empresa  ",
       "color": {
         "a": 1,
-        "rgb": 5367336
+        "rgb": 2883328
       }
     },
     {
       "query": "path:Diseño  ",
       "color": {
         "a": 1,
-        "rgb": 16582664
+        "rgb": 16711680
       }
     },
     {
@@ -41,18 +34,25 @@
         "a": 1,
         "rgb": 13311
       }
+    },
+    {
+      "query": "path:\"Entorno Cliente\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13958912
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.5516632016632,
-  "lineSizeMultiplier": 5,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.67963636363636,
+  "lineSizeMultiplier": 3.40181818181818,
   "collapse-forces": false,
-  "centerStrength": 0.641372141372141,
-  "repelStrength": 12.8274428274428,
+  "centerStrength": 0.350871985157699,
+  "repelStrength": 11.6719851576994,
   "linkStrength": 1,
-  "linkDistance": 89,
-  "scale": 1.2526463326965358,
-  "close": true
+  "linkDistance": 30,
+  "scale": 1.053497942386832,
+  "close": false
 }

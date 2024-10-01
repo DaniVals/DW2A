@@ -2,5 +2,32 @@
 Todos los recursos y proyectos usados y creados a o largo de mi segundo año de Desarrollo de Aplicaciones Web
 
 
-## Obsidian
-Para los apuntes (los archivo en .md) he usado la aplicación obsidian
+
+# Obsidian Home Page
+
+--- start-multi-column: Prueba
+```column-settings
+Number of Columns: 2
+Largest Column: right
+Border: off
+Shadow: off
+```
+
+
+>[!indice] Indices
+> [[Apuntes Despliegue|Despliegue]]
+> [[Apuntes Diseño|Diseño]]
+> [[Apuntes Empresa|Empresa]]
+> [[Apuntes Entorno Cliente|Entorno Cliente]]
+> [[Apuntes Entorno Servidor|Entorno Servidor]]
+
+--- column-break ---
+
+
+> [!warning] Tareas
+> ```dataview
+> TASK SORT completed
+> ```
+
+
+--- end-multi-column 

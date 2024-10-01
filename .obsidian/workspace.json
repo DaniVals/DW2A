@@ -4,26 +4,66 @@
     "type": "split",
     "children": [
       {
-        "id": "0df9a0444cf30231",
+        "id": "71d9fb020a1c225f",
         "type": "tabs",
         "children": [
           {
-            "id": "134fad03bba741c1",
+            "id": "b1064ec7751d8ccc",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
             }
           },
           {
-            "id": "a6594593519e98cd",
+            "id": "097f68857806ead8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entorno Servidor/T2/Tema 2.md",
-                "mode": "source",
+                "file": "Diseño/Apuntes Diseño.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e008ecede7df531a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diseño/1-2 Uso de estilos/1 Introducción.md",
+                "mode": "preview",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "24e7363d9d83b911",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diseño/1-2 Uso de estilos/2 Selectores.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a41bac510d1e3fe",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Diseño/1-2 Uso de estilos/1.UsoEstilos1-29.pdf"
               }
             }
           }
@@ -94,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Entorno Servidor/T2/Tema 2.md",
+                "file": "Diseño/Apuntes Diseño.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Entorno Servidor/T2/Tema 2.md",
+                "file": "Diseño/Apuntes Diseño.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Entorno Servidor/T2/Tema 2.md"
+                "file": "Diseño/Apuntes Diseño.md"
               }
             }
           },
@@ -156,6 +196,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -165,49 +206,51 @@
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "homepage:Open homepage": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6594593519e98cd",
+  "active": "097f68857806ead8",
   "lastOpenFiles": [
-    "Entorno Servidor/T2/Diapositivas UD2 01 - Introducción.pdf",
-    "Entorno Servidor/T2/Diapositivas UD2 02.pdf",
-    "Entorno Servidor/T2/Tema 2.md",
-    "Entorno Servidor/T2/Diapositivas UD2 04.pdf",
-    "Entorno Servidor/T2/Diapositivas UD2 03 - Estructuras de control, operadores, arrays y funciones.pdf",
-    "Entorno Servidor/Apuntes Entorno Servidor.md",
-    "Entorno Cliente/Apuntes Entorno Cliente.md",
-    "Entorno Servidor/T2/Diapositivas UD2 3.pdf",
-    "Entorno Servidor/Diapositivas UD2 3.pdf",
-    "Entorno Servidor/Diapositivas UD2 04.pdf",
-    "Entorno Servidor/T2/Ejemplos profe/Ejemplo cabecera con include o require/cabecera_santander.php",
-    "Entorno Servidor/T2/Ejemplos profe/Ejemplo cabecera con include o require/hipotecas.php",
-    "Entorno Servidor/T2/Ejemplos profe/Funciones/funcion.php",
-    "Entorno Servidor/T2/Funciones.png",
-    "Entorno Servidor/T2/Funciones arrays y string.png",
-    "Entorno Servidor/T2/Apuntes Entorno Servidor.md",
-    "Entorno Servidor/Funciones.png",
-    "Entorno Servidor/descarga.png",
-    "Despliegue Apps/ApuntesT1/Comandos apache.md",
+    "README.md",
+    "Diseño/Apuntes Diseño.md",
+    "Diseño/1-2 Uso de estilos/1 Introducción.md",
+    "Diseño/1-2 Uso de estilos/2 Selectores.md",
+    "Diseño/1-2 Uso de estilos/1.UsoEstilos1-29.pdf",
     "Despliegue Apps/Apuntes Despliegue.md",
     "Despliegue Apps/ApuntesT1/Arquitectura Web.md",
-    "Despliegue Apps/ApuntesT2/Comandos Docker.md",
-    "Despliegue Apps/ApuntesT1/Untitled.canvas",
-    "Diseño/Apuntes Diseño.md",
-    "Empresa/Apuntes Empresa.md",
-    "Empresa/T1/T1.md",
-    "Empresa/T1/primer día.md",
-    "AAA/Ejemplos Obsidian.md",
-    "Entorno Cliente/01 JavaScript/JavaScript.md",
     "Diseño/3 Unidades de medida y colores/Tema 3.md",
+    "Despliegue Apps/ApuntesT1/Comandos apache.md",
+    "Despliegue Apps/ApuntesT2/Comandos Docker.md",
+    "Pasted image 20241001211552.png",
+    "Entorno Cliente/Apuntes Entorno Cliente.md",
+    "Empresa/Apuntes Empresa.md",
+    "Diseño/1-2 Uso de estilos/Pasted image 20241001204536.png",
+    "Diseño/CamScanner 09-27-2024 13.50.pdf",
+    "Entorno Cliente/02 JavaScript y Html/JS y HTML.md",
+    "Entorno Cliente/01 JavaScript/JavaScript.md",
+    "Entorno Servidor/T2/Tema 2.md",
+    "Entorno Servidor/Apuntes Entorno Servidor.md",
+    "Entorno Cliente/02 JavaScript y Html/INTRODUCCION_A_OBJETOS_Y_EVENTOS.pdf",
+    "Entorno Cliente/02 JavaScript y Html/Ejerc Javascript-1.pdf",
+    "Entorno Servidor/prueba inicial/ghost-spooky.gif",
+    "Empresa/T1/primer día.md",
+    "Empresa/T1/T1.md",
+    "Diseño/3 Unidades de medida y colores/1.UsoEstilos30-38.pdf",
+    "AAA/Ejemplos Obsidian.md",
+    "2024-10-01.md",
+    "Untitled.canvas",
+    "Entorno Servidor/prueba inicial/pruebita.php",
+    "Entorno Servidor/T2/Ejemplos profe/Funciones/funcion.php",
+    "Entorno Servidor/T2/Ejemplos profe/Excepciones, errores y clases/PersonayCliente.php",
+    "Entorno Servidor/T2/Ejemplos profe/Excepciones, errores y clases/excepciones.php",
+    "Entorno Servidor/T2/Ejemplos profe/Ejemplo cabecera con include o require/hipotecas.php",
+    "Entorno Servidor/T2/Funciones.png",
+    "Empresa/T1.md",
+    "Empresa/primer día.md",
     "Diseño/1-2 Uso de estilos/Importante.md",
-    "Diseño/1-2 Uso de estilos/Tema 1 y 2.md",
     "().md",
     "Empresa/Apuntes primer día.md",
-    "README.md",
     "Diseño/PDFs de clase/Importante.md",
-    "Despliegue Apps/ApuntesT2/Drawing 2024-09-30 12.23.15.excalidraw.md",
     "AAA/Pasted image 20240930095929.png",
     "AAA/attachments/Pasted image 20240930095846.png"
   ]

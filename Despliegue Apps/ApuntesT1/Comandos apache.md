@@ -1,8 +1,6 @@
-[[Apuntes Despliegue|Home]]
-
----
-
 # Basicos
+´´´
+´´´
 ```bash
 nano (editar un archivo de texto)
 ```
@@ -11,13 +9,14 @@ apt [opcion] [nombre]
 ```
 para llamar al servidor de paquetes, hay mas
 
-### opcion
+### opción
 - install (instalar)
 - remove (desinstalar) 
 - update (buscar actualizaciones) 
 - upgrade (actualizar) 
 ### Nombre
 (el nombre de lo que vas a installar, como apache2)
+
 ```bash
 su (dar admin en debian)
 ```
@@ -33,5 +32,6 @@ systemctl {status/start/stop/restart} (nombre del servicio)
 
 ---
 
-==Donde se crea el fichero base de Apache2==
-/var/www/html/index.html
+>[!example] Donde se crea el fichero base de Apache2
+> /var/www/html/index.html
+

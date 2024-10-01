@@ -1,2 +1,3 @@
+# Trimestre 1
 [[JavaScript]]
-[[INTRODUCCION_A_OBJETOS_Y_EVENTOS.pdf|Lista eventos JS]]
+[[JS y HTML]]
