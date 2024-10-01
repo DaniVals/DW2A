@@ -1,1 +1,0 @@
-De la pagina 1 a la 11 para el parcial del Lunes 26/09/2024

@@ -7,8 +7,10 @@
     = Procesos =
         ps aux (para listar todos los procesos)
 
-    = Servicios =
-        systemctl {status/start/stop/restart} (nombre del servicio)
+= Servicios =
+```bash
+systemctl {status/start/stop/restart} (nombre del servicio)
+```
 
     
 2. Donde se crea el fichero base de Apache2
