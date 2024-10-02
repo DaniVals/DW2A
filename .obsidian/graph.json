@@ -11,48 +11,48 @@
       "query": "path:\"Despliegue Apps\"  ",
       "color": {
         "a": 1,
-        "rgb": 16711914
-      }
-    },
-    {
-      "query": "path:Empresa  ",
-      "color": {
-        "a": 1,
-        "rgb": 2883328
-      }
-    },
-    {
-      "query": "path:Diseño  ",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
-      "query": "path:\"Entorno Servidor\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 13311
+        "rgb": 14429951
       }
     },
     {
       "query": "path:\"Entorno Cliente\"  ",
       "color": {
         "a": 1,
-        "rgb": 13958912
+        "rgb": 16772388
+      }
+    },
+    {
+      "query": "path:Empresa  ",
+      "color": {
+        "a": 1,
+        "rgb": 5367336
+      }
+    },
+    {
+      "query": "path:Diseño  ",
+      "color": {
+        "a": 1,
+        "rgb": 16582664
+      }
+    },
+    {
+      "query": "path:\"Entorno Servidor\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 7935
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.67963636363636,
-  "lineSizeMultiplier": 3.40181818181818,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.5516632016632,
+  "lineSizeMultiplier": 5,
   "collapse-forces": false,
-  "centerStrength": 0.350871985157699,
-  "repelStrength": 11.6719851576994,
+  "centerStrength": 0.641372141372141,
+  "repelStrength": 12.8274428274428,
   "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 1.053497942386832,
+  "linkDistance": 89,
+  "scale": 1.2526463326965358,
   "close": false
 }

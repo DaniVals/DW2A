@@ -5,22 +5,25 @@
 </head>
 
 <script>
-    function calcularCuadrado() {
+    function cambiarColor() {
 
-        let numero = document.getElementById("input_numero").value;
+        let boton = document.getElementById("boton");
 
-        if (!isNaN(numero)) {
-            
-            document.getElementById("input_cuadrado").value = parseFloat(numero) * parseFloat(numero);
+        switch (prompt('dime un color')) {
+            case 'rojo':
+                boton.style.setProperty("background-color","red");
+                break;
+                
+            default:
+                boton.style.setProperty("background-color","gray");
+                break;
         }
     }
 </script>
 
 <body>
     
-    <input id="input_numero" type="text">
-    <input id="input_cuadrado" type="text">
-    <button onclick="calcularCuadrado()">cuadrado</button>
+    <button id="boton" onclick="cambiarColor()">cambiar color</button>
 
 </body>
 </html>

@@ -4,11 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "71d9fb020a1c225f",
+        "id": "0df9a0444cf30231",
         "type": "tabs",
+        "dimension": 55.472013366750204,
         "children": [
           {
-            "id": "b1064ec7751d8ccc",
+            "id": "134fad03bba741c1",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -16,13 +17,61 @@
               "state": {
                 "file": "README.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "pinned": true
             }
           },
           {
-            "id": "097f68857806ead8",
+            "id": "11ba8554ccfd98f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Empresa/Como hacer un CV.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "57bad5b3b3ce7d11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entorno Cliente/01 JavaScript/JavaScript.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "15f707f974216c6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entorno Cliente/01 JavaScript/JavaScript.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0b5803ffe061ca05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entorno Cliente/Apuntes Entorno Cliente.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "55476e529e29a2fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,43 +81,51 @@
                 "source": true
               }
             }
-          },
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "5b8e65865b1acf69",
+        "type": "tabs",
+        "dimension": 44.52798663324979,
+        "children": [
           {
-            "id": "e008ecede7df531a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diseño/1-2 Uso de estilos/1 Introducción.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24e7363d9d83b911",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diseño/1-2 Uso de estilos/2 Selectores.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a41bac510d1e3fe",
+            "id": "3ed1e0c186efb70e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Diseño/1-2 Uso de estilos/1.UsoEstilos1-29.pdf"
+                "file": "Entorno Cliente/02 JavaScript y Html/INTRODUCCION_A_OBJETOS_Y_EVENTOS.pdf"
+              }
+            }
+          },
+          {
+            "id": "9fad4736ebed4a45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entorno Cliente/01 JavaScript/JavaScript.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0c97eab408ca9cc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entorno Cliente/Apuntes Entorno Cliente.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diseño/Apuntes Diseño.md",
+                "file": "Entorno Cliente/Apuntes Entorno Cliente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diseño/Apuntes Diseño.md",
+                "file": "Entorno Cliente/Apuntes Entorno Cliente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diseño/Apuntes Diseño.md"
+                "file": "Entorno Cliente/Apuntes Entorno Cliente.md"
               }
             }
           },
@@ -196,7 +253,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -206,51 +262,54 @@
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
+      "homepage:Open homepage": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "097f68857806ead8",
+  "active": "0c97eab408ca9cc2",
   "lastOpenFiles": [
-    "README.md",
-    "Diseño/Apuntes Diseño.md",
-    "Diseño/1-2 Uso de estilos/1 Introducción.md",
-    "Diseño/1-2 Uso de estilos/2 Selectores.md",
-    "Diseño/1-2 Uso de estilos/1.UsoEstilos1-29.pdf",
-    "Despliegue Apps/Apuntes Despliegue.md",
-    "Despliegue Apps/ApuntesT1/Arquitectura Web.md",
-    "Diseño/3 Unidades de medida y colores/Tema 3.md",
-    "Despliegue Apps/ApuntesT1/Comandos apache.md",
-    "Despliegue Apps/ApuntesT2/Comandos Docker.md",
-    "Pasted image 20241001211552.png",
-    "Entorno Cliente/Apuntes Entorno Cliente.md",
-    "Empresa/Apuntes Empresa.md",
-    "Diseño/1-2 Uso de estilos/Pasted image 20241001204536.png",
-    "Diseño/CamScanner 09-27-2024 13.50.pdf",
-    "Entorno Cliente/02 JavaScript y Html/JS y HTML.md",
     "Entorno Cliente/01 JavaScript/JavaScript.md",
-    "Entorno Servidor/T2/Tema 2.md",
-    "Entorno Servidor/Apuntes Entorno Servidor.md",
+    "Entorno Cliente/02 JavaScript y Html/JS y HTML.md",
     "Entorno Cliente/02 JavaScript y Html/INTRODUCCION_A_OBJETOS_Y_EVENTOS.pdf",
     "Entorno Cliente/02 JavaScript y Html/Ejerc Javascript-1.pdf",
-    "Entorno Servidor/prueba inicial/ghost-spooky.gif",
-    "Empresa/T1/primer día.md",
-    "Empresa/T1/T1.md",
-    "Diseño/3 Unidades de medida y colores/1.UsoEstilos30-38.pdf",
-    "AAA/Ejemplos Obsidian.md",
-    "2024-10-01.md",
-    "Untitled.canvas",
-    "Entorno Servidor/prueba inicial/pruebita.php",
-    "Entorno Servidor/T2/Ejemplos profe/Funciones/funcion.php",
-    "Entorno Servidor/T2/Ejemplos profe/Excepciones, errores y clases/PersonayCliente.php",
-    "Entorno Servidor/T2/Ejemplos profe/Excepciones, errores y clases/excepciones.php",
-    "Entorno Servidor/T2/Ejemplos profe/Ejemplo cabecera con include o require/hipotecas.php",
+    "Diseño/1-2 Uso de estilos/1 Introducción.md",
+    "Diseño/Apuntes Diseño.md",
+    "Entorno Cliente/Apuntes Entorno Cliente.md",
+    "Diseño/1-2 Uso de estilos/2 Selectores.md",
+    "Diseño/3 Unidades de medida y colores/Tema 3.md",
+    "README.md",
+    "Empresa/Como hacer un CV.md",
+    "Empresa/Trabajo Final Empresa/Brainstorm.md",
+    "Empresa/Trabajo Final Empresa/Drawing 2024-10-02 10.36.16.excalidraw.md",
+    "Entorno Servidor/T2/Diapositivas UD2 01 - Introducción.pdf",
+    "Empresa/Apuntes Empresa.md",
+    "Entorno Servidor/T3/Metodos de acceso.md",
+    "Empresa/Trabajo Final Empresa",
+    "Entorno Servidor/Apuntes Entorno Servidor.md",
     "Entorno Servidor/T2/Funciones.png",
-    "Empresa/T1.md",
-    "Empresa/primer día.md",
-    "Diseño/1-2 Uso de estilos/Importante.md",
-    "().md",
-    "Empresa/Apuntes primer día.md",
-    "Diseño/PDFs de clase/Importante.md",
+    "Entorno Servidor/T3/Diapositivas UD3 - paso de parámetros, formularios y redirecciones.pdf",
+    "Entorno Servidor/T3/Anexo - paso de parámetros y formularios.pdf",
+    "Entorno Servidor/T3/Drawing 2024-10-02 09.42.33.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-02 09.00.04.excalidraw.md",
+    "Excalidraw",
+    "Diseño/Pasted image 20241001211552.png",
+    "Entorno Servidor/T2/PHP.md",
+    "Entorno Servidor/T3",
+    "Entorno Servidor/T1/Diapositivas UD1.pdf",
+    "Entorno Servidor/T1",
+    "Despliegue Apps/Apuntes Despliegue.md",
+    "Diseño/1-2 Uso de estilos/Pasted image 20241001204536.png",
+    "Entorno Servidor/T2/Funciones arrays y string.png",
+    "Entorno Servidor/T2/Apuntes Entorno Servidor.md",
+    "Entorno Servidor/Funciones.png",
+    "Entorno Servidor/descarga.png",
+    "Despliegue Apps/ApuntesT1/Comandos apache.md",
+    "Despliegue Apps/ApuntesT1/Arquitectura Web.md",
+    "Despliegue Apps/ApuntesT2/Comandos Docker.md",
+    "Despliegue Apps/ApuntesT1/Untitled.canvas",
+    "Empresa/T1/T1.md",
+    "Empresa/T1/primer día.md",
+    "AAA/Ejemplos Obsidian.md",
     "AAA/Pasted image 20240930095929.png",
     "AAA/attachments/Pasted image 20240930095846.png"
   ]
