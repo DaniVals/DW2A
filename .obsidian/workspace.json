@@ -12,12 +12,8 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "pinned": true
             }
           },
@@ -27,9 +23,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diseño/Apuntes Diseño.md",
-                "mode": "preview",
-                "source": true
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -134,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diseño/Apuntes Diseño.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diseño/Apuntes Diseño.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diseño/Apuntes Diseño.md"
+                "file": "README.md"
               }
             }
           },
@@ -209,10 +205,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "097f68857806ead8",
+  "active": "8da935d09a27ddf3",
   "lastOpenFiles": [
-    "README.md",
+    "Diseño/Pasted image 20241001211552.png",
+    "Entorno Servidor/T2/Tema 2.md",
+    "Entorno Servidor/Apuntes Entorno Servidor.md",
     "Diseño/Apuntes Diseño.md",
+    "gitignore.txt",
+    "README.md",
     "Diseño/1-2 Uso de estilos/1 Introducción.md",
     "Diseño/1-2 Uso de estilos/2 Selectores.md",
     "Diseño/1-2 Uso de estilos/1.UsoEstilos1-29.pdf",
@@ -221,15 +221,12 @@
     "Diseño/3 Unidades de medida y colores/Tema 3.md",
     "Despliegue Apps/ApuntesT1/Comandos apache.md",
     "Despliegue Apps/ApuntesT2/Comandos Docker.md",
-    "Pasted image 20241001211552.png",
     "Entorno Cliente/Apuntes Entorno Cliente.md",
     "Empresa/Apuntes Empresa.md",
     "Diseño/1-2 Uso de estilos/Pasted image 20241001204536.png",
     "Diseño/CamScanner 09-27-2024 13.50.pdf",
     "Entorno Cliente/02 JavaScript y Html/JS y HTML.md",
     "Entorno Cliente/01 JavaScript/JavaScript.md",
-    "Entorno Servidor/T2/Tema 2.md",
-    "Entorno Servidor/Apuntes Entorno Servidor.md",
     "Entorno Cliente/02 JavaScript y Html/INTRODUCCION_A_OBJETOS_Y_EVENTOS.pdf",
     "Entorno Cliente/02 JavaScript y Html/Ejerc Javascript-1.pdf",
     "Entorno Servidor/prueba inicial/ghost-spooky.gif",
@@ -243,7 +240,6 @@
     "Entorno Servidor/T2/Ejemplos profe/Funciones/funcion.php",
     "Entorno Servidor/T2/Ejemplos profe/Excepciones, errores y clases/PersonayCliente.php",
     "Entorno Servidor/T2/Ejemplos profe/Excepciones, errores y clases/excepciones.php",
-    "Entorno Servidor/T2/Ejemplos profe/Ejemplo cabecera con include o require/hipotecas.php",
     "Entorno Servidor/T2/Funciones.png",
     "Empresa/T1.md",
     "Empresa/primer día.md",

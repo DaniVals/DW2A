@@ -2,6 +2,7 @@
   "cssTheme": "Minimal",
   "baseFontSize": 16,
   "enabledCssSnippets": [
-    "style"
+    "style",
+    "Colored Sidebar Items"
   ]
 }
