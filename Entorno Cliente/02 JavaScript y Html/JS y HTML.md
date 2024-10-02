@@ -1,7 +1,6 @@
 # Como incorporar JS a un HTML
 
 
-
 ### Usando la etiqueta link
 ```html
 <link rel="script" href="archivo_externo.js"> 
@@ -55,7 +54,7 @@ Un evento es un atributo que llama al código dentro del atributo cuando ocurre 
 <!-- Ejemplo, hacer click en el boton y llama a la funcion -->
 ```
 
-Ten en cuenta que se puede aplicar cualquier evento a cualquier etiqueta, como usar onload en el body para ejecutar codigo cuando carga la pagina ha cargado
+Ten en cuenta que se puede aplicar cualquier evento a cualquier etiqueta, como usar onload en el body para ejecutar código cuando carga la pagina ha cargado
 ```html
 <body onload="funcion()">
 ```
@@ -68,15 +67,30 @@ Ten en cuenta que se puede aplicar cualquier evento a cualquier etiqueta, como u
 > 
 > [[INTRODUCCION_A_OBJETOS_Y_EVENTOS.pdf|Lista eventos profesor]]
 
+# Acceder al HTML
+## Referenciar una etiqueta
+Ahora que sabemos reaccionar al HTML, podemos acceder a sus etiquetas de varias formas y usar sus atributos.
+### ID
+La mas común, accede a la etiqueta con esa id
+```js
+var elemento = document.getElementById("nombre_id")
+```
 
+## Modificar una etiqueta
 
+Para acceder a atributos y funciones de una etiqueta, se escribe esta tras un punto
+### value
+La más usada
+El contenido interno de una etiqueta, como el texto de un párrafo
+También es la opción elegida en una etiqueta de tipo ```<input>```
+```js
+elemento.value = "nuevo texto para un parrafo";
 
-
-
----
----
----
----
----
----
-
+var numero = inputNumerico.value;
+```
+### style
+Los atributos de estilo de dicha marca
+```js
+// añadir o sustituir una propiedad CSS
+elemento.style.setProperty("background-color","red");
+```

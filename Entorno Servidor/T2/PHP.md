@@ -1,6 +1,6 @@
 # Introducción PHP
 > [!quote]+ Hypertext Pre-processor
-> 
+> definicion de php
 - [ ] copiar características del PDF
 
 

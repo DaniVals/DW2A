@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiActivity",
       "LiServer",
       "LiHome"
     ],
@@ -36,5 +37,11 @@
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
     "debugMode": false
-  }
+  },
+  "Entorno Servidor/Apuntes Entorno Servidor.md": "LiHome",
+  "Empresa/Apuntes Empresa.md": "LiHome",
+  "Despliegue Apps/Apuntes Despliegue.md": "LiHome",
+  "Diseño/Apuntes Diseño.md": "LiHome",
+  "Entorno Cliente/Apuntes Entorno Cliente.md": "LiHome",
+  "README.md": "LiHome"
 }

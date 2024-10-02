@@ -35,7 +35,7 @@ if(isset($_GET["usuario"])) {
 	echo "No me llega nada";
 }
 ```
----
+
 
 ## POST
 

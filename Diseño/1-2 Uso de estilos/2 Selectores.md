@@ -120,3 +120,4 @@ p, span {
 
 
 # Selectores Pseudo-clases
+- [ ] TODO selectores pseudoclases

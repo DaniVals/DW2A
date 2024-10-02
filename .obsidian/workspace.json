@@ -8,58 +8,40 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b1064ec7751d8ccc",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
             "id": "097f68857806ead8",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "e008ecede7df531a",
+            "id": "82e57bc9b790fa1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diseño/1-2 Uso de estilos/1 Introducción.md",
+                "file": "Entorno Servidor/Apuntes Entorno Servidor.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "24e7363d9d83b911",
+            "id": "2a36304c6208608f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diseño/1-2 Uso de estilos/2 Selectores.md",
+                "file": "Entorno Servidor/T3/Metodos de acceso.md",
                 "mode": "preview",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "8a41bac510d1e3fe",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Diseño/1-2 Uso de estilos/1.UsoEstilos1-29.pdf"
               }
             }
           }
@@ -130,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Entorno Servidor/Apuntes Entorno Servidor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Entorno Servidor/Apuntes Entorno Servidor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Entorno Servidor/Apuntes Entorno Servidor.md"
               }
             }
           },
@@ -205,39 +187,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "097f68857806ead8",
+  "active": "82e57bc9b790fa1e",
   "lastOpenFiles": [
     "Entorno Servidor/T3/Metodos de acceso.md",
+    "Entorno Servidor/Apuntes Entorno Servidor.md",
+    "README.md",
+    "Despliegue Apps/ApuntesT2/Comandos Docker.md",
+    "Entorno Servidor/T2/PHP.md",
+    "Despliegue Apps/Apuntes Despliegue.md",
+    "Despliegue Apps/ApuntesT1/Arquitectura Web.md",
+    "Despliegue Apps/ApuntesT1/Comandos linux.md",
+    "Diseño/Apuntes Diseño.md",
+    "Empresa/Apuntes Empresa.md",
+    "Entorno Cliente/Apuntes Entorno Cliente.md",
+    "Entorno Cliente/02 JavaScript y Html/JS y HTML.md",
+    "Entorno Cliente/01 JavaScript/JavaScript.md",
+    "Diseño/1-2 Uso de estilos/2 Selectores.md",
+    "Diseño/1-2 Uso de estilos/1 Introducción.md",
+    "Empresa/Trabajo Final Empresa/Drawing 2024-10-02 10.36.16.excalidraw.md",
     "Entorno Servidor/T3/Diapositivas UD3 - paso de parámetros, formularios y redirecciones.pdf",
     "Entorno Servidor/T3/Anexo - paso de parámetros y formularios.pdf",
     "Entorno Servidor/T3",
-    "Entorno Servidor/T2/PHP.md",
     "Entorno Servidor/T1/Diapositivas UD1.pdf",
     "Entorno Servidor/T1",
-    "Empresa/Trabajo Final Empresa/Drawing 2024-10-02 10.36.16.excalidraw.md",
     "Empresa/Trabajo Final Empresa/Brainstorm.md",
     "Empresa/Trabajo Final Empresa",
     "Empresa/Como hacer un CV.md",
     "Diseño/Pasted image 20241001211552.png",
     "Entorno Servidor/T2/Tema 2.md",
-    "Entorno Servidor/Apuntes Entorno Servidor.md",
-    "Diseño/Apuntes Diseño.md",
     "gitignore.txt",
-    "README.md",
-    "Diseño/1-2 Uso de estilos/1 Introducción.md",
-    "Diseño/1-2 Uso de estilos/2 Selectores.md",
     "Diseño/1-2 Uso de estilos/1.UsoEstilos1-29.pdf",
-    "Despliegue Apps/Apuntes Despliegue.md",
-    "Despliegue Apps/ApuntesT1/Arquitectura Web.md",
     "Diseño/3 Unidades de medida y colores/Tema 3.md",
-    "Despliegue Apps/ApuntesT1/Comandos apache.md",
-    "Despliegue Apps/ApuntesT2/Comandos Docker.md",
-    "Entorno Cliente/Apuntes Entorno Cliente.md",
-    "Empresa/Apuntes Empresa.md",
     "Diseño/1-2 Uso de estilos/Pasted image 20241001204536.png",
     "Diseño/CamScanner 09-27-2024 13.50.pdf",
-    "Entorno Cliente/02 JavaScript y Html/JS y HTML.md",
-    "Entorno Cliente/01 JavaScript/JavaScript.md",
     "Entorno Cliente/02 JavaScript y Html/INTRODUCCION_A_OBJETOS_Y_EVENTOS.pdf",
     "Entorno Servidor/prueba inicial/ghost-spooky.gif",
     "Empresa/T1/primer día.md",

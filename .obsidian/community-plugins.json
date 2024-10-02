@@ -9,7 +9,9 @@
   "obsidian-minimal-settings",
   "obsidian-latex-suite",
   "table-editor-obsidian",
+  "obsidian-copy-block-link",
+  "obsidian-icon-folder",
+  "highlightr-plugin",
   "dataview",
-  "multi-column-markdown",
-  "highlightr-plugin"
+  "multi-column-markdown"
 ]
