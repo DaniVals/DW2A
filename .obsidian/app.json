@@ -1,4 +1,6 @@
 {
   "attachmentFolderPath": "AAA/attachments",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "preview",
+  "livePreview": false
 }
