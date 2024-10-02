@@ -2,6 +2,7 @@
 - [[1 Introducción|Introducción CSS]]
 - [[1 Introducción#Incluir CSS en HTML|Como incluir CSS en HTML]]
 - [[1 Introducción#Glosario|Glosario]]
+
 - [[2 Selectores|Selectores]]
 - [[2 Selectores#Selectores Básicos|Selectores Básicos]]
 - [[2 Selectores#Selectores Avanzados|Selectores Avanzados]]
