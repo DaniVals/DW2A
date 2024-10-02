@@ -2,5 +2,12 @@
   "attachmentFolderPath": "AAA/attachments",
   "alwaysUpdateLinks": true,
   "defaultViewMode": "preview",
-  "livePreview": false
+  "livePreview": false,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

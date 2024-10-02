@@ -66,5 +66,6 @@ echo "Clave: " . $_POST["contra"];
 >[!warning] Cuidado
 >No todos los inputs devuelven algo en todos los casos
 >- Un "checkbox" devuelve true si se marca pero **NO** devuelve nada si se deja en blanco
+>- Un string vacio devuelve un string con el contenido ""
 
 
