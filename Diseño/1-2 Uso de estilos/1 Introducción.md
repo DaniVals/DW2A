@@ -13,7 +13,7 @@
 
 ## Incluir CSS en HTML
 
-- [ ] añadir ventajas y desventajas
+- [ ] Diseño: añadir ventajas y desventajas
 
 
 ### Usando la etiqueta link
@@ -36,7 +36,7 @@ p {
 </style>
 ```
 
-- [ ] preguntar por @import
+- [x] preguntar por @import
 
 ### En la etiqueta
 ```html
@@ -56,8 +56,10 @@ p {
 >[!quote]+ PDF
 >Un archivo CSS puede contener un número ilimitado de reglas CSS, cada regla se puede aplicar a varios selectores diferentes y cada declaración puede incluir tantos pares propiedad/valor como se desee.
 
-- [ ] Medios (1.4)
-- [ ] 1.6?
+---
+ha dicho que no hemos hecho practica así que nos lo miremos por nuestra cuenta (i_i)
+- [x] Diseño: Medios (1.4)
+- [x] Diseño: 1.6?
 
 
 
