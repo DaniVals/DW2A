@@ -45,7 +45,7 @@ p {
 
 
 ## Glosario
-![[Pasted image 20241001204536.png]]
+![[Guia Regla CSS.png]]
 
 - Regla: ```h1{ color: black; }```
 - Selector: ```h1```

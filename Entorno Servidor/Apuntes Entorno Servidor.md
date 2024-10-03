@@ -1,5 +1,5 @@
 # Tema 1
-Que es una aplicación web
+- [[Introducción]]
 
 [[Diapositivas UD1.pdf|PDF]]
 
@@ -14,3 +14,5 @@ Que es una aplicación web
 - [[Metodos de acceso]]
 - [[Metodos de acceso#GET| Acceso usando GET]]
 - [[Metodos de acceso#POST|Acceso usando POST]]
+- [[Metodos de acceso#Como enviar ficheros| Enviar ficheros con POST]]
+- [[Metodos de acceso#Mezclar ambos | Mezclar GET y POST]]

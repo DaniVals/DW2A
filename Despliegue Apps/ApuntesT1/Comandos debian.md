@@ -22,6 +22,11 @@ apt [opcion] {nombre_paquete}
 su
 ```
 
+### quitar admin
+```bash
+exit
+```
+
 ### Listar procesos
 ```bash
 ps aux

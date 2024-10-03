@@ -1,8 +1,6 @@
 
 ### Abrir un contenedor
-Abre un contenedor a través de una imagen ```.iso```, si no encuentra dicha imagen descargada, la busca en su pagina web y la descarga automáticamente
-
-- [ ] poner enlace pagina web
+Abre un contenedor a través de una imagen ```.iso```, si no encuentra dicha imagen descargada, la busca en su [pagina web](https://hub.docker.com) y la descarga automáticamente
 
 ```shell
 docker run {nombre_imagen}

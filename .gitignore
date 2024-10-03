@@ -1,6 +1,7 @@
 
 # OR only to exclude workspace cache
 .obsidian/workspace/*
+.obsidian/workspace.json
 
 # Exclude Day Planner directory placed in vault root
 Day*Planners/*

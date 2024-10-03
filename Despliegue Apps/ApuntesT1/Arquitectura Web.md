@@ -75,8 +75,7 @@ Son como mini maquinas virtuales
 
 ## [[Comandos Docker|Docker]] 
 la aplicación que permite configurar y gestionar contenedores
-el server de apache de Linux de Docker se llama httpd
-- [ ] preguntar por el httpd
+El contenedor del server de apache2 de Docker se llama ``httpd``
 
 > [!question] pregunta común de empresa
 > *"¿sabrías crear un contenedor de esta aplicación que tenemos nosotros?"*

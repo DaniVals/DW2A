@@ -25,3 +25,7 @@ Se puede mezclar con HTML
 <!-- HTML -->
 ```
 
+
+
+---
+vardump()
