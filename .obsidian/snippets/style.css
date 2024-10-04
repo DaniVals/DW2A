@@ -18,7 +18,7 @@
     font-weight: bolder;
     margin-top: 1em !important;
     margin-bottom: 0.5em !important;
-    margin-left: 0.5em !important;
+    margin-left: 5px !important;
 }
 .markdown-preview-view h3 {
     font-size: large;
@@ -26,6 +26,11 @@
     text-decoration: underline;
     margin-top:    1em !important;
     margin-bottom: -0.5em !important;
+}
+.markdown-preview-view h4 {
+    margin-top: -1em !important;
+    margin-bottom: 0.5em !important;
+    margin-left: 5px !important;
 }
 .markdown-preview-view p {
     margin-top:    1em;

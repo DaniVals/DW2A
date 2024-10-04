@@ -21,6 +21,10 @@
 				"path": "README.md", 
 				"color": "custom1"
 			},
+			{ 
+				"path": ".gitignore", 
+				"color": "custom1"
+			},
 			{
 				"path": "Entorno Cliente", 
 				"color": "yellow"
@@ -39,12 +43,17 @@
 			},
 			{ 
 				"path": "Despliegue", 
+				"color": "custom2"
+			},
+			{ 
+				"path": "Ingles", 
 				"color": "magenta"
 			},
 			
 		],
 		"workbench.colorCustomizations": {
-			"folderPathColor.custom1": "#888",
+			"folderPathColor.custom1": "#666",
+			"folderPathColor.custom2": "#ff0073",
 		},
 		//plugin carpetas e iconos
 		"material-icon-theme.hidesExplorerArrows": true,
@@ -55,8 +64,10 @@
 			"Entorno Cliente": "javascript",
 			"Diseño": "home",
 			"Entorno Servidor": "php",
-			"Empresa": "admin",
+			"Empresa": "job",
 			"Despliegue Apps": "shared",
+			"Ingles": "global",
+			"Tutoria y personal": "admin",
 		},
 		"liveServer.settings.multiRootWorkspaceName": "DW2A"
 	}

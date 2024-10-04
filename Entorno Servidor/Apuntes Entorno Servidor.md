@@ -15,4 +15,4 @@
 - [[Metodos de acceso#GET| Acceso usando GET]]
 - [[Metodos de acceso#POST|Acceso usando POST]]
 - [[Metodos de acceso#Como enviar ficheros| Enviar ficheros con POST]]
-- [[Metodos de acceso#Mezclar ambos | Mezclar GET y POST]]
+- [[Metodos de acceso#GET y POST| Mezclar GET y POST]]
