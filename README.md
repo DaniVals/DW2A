@@ -19,6 +19,9 @@ Shadow: off
 > [[Apuntes Entorno Cliente|Entorno Cliente]]
 > [[Apuntes Entorno Servidor|Entorno Servidor]]
 
+
+![[Fechas Importantes]]
+
 --- column-break ---
 
 
