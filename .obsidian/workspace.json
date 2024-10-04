@@ -4,11 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0df9a0444cf30231",
+        "id": "ae72cd49cc7a1ac7",
         "type": "tabs",
+        "dimension": 50.79260237780714,
         "children": [
           {
-            "id": "134fad03bba741c1",
+            "id": "3f5b2a74f02ebabe",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,24 +23,55 @@
             }
           },
           {
-            "id": "67ed94587de05c99",
+            "id": "161eb07fd49bc73a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diseño/3 Unidades de medida y colores/3 Medidas y Colores.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "51c8313675795229",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Diseño/3 Unidades de medida y colores/1.UsoEstilos30-38.pdf"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "a230d79eeba980d5",
+        "type": "tabs",
+        "dimension": 49.207397622192865,
+        "children": [
+          {
+            "id": "e9c87e7621eb2585",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Tutoria y personal/Fechas Importantes.md",
+                "file": "Diseño/3 Unidades de medida y colores/3 Medidas y Colores.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "71fc6b02a72c5813",
+            "id": "d6d4568b8ad2a3d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entorno Servidor/T1/Introducción.md",
+                "file": "Faltas.md",
                 "mode": "source",
                 "source": true
               }
@@ -201,6 +233,7 @@
   },
   "active": "d4c5ac1961a21e6d",
   "lastOpenFiles": [
+    "Faltas.md",
     "README.md",
     "Tutoria y personal/Fechas Importantes.md",
     "Entorno Servidor/T3/Metodos de acceso.md",
@@ -246,7 +279,6 @@
     "Entorno Servidor/T2/Apuntes Entorno Servidor.md",
     "Entorno Servidor/Funciones.png",
     "Entorno Servidor/descarga.png",
-    "Despliegue Apps/ApuntesT1/Comandos apache.md",
     "Despliegue Apps/ApuntesT1/Untitled.canvas"
   ]
 }

@@ -4,5 +4,6 @@
   "enabledCssSnippets": [
     "style",
     "Colored Sidebar Items"
-  ]
+  ],
+  "theme": "system"
 }

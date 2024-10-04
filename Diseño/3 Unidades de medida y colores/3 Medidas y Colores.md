@@ -40,12 +40,12 @@ Una unidad relativa, no están del todo definidas, ya que sus valores hacen refe
 - [ ] preguntar por un ejemplo
 
 ### Porcentajes
-Se indica con el signo ``%``, este es relativo al contenedor en el que esta, es muy usado en los ``<div>``
+Se indica con el signo ``%``, este es relativo al tamaño original en el que estaria, es muy usado en los ``<div>``
 
 
 ```CSS
 /* EJEMPLO:
-Poner que el encabezado ocupe el 20% de la altura de la pantalla*/
+Poner que el encabezado ocupe el 20% de su altura original */
 
 #encabezado{
     height: 20%;
@@ -53,3 +53,46 @@ Poner que el encabezado ocupe el 20% de la altura de la pantalla*/
 ```
 
 # Colores
+Los colores es un valor se que puede asignar a muchas **Declaraciones**
+```CSS
+*{color: /* elije un color*/}
+```
+
+[generador de paletas de colores](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+
+### Palabras claves
+Son colores genéricos y prefijados que se pueden escribir directamente en ingles
+```CSS
+*{color: red}
+```
+
+>[!example]+ Colores clave
+> - red
+> - black
+> - fuchsia
+> - olive
+> - maroon
+> - silver
+- [ ] Diseño: apuntar colores clave
+
+
+### RGB hexadecimal
+Son colores escritos cada valor **RGBA** en **Hexadecimal** de forma seguida, indicándolo con un `#`
+```CSS
+*{color: red}
+```
+ **Colores seguros**
+Son colores que saltan cada 3 (00 33 66 99 CC FF)
+Hay 216 (6^3)
+
+### RGB decimal
+Son colores escritos cada valor **RGBA** poniendo el valor de cada uno en la función `rgb()` desde 0 a 255
+```CSS
+*{color: red}
+```
+
+### RGB porcentual
+Son colores escritos cada valor **RGBA** poniendo el valor de cada uno en la función `rgb()` con su porcentaje de 0 a 100
+```CSS
+*{color: red}
+```
