@@ -24,7 +24,9 @@ Shadow: off
 
 > [!warning] Tareas
 > ```dataview
-> TASK SORT completed
+> TASK
+> FROM ""
+> SORT completed
 > ```
 
 

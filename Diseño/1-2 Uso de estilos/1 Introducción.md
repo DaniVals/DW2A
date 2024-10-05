@@ -11,7 +11,7 @@
 > 
 > Una vez creados los contenidos, se utiliza el lenguaje CSS para definir el aspecto de cada elemento: color, tamaño y tipo de letra del texto, separación horizontal y vertical entre elementos, posición de cada elemento dentro de la página, etc
 
-## Incluir CSS en HTML
+# Incluir CSS en HTML
 
 - [ ] Diseño: añadir ventajas y desventajas
 
@@ -36,7 +36,6 @@ p {
 </style>
 ```
 
-- [x] preguntar por @import
 
 ### En la etiqueta
 ```html
@@ -56,12 +55,73 @@ p {
 >[!quote]+ PDF
 >Un archivo CSS puede contener un número ilimitado de reglas CSS, cada regla se puede aplicar a varios selectores diferentes y cada declaración puede incluir tantos pares propiedad/valor como se desee.
 
+# Medios 
+- [x] Diseño: TODO Medios (1.4)
+
+# Buenas prácticas
+
+### Poner comentarios
+Poner comentarios indicando que secciones haces referencia o cual es el objetivo de esa parte del código es muy útil para la comprensibilidad de los archivos, especialmente para trabajos en grupo
+```CSS
+/* Comentario en CSS */
+```
+```HTML
+<!-- Comentario en HTML -->
+```
+
+### Espacios en las clases
+Aunque generalmente se una **`_`** para poner espacios en variables, en CSS es mejor poner **`-`** para las **id** o las **class** 
+
+> [!error] Mal
+> ```html
+> <div id="mi id" class="mi clase">
+> <div id="mi_id" class="mi_clase">
+> ```
+
+> [!done] Bien
+> ```html
+> <div id="mi-id" class="mi-clase">
+> ```
+
+### Nombrar por su función y no por su utilidad
+
+### Agrupar reglas por su selector
+
+### Estructurar visualmente los atributos
+Si un atributo solo tiene un parámetro, es recomendable ponerlo en la misma línea, pero si tiene mas atributos con poca correlación entre si, es recomendable usar diferentes líneas.
+
+**En la misma línea:**
+```css
+/* establecer el color se puede hacer en una misma línea */
+p {color: green}
+
+/* establecer color y tamaño también se puede hacer en una misma línea */
+p {color: green; font-size: large}
+```
+
+**En varias líneas:**
+```css
+/* cuando se acumulan muchas cosas es mejor abrir la llave y separarlo por bloques, usando comentarios en cada uno */
+div {
+	/* establecemos el borde */
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	
+	/* establecemos el tamaño */
+	width:  50%;
+	height: 20%;
+}
+```
+
+Ten en cuenta que cuando hacerlo todo en una línea y cuando abrir la llave es completamente subjetivo y personal. Esta es la recomendación del PDF de la profesora 
+
+>[!quote]+ PDF
+> Si un elemento solo tiene 3 atributos se pueden poner en la misma línea. 
+> Pero si hay más se ponen en líneas diferentes sangrados con tabuladores.
+
 ---
-ha dicho que no hemos hecho practica así que nos lo miremos por nuestra cuenta (i_i)
-- [x] Diseño: Medios (1.4)
-- [x] Diseño: 1.6?
-
-
+- [x] Diseño: 1.6? No entiendo una mierda, pedir ejemplos
 
 
 

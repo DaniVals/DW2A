@@ -116,8 +116,8 @@ p, span {
 
 
 # Selectores Avanzados
-- [ ] TODO selectores avanzados
+- [ ] Diseño: TODO selectores avanzados
 
 
 # Selectores Pseudo-clases
-- [ ] TODO selectores pseudoclases
+- [ ] Diseño: TODO selectores pseudoclases

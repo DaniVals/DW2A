@@ -6,3 +6,15 @@
 
 # TFGE
 - [[Brainstorm]]
+
+
+
+
+
+
+> [!warning] Tareas
+> ```dataview
+> TASK 
+> FROM "Empresa"
+> SORT completed
+> ```

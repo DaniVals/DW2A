@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ae72cd49cc7a1ac7",
+        "id": "71d9fb020a1c225f",
         "type": "tabs",
-        "dimension": 50.79260237780714,
         "children": [
           {
-            "id": "3f5b2a74f02ebabe",
+            "id": "097f68857806ead8",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -23,60 +22,41 @@
             }
           },
           {
-            "id": "161eb07fd49bc73a",
+            "id": "1e960b0a43992b4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diseño/3 Unidades de medida y colores/3 Medidas y Colores.md",
+                "file": "Diseño/1-2 Uso de estilos/1 Introducción.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "51c8313675795229",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Diseño/3 Unidades de medida y colores/1.UsoEstilos30-38.pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "a230d79eeba980d5",
-        "type": "tabs",
-        "dimension": 49.207397622192865,
-        "children": [
-          {
-            "id": "e9c87e7621eb2585",
+            "id": "8907b6e417a55f99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diseño/3 Unidades de medida y colores/3 Medidas y Colores.md",
-                "mode": "source",
+                "file": "Diseño/1-2 Uso de estilos/1 Introducción.md",
+                "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "d6d4568b8ad2a3d0",
+            "id": "245c32a342f8480d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Faltas.md",
-                "mode": "source",
-                "source": true
+                "file": "Diseño/1-2 Uso de estilos/1.UsoEstilos1-29.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "826d8f761ead95f5",
@@ -142,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diseño/3 Unidades de medida y colores/3 Medidas y Colores.md",
+                "file": "Diseño/1-2 Uso de estilos/1 Introducción.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diseño/3 Unidades de medida y colores/3 Medidas y Colores.md",
+                "file": "Diseño/1-2 Uso de estilos/1 Introducción.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,12 +163,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diseño/3 Unidades de medida y colores/3 Medidas y Colores.md"
+                "file": "Diseño/1-2 Uso de estilos/1 Introducción.md"
               }
             }
           },
           {
-            "id": "e6e3cbac92ca8c85",
+            "id": "6c5cbcf7cbfd2db5",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
@@ -199,12 +180,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 330.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -214,52 +195,56 @@
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "homepage:Open homepage": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "161eb07fd49bc73a",
+  "active": "1e960b0a43992b4b",
   "lastOpenFiles": [
-    "Diseño/3 Unidades de medida y colores/1.UsoEstilos30-38.pdf",
-    "Diseño/3 Unidades de medida y colores/3 Medidas y Colores.md",
-    "Diseño/Apuntes Diseño.md",
-    "README.md",
     "Diseño/1-2 Uso de estilos/1.UsoEstilos1-29.pdf",
     "Diseño/1-2 Uso de estilos/1 Introducción.md",
+    "Diseño/Apuntes Diseño.md",
+    "Diseño/3 Unidades de medida y colores/3 Medidas y Colores.md",
+    "README.md",
+    "Despliegue Apps/Apuntes Despliegue.md",
+    "Diseño/1-2 Uso de estilos/Guia Regla CSS.png",
+    "Entorno Cliente/01 JavaScript/JavaScript.md",
     "Diseño/1-2 Uso de estilos/2 Selectores.md",
+    "Despliegue Apps/ApuntesT1/Arquitectura Web.md",
+    "Despliegue Apps/ApuntesT2/Comandos Docker.md",
+    "Empresa/Apuntes Empresa.md",
+    "Entorno Cliente/Apuntes Entorno Cliente.md",
+    "Entorno Servidor/Apuntes Entorno Servidor.md",
+    "Empresa/Trabajo Final Empresa/Brainstorm.md",
+    "Empresa/Trabajo Final Empresa/Drawing 2024-10-02 10.36.16.excalidraw.md",
+    "Diseño/3 Unidades de medida y colores/1.UsoEstilos30-38.pdf",
+    "Entorno Servidor/T3/Metodos de acceso.md",
+    "Empresa/T1/T1.md",
     "Faltas.md",
     "Despliegue Apps/ApuntesT2/03-10-2024.md",
     "Entorno Servidor/style.css",
-    "Entorno Servidor/prueba inicial/pruebita.php",
-    "Entorno Servidor/T3/Metodos de acceso.md",
-    "Entorno Servidor/T3/Diapositivas UD3 - paso de parámetros, formularios y redirecciones.pdf",
-    "Entorno Servidor/T3/Anexo - paso de parámetros y formularios.pdf",
-    "Entorno Servidor/T3",
-    "Entorno Servidor/T2/Ejemplos profe/Funciones/funcion.php",
-    "Entorno Servidor/T2/Ejemplos profe/Excepciones, errores y clases/PersonayCliente.php",
-    "Entorno Servidor/T2/Ejemplos profe/Excepciones, errores y clases/excepciones.php",
+    "Entorno Servidor/T2/CopiaEjercicios/05 objetos/Ej03.php",
+    "Entorno Servidor/T2/CopiaEjercicios/05 objetos/Ej02.php",
+    "Entorno Servidor/T2/CopiaEjercicios/05 objetos/Ej01.php",
+    "Entorno Servidor/T2/CopiaEjercicios/05 objetos/Controlador.php",
     "Entorno Servidor/T2/CopiaEjercicios/04 string/Tabla.png",
+    "Entorno Servidor/T2/CopiaEjercicios/04 string/Ej03.php",
+    "Entorno Servidor/T2/CopiaEjercicios/04 string/Ej02.php",
+    "Entorno Servidor/T2/CopiaEjercicios/04 string/Ej01.php",
     "Entorno Servidor/T2/CopiaEjercicios/03 arrays/Ej02Tijera.jpg",
     "Entorno Servidor/T2/CopiaEjercicios/03 arrays/Ej02Piedra.jpeg",
     "Entorno Servidor/T2/CopiaEjercicios/03 arrays/Ej02Papel.jpg",
-    "Entorno Servidor/T2/PHP.md",
-    "Entorno Servidor/T2/Funciones.png",
     "Entorno Servidor/T1/Introducción.md",
-    "Entorno Servidor/Apuntes Entorno Servidor.md",
-    "Entorno Cliente/02 JavaScript y Html/JS y HTML.md",
-    "Despliegue Apps/ApuntesT2/Comandos Docker.md",
+    "Diseño/Guia margen y padding.png",
     "Despliegue Apps/ApuntesT1/Comandos debian.md",
-    "Despliegue Apps/ApuntesT1/Comandos apache.md",
-    "Despliegue Apps/ApuntesT1/Arquitectura Web.md",
-    "Despliegue Apps/Apuntes Despliegue.md",
-    "AAA/Ejemplos Obsidian.md",
-    "Empresa/primer día.md",
-    "Empresa/Apuntes Empresa.md",
-    "Entorno Cliente/Apuntes Entorno Cliente.md",
-    "Diseño/1-2 Uso de estilos/Tema 1 y 2.md",
-    "Diseño/3 Unidades de medida y colores/Tema 3.md",
-    "Entorno Cliente/01 JavaScript/JavaScript.md",
-    "Apuntes_Obsidian.md",
-    "AAA/Pasted image 20240930095929.png",
-    "AAA/attachments/Pasted image 20240930095846.png"
+    "Empresa/Como hacer un CV.md",
+    "Entorno Servidor/T2/PHP.md",
+    "Despliegue Apps/ApuntesT1/Comandos linux.md",
+    "Entorno Cliente/02 JavaScript y Html/JS y HTML.md",
+    "Diseño/Pasted image 20241001211552.png",
+    "Entorno Servidor/T2/Tema 2.md",
+    "Diseño/1-2 Uso de estilos/Pasted image 20241001204536.png",
+    "Entorno Servidor/prueba inicial/ghost-spooky.gif",
+    "Untitled.canvas",
+    "Entorno Servidor/T2/Funciones.png"
   ]
 }

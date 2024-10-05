@@ -2,6 +2,8 @@
 - [[1 Introducción|1. Introducción CSS]]
 - [[1 Introducción#Incluir CSS en HTML|Como incluir CSS en HTML]]
 - [[1 Introducción#Glosario|Glosario]]
+- [[1 Introducción#Medios| @Media]]
+- [[1 Introducción#Buenas prácticas| Buenas prácticas]]
 
 + [[2 Selectores]]
 + [[2 Selectores#Selectores Básicos|Selectores Básicos]]
@@ -12,5 +14,16 @@ Me gusto esta imagen: [[Guia margen y padding.png]]
 [[1.UsoEstilos1-29.pdf|PDF]]
 # Examen 2
 - [[3 Medidas y Colores]]
+- [[3 Medidas y Colores#Tipos de unidades| Unidades de medida]]
+- [[3 Medidas y Colores#Colores| Colores]]
 
 [[1.UsoEstilos30-38.pdf|PDF]]
+
+
+
+> [!warning] Tareas
+> ```dataview
+> TASK 
+> FROM "Diseño"
+> SORT completed
+> ```
