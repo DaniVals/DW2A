@@ -12,12 +12,16 @@ Shadow: off
 ```
 
 
->[!indice] Indices
+>[!home] Índices
 > [[Apuntes Despliegue|Despliegue]]
 > [[Apuntes Diseño|Diseño]]
 > [[Apuntes Empresa|Empresa]]
 > [[Apuntes Entorno Cliente|Entorno Cliente]]
 > [[Apuntes Entorno Servidor|Entorno Servidor]]
+> [[Apuntes Ingles|Ingles]]
+
+
+![[Fechas Importantes]]
 
 --- column-break ---
 
