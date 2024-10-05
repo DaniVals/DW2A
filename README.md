@@ -12,6 +12,7 @@ Shadow: off
 ```
 
 
+
 >[!home] Índices
 > [[Apuntes Despliegue|Despliegue]]
 > [[Apuntes Diseño|Diseño]]

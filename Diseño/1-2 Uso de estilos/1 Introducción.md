@@ -56,7 +56,7 @@ p {
 >Un archivo CSS puede contener un número ilimitado de reglas CSS, cada regla se puede aplicar a varios selectores diferentes y cada declaración puede incluir tantos pares propiedad/valor como se desee.
 
 # Medios 
-- [x] Diseño: TODO Medios (1.4)
+- [ ] Diseño: TODO Medios (1.4)
 
 # Buenas prácticas
 
@@ -121,7 +121,7 @@ Ten en cuenta que cuando hacerlo todo en una línea y cuando abrir la llave es c
 > Pero si hay más se ponen en líneas diferentes sangrados con tabuladores.
 
 ---
-- [x] Diseño: 1.6? No entiendo una mierda, pedir ejemplos
+- [ ] Diseño: 1.6? No entiendo una mierda, pedir ejemplos
 
 
 
