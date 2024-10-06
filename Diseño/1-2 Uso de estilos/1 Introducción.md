@@ -86,6 +86,7 @@ Aunque generalmente se una **`_`** para poner espacios en variables, en CSS es m
 ### Nombrar por su función y no por su utilidad
 
 ### Agrupar reglas por su selector
+- [ ] Diseño: TODO Buanes particas (1.4)
 
 ### Estructurar visualmente los atributos
 Si un atributo solo tiene un parámetro, es recomendable ponerlo en la misma línea, pero si tiene mas atributos con poca correlación entre si, es recomendable usar diferentes líneas.

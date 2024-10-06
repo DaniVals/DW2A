@@ -27,18 +27,20 @@ Una unidad absoluta no cambia por ninguna causa, no depende de ninguna otra medi
 
 ### Relativas
 Una unidad relativa, no están del todo definidas, ya que sus valores hacen referencia a otro elemento
->[!example]  **em** 
-> Respecto al tamaño de letra del elemento
-> ```CSS
-> /* EJEMPLO:    
-> Poner un margen igual que el tamaño de la letra del parrafo, si la letra es de 16 pixeles, el margen sera de: 16(px) * 1(em)     */
-> p { 
->    margin: 1em; 
-> }
-> ```
+###  em 
+ Respecto al tamaño de letra del elemento
+ ```CSS
+ /* EJEMPLO:    
+Poner un margen igual que el tamaño de la letra del parrafo, si la letra es de 16 pixeles, el margen sera de: 16(px) * 1(em)     */
+p { 
+   margin: 1em; 
+}
+```
 
-- ex (respecto a la altura de la letra "x" del tipo y tamaño de letra del elemento)
+### ex 
+respecto a la altura de la letra "x" del tipo y tamaño de letra del elemento
 - [ ] Diseño: preguntar por un ejemplo
+
 
 ### Porcentajes
 Se indica con el signo ``%``, este es relativo al tamaño original en el que estaria, es muy usado en los ``<div>``
@@ -89,14 +91,15 @@ Son colores genéricos y prefijados que se pueden escribir directamente en ingle
 > + <mark style="background: #000000; color: #fff;">black</mark>
 
 
+
 ### RGB hexadecimal
 Son colores escritos cada valor **RGBA** en **Hexadecimal** de forma seguida, indicándolo con un `#`
 ```CSS
 *{color: #FF0000}
 ```
- **Colores seguros**
-Son colores que saltan cada 3 (00 33 66 99 CC FF)
-Hay 216 (6^3)
+ >[!info] Colores seguros
+>Son colores que saltan cada 3 (00 33 66 99 CC FF)
+>Hay 216 (6^3)
 
 ### RGB decimal
 Son colores escritos cada valor **RGBA** poniendo el valor de cada uno en la función `rgb()` desde 0 a 255

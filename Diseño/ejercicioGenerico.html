@@ -6,13 +6,23 @@
     <title>Document</title>
 </head>
 
-    
-    <style>
-        p{font-size: 50%; } 
-    </style>
 
-    <body>
-        <h1>Esto es un h1</h1>
-        <p>Esto es el primer párrafo</p>
-    </body>
+
+<style>
+	/* poner el aplicado (p) no el contenedor (body) */
+	p:only-child{
+		color: blue;
+	}
+</style>
+
+<body>
+	<div>
+		<p>azul</p>
+	</div>
+	<div>
+		<p>normal</p>
+		<p>normal</p>
+	</div>
+</body>
+
 </html>
