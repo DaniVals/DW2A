@@ -6,5 +6,17 @@
 
 # TFGE
 - [[Brainstorm]]
+
+
 - [[Mapa de empatía]]
 - [[Libro Empresa.pdf#page=167|Guia de empresa]]
+
+
+
+
+> [!warning] Tareas
+> ```dataview
+> TASK 
+> FROM "Empresa"
+> SORT completed
+> ```

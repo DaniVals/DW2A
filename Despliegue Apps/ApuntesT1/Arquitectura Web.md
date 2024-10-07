@@ -77,7 +77,7 @@ Son como mini maquinas virtuales
 la aplicación que permite configurar y gestionar contenedores
 El contenedor del server de apache2 de Docker se llama ``httpd``
 
-> [!question] pregunta común de empresa
+> [!question] #pregunta_común_de_empresa
 > *"¿sabrías crear un contenedor de esta aplicación que tenemos nosotros?"*
 > si dices que si (y sabes), mucha probabilidad de ser contratado
 

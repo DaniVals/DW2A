@@ -9,3 +9,12 @@
 + [[JS y HTML]]
 + [[JS y HTML#Funciones de HTML|Funciones de HTML]]
 + [[JS y HTML#Eventos|Eventos de HTML]]
+
+
+
+> [!warning] Tareas
+> ```dataview
+> TASK 
+> FROM "Entorno Cliente"
+> SORT completed
+> ```

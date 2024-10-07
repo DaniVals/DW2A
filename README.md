@@ -12,6 +12,7 @@ Shadow: off
 ```
 
 
+
 >[!home] Índices
 > [[Apuntes Despliegue|Despliegue]]
 > [[Apuntes Diseño|Diseño]]
@@ -28,7 +29,9 @@ Shadow: off
 
 > [!warning] Tareas
 > ```dataview
-> TASK SORT completed
+> TASK
+> FROM ""
+> SORT completed
 > ```
 
 
