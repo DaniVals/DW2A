@@ -62,6 +62,31 @@ Se referencia con un punto
 <h1 class="verde">verde</h1>
 ```
 
+**etiqueta con clase**
+- [ ] TODO h1.clase
+
+Si tengo un título h1 que pertenece a la clase anuncio para seleccionarlo solo a él escribiré:
+
+Pregunta 11Seleccione una:
+
+a.
+h1 .anuncio
+
+
+
+b.
+h1,anuncio
+
+
+
+c.
+h1*destacado
+
+
+
+d.
+h1.anuncio
+
 ### ID
 Selecciona a **UNA** etiqueta
 Se usa para atributos específicos con normas que solo se necesitaran esa vez
