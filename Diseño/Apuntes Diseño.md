@@ -30,11 +30,6 @@
 [[1.UsoEstilos30-38.pdf|PDF]]
 
 
-
-
-
-Me gusto esta imagen: [[Guia margen y padding.png]]
-
 > [!warning] Tareas
 > ```dataview
 > TASK 

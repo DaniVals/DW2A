@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    p{
+        border: 2px green solid;
+
+        /* mal */
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+        /* GOD simplificado */
+        padding: 50px;
+    }
+    h1{
+        border: 2px green solid;
+
+        /* mal */
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+        padding-right: 80px;
+
+        /* mejor */
+        padding: 50px;
+        padding-left: 80px;
+        padding-right: 80px;
+
+        /* GOD simplificado */
+        padding: 50px 80px; /* arriba abajo / izquierda derecha*/
+    }
+    h2{
+        border: 2px green solid;
+
+
+        /* mal */
+        padding-top: 50px;
+        padding-bottom: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+
+        /* mejor */
+        padding: 40px;
+        padding-bottom: 80px;
+        padding-top: 50px;
+
+        /* GOD simplificado */
+        padding: 50px 40px 80px; /* arriba abajo / izquierda / derecha*/
+    }
+</style>
+
+<body>
+    <p>t e x t o</p>
+
+    <h1>en ca be za do 1</h1>
+
+    <h2>en ca be za do 2</h2>
+</body>
+</html>
