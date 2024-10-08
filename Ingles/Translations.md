@@ -1,13 +1,9 @@
 
-| English          | Spanish                             |
-| ---------------- | ----------------------------------- |
-| on a shift basis | por turnos                          |
-| part-time        | horario a tiempo parcial            |
-| flex-time        | horario flexible                    |
-| applicants       | los que **aplican** para un trabajo |
-| intern ship      | practicas de empresa                |
-|                  |                                     |
+>[!example]+ Important translations tables
+>![[Work wise]]
 
+>[!example]+ Other translation tables
+>![[Generic]]
 
 
 # tipos de traducción

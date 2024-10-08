@@ -11,7 +11,7 @@
       "query": "path:\"Despliegue Apps\"  ",
       "color": {
         "a": 1,
-        "rgb": 16711914
+        "rgb": 16711829
       }
     },
     {
@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 16774912
       }
+    },
+    {
+      "query": "path:Ingles  ",
+      "color": {
+        "a": 1,
+        "rgb": 8192184
+      }
     }
   ],
   "collapse-display": false,
@@ -53,6 +60,6 @@
   "repelStrength": 11.7654916512059,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 1.0534979423868323,
+  "scale": 0.6248330567715501,
   "close": true
 }

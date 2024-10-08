@@ -39,7 +39,7 @@ aunque esto no sea una variable por si misma, también son  muy usadas las **con
 > ```
 
 # Controladores de flujo
-
+- [ ] E. Cliente: TODO controladores de flujo
 ### if 
 
 ### while
@@ -71,5 +71,3 @@ function sumar(numero1, numero2) {
 	return suma;
 }
 ```
-
-# Arrays

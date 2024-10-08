@@ -1,4 +1,11 @@
+# Basics
+### Mostrar lista de comandos
+```bash
+docker help
+```
 
+
+# Contenedores
 ### Abrir un contenedor
 Abre un contenedor a través de una imagen ```.iso```, si no encuentra dicha imagen descargada, la busca en su [pagina web](https://hub.docker.com) y la descarga automáticamente
 
@@ -17,7 +24,7 @@ docker rm {nombre contenedor}
 ### Listar contenedores activos
 ```shell
 docker ps
--a (para listar todos los contenedores desplegados)
+-a (para listar todos los contenedores desplegados, activos o no)
 ```
 
 ### Mostrar log
@@ -31,3 +38,24 @@ docker log {nombre contenedor}
 docker [stop/start] {nombre contenedor}
 ```
 
+### Ejecutar un comando dentro de un contenedor
+```bash
+docker exec -it
+```
+
+# Imágenes
+### Listar imágenes
+```bash
+docker images
+```
+
+
+### Borrar una imagen
+```bash
+docker rmi
+```
+
+### Inspeccionar contenedores
+```bash
+docker inspect
+```

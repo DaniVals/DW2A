@@ -4,11 +4,18 @@
 - [[JavaScript#Variables]]
 - [[JavaScript#Controladores de flujo]]
 - [[JavaScript#Funciones]]
-- [[JavaScript#Arrays]]
 
 + [[JS y HTML]]
-+ [[JS y HTML#Funciones de HTML|Funciones de HTML]]
-+ [[JS y HTML#Eventos|Eventos de HTML]]
++ [[JS y HTML#Funciones de HTML|Funciones]]
++ [[JS y HTML#Eventos|Eventos]]
+
+- [[Arrays JS]]
+- [[Arrays JS#Declarar un array | Crear]]
+- [[Arrays JS#Acceder a una posición | Acceder]]
+- [[Arrays JS#Atributos de un array | Atributos]]
+- [[Arrays JS#Funciones de arrays | Funciones]]
+- [[Arrays JS#Funciones activas| Funciones Activas]]
+- [[Arrays JS#Funciones comparativas| Funciones Comparativas]]
 
 
 
