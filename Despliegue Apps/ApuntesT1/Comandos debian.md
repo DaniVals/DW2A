@@ -43,8 +43,17 @@ systemctl [opcion] {nombre del servicio}
 > **stop** 
 > **restart**
 
+
 ---
 
 >[!question] ¿Donde se crea el fichero base de Apache2?
 > /var/www/html/index.html
+
+
+# VS Code
+### abrir una carpeta
+usando el comando code y poniendo un directorio, se puede abrir una carpeta directamente en vscode
+```bash
+code {carpeta a abrir}
+```
 

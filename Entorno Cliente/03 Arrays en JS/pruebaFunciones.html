@@ -1,0 +1,69 @@
+<html>
+<script>
+
+    
+    function EJconcat() {
+            
+        console.log("------- concat ----------")
+
+        let array1 = ['a','b','c'];
+        let array2 = ['d','e','f'];
+        let arrayDevuelto = [];
+
+
+        arrayDevuelto = array1.concat('g', 'h', 'i');
+        
+        console.log(array1);
+        console.log(array2);
+        console.log(arrayDevuelto);
+        
+        arrayDevuelto = array1.concat(array2);
+        console.log(array1);
+        console.log(array2);
+        console.log(arrayDevuelto);
+    }
+
+    function EJjoin() {
+        
+        console.log("------- join ----------")
+
+        let array1 = ['a','b','c'];
+        let textoDevuelto; // String donde vamos a guardar el resultado
+
+        textoDevuelto = array1.join("");
+        console.log(textoDevuelto);
+
+        textoDevuelto = array1.join(" - ");
+        console.log(textoDevuelto);
+
+
+    }
+
+    function EJpop() {
+        
+        console.log("------- pop ----------")
+
+        let array1 = ['a','b','c'];
+        let textoDevuelto; // Variable donde vamos a guardar el resultado
+
+        array1.pop();
+        console.log(array1);
+        console.log(textoDevuelto);
+
+        textoDevuelto = array1.pop();
+        console.log(array1);
+        console.log(textoDevuelto);
+
+
+    }
+
+</script>
+
+<body>
+    
+    <button onclick="EJconcat()">concat</button>
+    <button onclick="EJjoin()">join</button>
+    <button onclick="EJpop()">pop</button>
+
+</body>
+</html>

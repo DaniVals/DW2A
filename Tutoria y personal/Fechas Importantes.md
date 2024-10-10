@@ -5,8 +5,9 @@
 >hacer proyecto antes de las practicas, que luego no tendremos casi tiempo
 
 ### Exámenes 1º T
+E. Cliente - 13 noviembre
+
 Empresa - 6 noviembre
-noviembre creo
 
 ### Entrega parcial trabajo de empresa
 13 noviembre

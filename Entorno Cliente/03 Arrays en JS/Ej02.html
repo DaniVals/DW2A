@@ -1,0 +1,53 @@
+<html>
+<script>
+/*    2. Array impares 
+Programa que solicita dos números al usuario, rellena un array con los números  impares 
+comprendidos entre dichos  números y posteriormente los muestra. 
+Para ello, escribir 2 funciones (cargarArray y muestraArray)
+*/
+var numeroMin;
+var numeroMax;
+var numerosPedidos = [];
+
+function cargarArray() {
+    
+    numeroMin = parseInt(prompt("introduzca desde donde empieza la lista"));
+    numeroMax = parseInt(prompt("introduzca donde acaba la lista"));
+
+    if (numeroMin < numeroMax) {
+        for (let index = numeroMin; index <= numeroMax; index++) {
+            if (index%2 == 1) {
+                numerosPedidos[numerosPedidos.length] = index;
+            }
+        }
+
+    }else{
+        for (let index = numeroMax; index <= numeroMin; index++) {
+            if (index%2 == 1) {
+                numerosPedidos[numerosPedidos.length] = index;
+            }
+        }
+
+    }
+}
+
+function muestraArray() {
+    
+    for (let index = 0; index < numerosPedidos.length; index++) {
+        document.write(numerosPedidos[index]+"<br>");
+    }
+}
+
+
+console.log(numerosPedidos);
+
+
+</script>
+
+<body>
+    
+    <button onclick="cargarArray()">cargar</button>
+    <button onclick="muestraArray()">mostrar</button>
+
+</body>
+</html>

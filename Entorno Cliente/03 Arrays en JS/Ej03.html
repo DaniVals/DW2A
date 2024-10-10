@@ -1,0 +1,86 @@
+<html>
+<script>
+/*    3. Media positivos y negativos 
+Leer 10 números enteros que se almacenarán en un array y mostrar el contenido del array, 
+la media de los valores positivos , la media de los valores negativos, el número mayor y el menor. 
+Realizar el ejercicio creando funciones que realicen cada una de las tareas solicitadas: 
+
+cargarArray(), calculaMedias(),calculaMayorMenor(), muestraArray()
+*/
+
+var arrayPedidos = [];
+var mediaPositiva;
+var mediaNegativa;
+var mayor;
+var menor;
+
+function cargarArray() {
+    arrayPedidos = [];
+
+    for (let i = 0; i < 10; i++) {
+        arrayPedidos[arrayPedidos.length] = parseInt(prompt("Dime un numero entero ("+(i+1)+")"));
+    }
+
+    console.log(arrayPedidos);
+}
+
+function calculaMedias() {
+
+    let contPos = 0;
+    let contNeg = 0;
+    
+    mediaPositiva = 0;
+    mediaNegativa = 0;
+
+    for (let index = 0; index < arrayPedidos.length; index++) {
+        if (0 < arrayPedidos[index]) {
+            contPos++;
+            mediaPositiva += parseFloat( arrayPedidos[index]);
+
+        }else if (0 > arrayPedidos[index]) {
+            contNeg++;
+            mediaNegativa += parseFloat(arrayPedidos[index]);
+        }
+    }
+
+    mediaPositiva = mediaPositiva/contPos;
+    mediaNegativa = mediaNegativa/contNeg;
+
+    console.log("medias: "+ mediaPositiva +", "+ mediaNegativa);
+}
+
+function calculaMayorMenor() {
+
+    mayor = 0;
+    menor = 0;
+
+    for (let index = 0; index < arrayPedidos.length; index++) {
+        if (mayor < arrayPedidos[index]) {
+            mayor = arrayPedidos[index];
+
+        }else if (menor > arrayPedidos[index]) {
+            menor = arrayPedidos[index];
+        }
+    }
+    console.log("mayor y menor: "+ mayor +", "+ menor);
+}
+
+function muestraArray() {
+    for (let index = 0; index < arrayPedidos.length; index++) {
+        document.write(arrayPedidos[index]+"<br>");
+    }
+    document.write("<br> medias: "+ mediaPositiva +", "+ mediaNegativa);
+    document.write("<br> mayor y menor: "+ mayor +", "+ menor);
+}
+
+</script>
+
+<body>
+    
+<button onclick="cargarArray()">cargar array</button>
+<button onclick="calculaMedias()">calculaMedias</button>
+<button onclick="calculaMayorMenor()">calculaMayorMenor</button>
+<button onclick="muestraArray()">muestraArray</button>
+
+</body>
+</html>

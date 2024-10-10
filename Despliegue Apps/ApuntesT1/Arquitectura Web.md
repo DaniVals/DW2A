@@ -55,7 +55,7 @@ ANTES de pedir al DNS la dirreccion, mira el archivo /etc/hosts
 }
 ```
 
-- [ ] esto es igual en todos?
+- [x] esto es igual en todos?
 
 
 # Que compone una pagina web?
@@ -66,20 +66,11 @@ ANTES de pedir al DNS la dirreccion, mira el archivo /etc/hosts
 ### backend
 - el servidor que hostea la pagina web (con apache2)
 - la base de datos
-- el traductor de php/ python
+- el traductor de php / python
 
 # Contenedor
-Los contenedores es una aplicación, su objetivo es virtualizar servicios, algo que cuando le solicitemos vaya a funcionar
-Están pensados para configurarse una vez y no volver a tocarlos mas
-Son como mini maquinas virtuales
+![[Definiciones Docker#Contenedor]]
 
-## [[Comandos Docker|Docker]] 
-la aplicación que permite configurar y gestionar contenedores
+# Docker
+![[Definiciones Docker#Que es Docker]]
 El contenedor del server de apache2 de Docker se llama ``httpd``
-
-> [!question] #pregunta_común_de_empresa
-> *"¿sabrías crear un contenedor de esta aplicación que tenemos nosotros?"*
-> si dices que si (y sabes), mucha probabilidad de ser contratado
-
-- [ ] Preguntar al profe donde poner la descripcion de docker en T1 o T2
-- [ ] que arquitectura es Docker?
