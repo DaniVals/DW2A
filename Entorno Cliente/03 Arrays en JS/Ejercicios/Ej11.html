@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<script>
+    /*
+    1. ArrayMenor 
+        Crear  un  array  de  10  elementos  con  valores  aleatorios  comprendidos  entre  0  y  1000.  Posteriormente 
+        buscar el elemento menor y luego generar otro array a partir de dicha posición hasta el final. 
+    */
+
+    var array = [];
+
+    function generarArray() {
+        for (let i = 0; i < 10; i++) {
+            array.push(Math.random()*1001);
+        }
+
+        prompt(array.join("\n"));
+    }
+
+
+
+</script>
+
+<body>
+
+    <button onclick="generarArray()">generar array</button>
+    
+</body>
+</html>

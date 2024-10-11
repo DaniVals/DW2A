@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<script>
+    /*
+    2. Buscar Array 
+        Debe  solicitar  al  usuario  un  nº  indeterminado  de  datos  y  almacenarlos  en  un  array.  Una  vez  termina  la 
+        introducción de datos, permitirá hacer búsquedas de datos en el array creado indicándonos las posiciones 
+        en que se encuentran los datos
+    */
+
+    var arrayPedido = [];
+    
+    function pedirArray(){
+        let valorPedido;
+
+        valorPedido = prompt("introduzca un dato");
+        while (valorPedido != "" && valorPedido != null) {
+            arrayPedido.push(valorPedido);
+            valorPedido = prompt("introduzca un dato");
+        }
+
+        console.log(arrayPedido)
+    }
+
+    function buscarArray() {
+
+        let filtro = prompt("introduzca el dato a buscar");
+        
+
+        let arrayBuscado = [];
+
+        for (let i = 0; i < arrayPedido.length; i++) {
+            if (arrayPedido[i] == filtro) {
+                arrayBuscado.push(i);
+            }
+        }
+
+        alert("Posiciones encontradas: " + arrayBuscado.join(", "))
+    }
+
+
+</script>
+
+<body>
+
+    <button onclick="pedirArray()">pedir array</button>
+    <button onclick="buscarArray()">buscar array</button>
+    
+</body>
+</html>

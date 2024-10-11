@@ -21,11 +21,13 @@ Number of Columns: 2
 Largest Column: standard
 ```
 
+
 Ejemplo sacado del PDF
 
 ![[Ejemplo Caja del PDF.png]]
 
 --- column-break ---
+
 
 Ejemplo de inspeccionar una pagina
 En este caso muestra los **tamaños** de los atributos
@@ -36,7 +38,7 @@ En este caso muestra los **tamaños** de los atributos
 
 
 # Anchura y altura
-Estas dos propiedades no controlan ningún visual de la caja, sino que controlan directamente el tamaño de esta, forzando una caja a un **tamaño**
+Estas dos propiedades no controlan ninguna característica visual de la caja, sino que controlan directamente el tamaño de esta, forzando una caja a un **tamaño** especifico, relativo o absoluto.
 ## Anchura
 La propiedad `width` controla el ancho de una etiqueta, recibiendo generalmente una medida positiva (`px`) o un porcentaje `%`, aunque puede recibir `inherit` para usar el de su padre o `auto` para que rellene el espacio de forma automática.
 

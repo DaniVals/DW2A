@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<script>
+    /*
+    3. Array 2 Dimensiones 
+        Generar  un  array  de  3  filas  x  4  columnas  con  números  generados  aleatoriamente  entre  0  y  9,  y 
+        posteriormente visualizar el array.
+    */
+
+    var array = [];
+
+    function generarArray() {
+        for (let i = 0; i < 3; i++) {
+            array.push([]);
+            for (let j = 0; j < 4; j++) {
+                array[i].push( parseInt(Math.random()*10));
+            }
+        }
+        console.log(array);
+
+        document.write("<table>");
+        for (let i = 0; i < array.length; i++) {
+            document.write("<tr><td>" + array[i].join("</td><td>") + "</td></tr>");
+        }
+        document.write("</table>");
+    }
+
+
+
+</script>
+
+
+<body>
+
+    <button onclick="generarArray()">generar array</button>
+    
+</body>
+</html>

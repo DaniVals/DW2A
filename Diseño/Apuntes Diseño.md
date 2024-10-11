@@ -29,6 +29,13 @@
 
 [[1.UsoEstilos30-38.pdf|PDF]]
 
+- [[4 Modelo de cajas]]
+- [[4 Modelo de cajas#Anchura y altura]]
+- [[4 Modelo de cajas#Margen y relleno]]
+- [[4 Modelo de cajas#Bordes]]
+- [[4 Modelo de cajas#Background]]
+
+[[1.UsoEstilos39-65.pdf|PDF]]
 
 > [!warning] Tareas
 > ```dataview

@@ -34,7 +34,7 @@ ps aux
 
 ### Servicios
 ```bash
-systemctl [opcion] {nombre del servicio}
+systemctl [opcion] {nombre del servicio (apache2)}
 ```
 
 >[!example]+ opción
@@ -45,9 +45,6 @@ systemctl [opcion] {nombre del servicio}
 
 
 ---
-
->[!question] ¿Donde se crea el fichero base de Apache2?
-> /var/www/html/index.html
 
 
 # VS Code

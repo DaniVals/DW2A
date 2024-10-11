@@ -29,6 +29,7 @@ empty($_POST["variable"])
 ### Validar cadenas de texto
 
 https://www.php.net/manual/es/filter.filters.php
+- [ ] TODO: PHP funciones validar cadenas de texto
 
 
 

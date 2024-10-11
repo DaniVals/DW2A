@@ -43,7 +43,10 @@ Que hay que cuidarse, muestran su rutina y motivan a sus seguidores a imitarlos
 Rutinas genéricas 
 
 ### A sus amigos
+Ve a sus amigos tener una vida mas saludable y mas activa.
+Ve a otros padres con mejor cuerpo, haciendo actividades físicas con sus hijos
 
 ### Su entorno
+Su hogar y lugar de trabajo, colegio, parques
 
 ### Sus problemas

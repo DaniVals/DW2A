@@ -1,7 +1,10 @@
 # Introducción PHP
 > [!quote]+ Hypertext Pre-processor
 > definicion de php
-- [ ] copiar características del PDF
+- [ ] PHP: copiar características del PDF
+- [ ] PHP: como pasar varaible o copia de varaible a una funcion
+
+variables SI tienen tipo, solo que no fijo y esta oculto (investigar y explicar mejor)
 
 
 

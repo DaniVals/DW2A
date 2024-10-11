@@ -9,6 +9,8 @@
 | GET   | index.html | HTTP/1.1 |
 
 
+
+
 # Tipos de acceso
 
 Hay varias formas de enviar datos en un servidor: 

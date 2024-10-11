@@ -17,6 +17,9 @@
 - [[Metodos de acceso#Como enviar ficheros| Enviar ficheros con POST]]
 - [[Metodos de acceso#Mezclar ambos | Mezclar GET y POST]]
 
++ [[Cookies]]
++ [[Cookies#Como usar una cookie? | Como usar una cookie?]]
+
 
 
 
