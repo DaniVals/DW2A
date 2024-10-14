@@ -261,7 +261,29 @@ Ten en cuenta que hay que poner la etiqueta a la que se va a aplicar, **NO** a l
 </body>
 ```
 
-
+ >[!info]+ Extra: nth-child
+>***NO cae en el examen*** pero me lo enseño Iván y me lo apunto
+>Este se aplica a la etiqueta numero (x)
+>```html
+><style>
+>	/* poner el aplicado (p) no el contenedor (body) */
+>	p:nth-child(1){
+>		color: red;
+>	}
+>	p:nth-child(2){
+>		color: green;
+>	}
+>	p:nth-child(3){
+>		color: blue;
+>	}
+></style>
+>
+><body>
+>	<p>rojo</p>
+>	<p>verde</p>
+>	<p>azul</p>
+></body>
+>```
 
 
 

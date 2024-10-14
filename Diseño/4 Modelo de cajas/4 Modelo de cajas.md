@@ -161,12 +161,28 @@ La propiedad `border-color`
 | Se aplica a | Todos los elementos |
 
 ### Estilo
-La propiedad `border-style`
+La propiedad `border-style` define como se muestra el borde, ya sea completamente plano con `solid` o usando puntitos con `dashed`.
 
 ```css
 /* Ejemplo defiliendo 4 valores */
-*{border-style: }
+*{border-style: solid dashed dotted double}
 ```
+
+>[!example]+ lista de estilos en Obsidian con HTML
+>Aqui una lista con todos los estilos de borde hecha directamente en Obsidian.
+>Si no usas Obsidian, lo puedes ver en el [[1.UsoEstilos39-65.pdf#page=14 | ejemplo del PDF]]
+><p style="border: 10px none">none</p>
+><p style="border: 10px hidden">hidden</p>
+><p style="border: 10px solid">solid</p>
+><p style="border: 10px dashed">dashed</p>
+><p style="border: 10px dotted">dotted</p>
+><p style="border: 10px double">double</p>
+><p style="border: 10px groove">groove</p>
+><p style="border: 10px ridge">ridge</p>
+><p style="border: 10px inset">inset</p>
+><p style="border: 10px outset">outset</p>
+
+
 
 >[!quote]+  Tabla PDF
 | Propiedad |  |
@@ -206,6 +222,11 @@ Se puede establecer un borde de forma shorthand usando
 
 # Background
 
+
+### bg image
+la imagen por defecto se duplica y se vuelve un *estampado*
+la imagen se pone por delante del bg-color
+
 >[!quote]+  Tabla PDF
 | Propiedad |  |
 | ----------- | -------- |
@@ -214,7 +235,12 @@ Se puede establecer un borde de forma shorthand usando
 | Descripción |  |
 | Se aplica a |  |
 
-
+- [ ] DIseño: TODO bordes y background
 ---
 
-- [ ] DIseño: TODO bordes y background
+# Tamaño total de la caja
+La propiedad `box-sizing` define que se tendrá en cuenta para el tamaño de una caja
+
+La anchura total con la que se muestra un elemento no es solo su propiedad `width` y `height`, sino también el tamaño del `padding`, `border` y `margin`
+
+no recomendable usarlo en height
