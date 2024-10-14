@@ -1,5 +1,5 @@
 # Introducción PHP
-> [!quote]+ Hypertext Pre-processor
+> [!quote]+ Hypertext Pre-Processor
 > definicion de php
 - [ ] PHP: copiar características del PDF
 - [ ] PHP: como pasar varaible o copia de varaible a una funcion

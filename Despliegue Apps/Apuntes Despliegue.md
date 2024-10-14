@@ -2,8 +2,13 @@
 - [[Comandos debian]]
 - [[Arquitectura Web]]
 # Tema 2
-- [[Comandos Docker]]
+- [[Apache]]
+# Docker
++ [[Definiciones Docker]]
++ [[Comandos Docker]]
 - [[03-10-2024]]
+- [[07-10-2024]]
+- [[10-10-2024]]
 
 
 

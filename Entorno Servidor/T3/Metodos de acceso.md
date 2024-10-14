@@ -9,7 +9,7 @@
 | GET   | index.html | HTTP/1.1 |
 
 
-
+- [ ] E. Servidor: preguntar que weas es esto, que lo tengo aqui random y ns si encaja o que chucha
 
 # Tipos de acceso
 
@@ -75,7 +75,7 @@ echo "Clave: " . $_POST["contra"];
 
 
 
->[!warning] Cuidado
+>[!caution] Cuidado
 >No todos los inputs devuelven algo en todos los casos, por lo que se puede comprobar que devuelvan cosas
 >[[Código para formularios#Validar parámetros|Funciones para validar datos]] 
 >- Un "checkbox" devuelve true si se marca pero **NO** devuelve nada si se deja en blanco

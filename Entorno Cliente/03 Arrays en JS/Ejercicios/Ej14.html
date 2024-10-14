@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    
+<script>
+    /*
+        4. MuestraArray() 
+        Crear un array de 10 elementos con valores aleatorios comprendidos entre 0 y 1000. 
+        Posteriormente muestra el índice y contenido de cada posición del array utilizando el método 
+        ForEach.
+    */
+
+    var array = [];
+
+    function generarArray() {
+        for (let i = 0; i < 10; i++) {
+                array.push( parseInt(Math.random()*1000));
+        }
+        console.log(array);
+    }
+
+    function mostrarArray() {
+        array.forEach((elemento, indice) => {
+            document.write("<br>pos "+indice+": "+elemento);
+        });
+    }
+
+
+
+</script>
+
+
+<body>
+
+    <button onclick="generarArray()">generar array</button>
+    <button onclick="mostrarArray()">mostrar array</button>
+    
+</body>
+</html>

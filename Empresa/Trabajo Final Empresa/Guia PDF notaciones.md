@@ -1,4 +1,5 @@
 Lo que ha hablado la profe de la guia, por ahora esta incompleto pero lo iremos rellenando
+- [[Libro Empresa.pdf#page=167|PDF Guia de empresa]]
 
 ## 1. Resumen ejecutivo
 idea de negocio, 

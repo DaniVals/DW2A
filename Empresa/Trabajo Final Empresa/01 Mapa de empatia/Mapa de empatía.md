@@ -37,8 +37,6 @@ Que hay que cuidarse, muestran su rutina y motivan a sus seguidores a imitarlos
 ## ¿Qué ve?
 
 
-
-
 ### El mercado ofrece
 Rutinas genéricas 
 
@@ -50,3 +48,19 @@ Ve a otros padres con mejor cuerpo, haciendo actividades físicas con sus hijos
 Su hogar y lugar de trabajo, colegio, parques
 
 ### Sus problemas
+
+
+## ¿Qué dice y hace?
+
+### Su actitud en publico
+### Su apariencia
+### Factor diferencial
+
+## Limitaciones / Obstaculos
+### Sus miedos
+### Frustraciones
+
+
+## Oportunidades / Necesidades
+### Necesidades
+### Oportunudades

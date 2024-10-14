@@ -1,6 +1,6 @@
 # Sesiones
-HTTP es un protocolo *sin estado*, necesitas cosas externas como las cookies para saber si ya ha hecho algo.
-Para eso usamos las **sesiones**
+HTTP es un protocolo *sin estado*, necesitas cosas externas como las cookies para saber si ya ha hecho algo, pero estas son poco seguras ya que se guarda en **local**.
+Para eso usamos las **sesiones**, que se guarda en **servidor**.
 NO son las sesiones de *Twitter* por ejemplo, sino es para guardar variables, aunque si se usan para ese tipo de sesión
 
 Una sesión es información que se guarda en **servidor** sobre tu navegador, el navegador guarda automáticamente una **cookie** (que caduca a los 30 mins) con la ID de tu sesión (cuando se usa) para evitar conflictos de IPs, pero la información de la propia sesión solo se guarda en servidor

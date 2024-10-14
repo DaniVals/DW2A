@@ -1,16 +1,16 @@
 # Que es una cookie?
-Una **cookie** es una `[varaible creo]` que guarda tu navegador sobre diferentes paginas web.
+Una **cookie** es una `[varaible creo]` que guarda información en tu navegador sobre diferentes paginas web.
 
 - [ ] E. servidor preguntar que es una cookie
 
 ## Cuando usar una cookie?
-El **usuario las puede modificar** si quiere, por lo que no se debe usar para información critica, solo para cosas secundarias, como el idioma o si usar el modo claro o el modo oscuro.
+Ya que el **usuario las puede modificar** si quiere, no se debe usar para información critica, solo para cosas secundarias, como el idioma o si usar el modo claro o el modo oscuro.
 
 # Como usar una cookie?
 Aquí veremos ejemplos de como usar las cookies en **php**, también vamos a usar el [cookie-editor](https://cookie-editor.com) para ver y modificar las cookies de nuestro navegador de forma cómoda, muy útil para **debug**. 
 Se puede ver cuando caduca una cookie cuando le das a *Show advance*
 
->[!warning] Ten en cuenta!
+>[!caution] Ten en cuenta!
 >Cuando **declaras** o **modificas** una cookie **NO** la puedes usar en esa misma *interpretación* de php, ya que hasta que no muestra la pagina no crea ni modifica el valor de esta.
 >Se puede arreglar con este bloque de código
 >```php
@@ -48,7 +48,7 @@ if (isset($_COOKIE["visitas"])) {
 	$_COOKIE["visitas"]
 }
 ```
->[!warning] Ten en cuenta!
+>[!caution] Ten en cuenta!
 >Como dije antes, cuando **modificas** una cookie no modifica el valor de esta hasta que termina la *interpretación*.
 >```php
 >// la cookie vale 123

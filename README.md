@@ -4,7 +4,7 @@ Todos los recursos y proyectos usados y creados a o largo de mi segundo año de 
 # Obsidian Home Page
 
 
---- start-multi-column: Prueba
+--- start-multi-column: README1
 ```column-settings
 Number of Columns: 2
 Largest Column: standar
@@ -22,6 +22,8 @@ Shadow: off
 > [[Apuntes Entorno Servidor|Entorno Servidor]]
 > [[Apuntes Ingles|Ingles]]
 
+![[4PDF - Diapositivas UD3 - sesiones.pdf]]
+
 ![[Fechas Importantes#Exámenes 1º T]]
 
 --- column-break ---
@@ -30,7 +32,6 @@ Shadow: off
 > - hacer proyecto antes de las practicas, que luego no tendremos casi tiempo
 > - [[Faltas | Faltas calculadas]]
 > - [ ] TODO: resubir la pagina web
-
 
 > [!warning] Tareas
 > ```dataview

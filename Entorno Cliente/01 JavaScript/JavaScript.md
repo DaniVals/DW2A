@@ -24,7 +24,7 @@ let variablePrestada;
 ### const
 aunque esto no sea una variable por si misma, también son  muy usadas las **constantes**, para definir valores que no van a cambiar durante el programa de forma mas legible y cómoda
 
-> [!error] Mal
+> [!fail] Mal
 > ```js
 > // que significa 0? que es 10? y si luego cambia a 15 lo tengo que cambiar en varios sitios
 > if(0 < variable && variable < 10)

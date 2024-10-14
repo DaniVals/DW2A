@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"Despliegue Apps\"  ",
@@ -50,16 +50,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -0.2,
-  "nodeSizeMultiplier": 1.23745454545455,
-  "lineSizeMultiplier": 3.14581818181818,
-  "collapse-forces": false,
+  "textFadeMultiplier": -0.8,
+  "nodeSizeMultiplier": 1.4497920997921,
+  "lineSizeMultiplier": 2.50925155925156,
+  "collapse-forces": true,
   "centerStrength": 0.526530612244898,
   "repelStrength": 11.7654916512059,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.547219064736891,
+  "scale": 0.6015187647106746,
   "close": true
 }

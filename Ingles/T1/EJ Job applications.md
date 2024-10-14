@@ -1,4 +1,4 @@
-![[Imagen de WhatsApp 2024-10-04 a las 13.47.13_3fe97d8f.jpg]]
+![[Statement Job Aplications.jpg]]
 1. BAR STAFF (2º)
 2. work experience
 3. Trainee retail manager (1º)

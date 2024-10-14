@@ -72,7 +72,7 @@ Poner comentarios indicando que secciones haces referencia o cual es el objetivo
 ### Espacios en las clases
 Aunque generalmente se una **`_`** para poner espacios en variables, en CSS es mejor poner **`-`** para las **id** o las **class** 
 
-> [!error] Mal
+> [!fail] Mal
 > ```html
 > <div id="mi id" class="mi clase">
 > <div id="mi_id" class="mi_clase">

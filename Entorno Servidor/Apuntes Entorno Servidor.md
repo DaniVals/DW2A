@@ -1,11 +1,11 @@
 # Tema 1
-- [[Introducción]]
+- [[Introducción]]  (sin acabar)
 
 [[Diapositivas UD1.pdf|PDF]]
 
 
 # Tema 2
-- [[PHP]]
+- [[PHP]]  (sin acabar)
 
 [[Diapositivas UD2 01 - Introducción.pdf|PDF 1]] [[Diapositivas UD2 02.pdf|PDF 2]] [[Diapositivas UD2 03 - Estructuras de control, operadores, arrays y funciones.pdf|PDF 3]] [[Diapositivas UD2 04.pdf|PDF 4]]
 
@@ -18,9 +18,16 @@
 - [[Metodos de acceso#Mezclar ambos | Mezclar GET y POST]]
 
 + [[Cookies]]
-+ [[Cookies#Como usar una cookie? | Como usar una cookie?]]
++ [[Cookies#CREAR| Crear una cookie]]
++ [[Cookies#LEER| Leer una cookie]]
++ [[Cookies#MODIFICAR| Modificar una cookie]]
++ [[Cookies#BORRAR| Borrar una cookie]]
 
+- [[Sesiones]] (sin acabar)
 
++ [[Hash]] (esto no cae, simplemente lo mencionó y lo apunte pq me pareció interesante)
+
+[[1PDF - Diapositivas UD3 - paso de parámetros, formularios y redirecciones.pdf | PDF 1]] [[2PDF - Anexo - paso de parámetros y formularios.pdf | PDF 2]] [[3PDF - Diapositivas UD3 - cookies.pdf | PDF 3]] [[4PDF - Diapositivas UD3 - sesiones.pdf | PDF 4]]
 
 
 

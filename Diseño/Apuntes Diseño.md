@@ -2,8 +2,8 @@
 - [[1 Introducción|1. Introducción CSS]]
 - [[1 Introducción#Incluir CSS en HTML|Como incluir CSS en HTML]]
 - [[1 Introducción#Glosario|Glosario]]
-- [[1 Introducción#Medios| @Media]]
-- [[1 Introducción#Buenas prácticas| Buenas prácticas]]
+- [[1 Introducción#Medios| @Media]] (sin acabar)
+- [[1 Introducción#Buenas prácticas| Buenas prácticas]] (sin acabar)
 
 [[1.UsoEstilos1-29.pdf|PDF]]
 
@@ -30,10 +30,10 @@
 [[1.UsoEstilos30-38.pdf|PDF]]
 
 - [[4 Modelo de cajas]]
-- [[4 Modelo de cajas#Anchura y altura]]
-- [[4 Modelo de cajas#Margen y relleno]]
-- [[4 Modelo de cajas#Bordes]]
-- [[4 Modelo de cajas#Background]]
+- [[4 Modelo de cajas#Anchura y altura | Anchura y altura]]
+- [[4 Modelo de cajas#Margen y relleno | Margen y relleno]]
+- [[4 Modelo de cajas#Bordes | Bordes]]  (sin acabar)
+- [[4 Modelo de cajas#Background | Background]]  (sin acabar)
 
 [[1.UsoEstilos39-65.pdf|PDF]]
 

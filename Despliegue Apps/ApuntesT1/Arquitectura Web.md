@@ -20,10 +20,10 @@
 
 
 
->[!question] escalabilidad a volumen de peticiones 
+>[!info] escalabilidad a volumen de peticiones 
 > poder pasar de un máximo de 1000 de solicitudes a 25000 solicitudes
 
->[!question]  escalabilidad a volumen de datos 
+>[!info]  escalabilidad a volumen de datos 
 >poder gestionar mas datos de forma sencilla sin modificar mucho el código (abrir un nuevo contenedor por ejemplo) (balanceador de carga)
 
 # Peticiones Web
@@ -55,7 +55,8 @@ ANTES de pedir al DNS la dirreccion, mira el archivo /etc/hosts
 }
 ```
 
-- [x] esto es igual en todos?
+>[!done] Pregunta: esto es igual en todos?
+>Si
 
 
 # Que compone una pagina web?

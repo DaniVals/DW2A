@@ -1,5 +1,9 @@
 
-| English          | Spanish                             |
-| ---------------- | ----------------------------------- |
-| Trunk            | maletero                            |
-|                  |                                     |
+| English   | Spanish  |
+| --------- | -------- |
+| Trunk     | maletero |
+| Enunciado |          |
+| 
+
+
+- [ ] Ingles: Preguntar

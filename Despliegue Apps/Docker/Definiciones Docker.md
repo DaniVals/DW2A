@@ -4,7 +4,7 @@ Es una aplicación que permite configurar y gestionar contenedores
 Usa una **arquitectura de micro servicios** principalmente, aunque se puede usar para muchos tipos de arquitectura
 La vamos a usar durante el curso bastante
 
-> [!question] #pregunta_común_de_empresa
+> [!warning] Pregunta de empresa
 > *"¿sabrías crear un contenedor de esta aplicación que tenemos nosotros?"*
 > si dices que si (y sabes), mucha probabilidad de ser contratado
 
@@ -14,7 +14,9 @@ La vamos a usar durante el curso bastante
 
 # Contenedor
 Los contenedores es una aplicación, su objetivo es virtualizar servicios, algo que cuando le solicitemos vaya a funcionar
-Están pensados para configurarse una vez y no volver a tocarlos mas
-Son como mini maquinas virtuales
+Están pensados para configurarse una vez y no volver a tocarlos mas.
+Son como mini maquinas virtuales.
+Se pueden tener desplegados tantos contenedores como se necesite, aunque hay que **mapearles** el puerto.
 
 # Imagen
+- [ ] Despliegue: preguntar al profe definición de imagen

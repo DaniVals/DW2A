@@ -6,9 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiActivity",
-      "LiServer",
-      "LiHome"
+      "LiBook",
+      "LiFileText",
+      "LiList",
+      "LiBookCheck",
+      "LiCopy"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -44,5 +46,18 @@
   "Diseño/Apuntes Diseño.md": "LiHome",
   "Entorno Cliente/Apuntes Entorno Cliente.md": "LiHome",
   "README.md": "LiHome",
-  "Ingles/Apuntes Ingles.md": "LiHome"
+  "Ingles/Apuntes Ingles.md": "LiHome",
+  "Ingles/Translations.md": "LiTable2",
+  "Tutoria y personal/README Perfil GitHub.md": "LiCopy",
+  "Tutoria y personal/CopyPaste del perfil.md": "LiCopy",
+  "Tutoria y personal/Examen Diseño.md": "LiBookCheck",
+  "Tutoria y personal/Fechas Importantes.md": "LiList",
+  "Tutoria y personal/Nomenclaturas repositorio.md": "LiCopy",
+  "Tutoria y personal/Faltas.md": "LiList",
+  "Tutoria y personal/FechasClaves_2024_25_vs alumnos.pdf": "LiList",
+  "Tutoria y personal/Examen 1 Despliegue.md": "LiBookCheck",
+  "Ingles/Translation tables/Generic.md": "LiTable2",
+  "Ingles/Translation tables/Work wise.md": "LiTable2",
+  "Empresa/Libro Empresa.pdf": "LiBook",
+  "Tutoria y personal/Como hacer un CV.md": "LiCopy"
 }

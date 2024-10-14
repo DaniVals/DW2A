@@ -1,7 +1,8 @@
 /* Cambia el color del callout de info a gris */
 .callout[data-callout="info"] {
-    --callout-color: #999999; /* Color gris */
+    --callout-color: #999999; /* Darle un valor al color hace que se ponga siempre blanco */
     background-color: #99999922;
+    
     /* No me gusto pq lo tendira que cambiar a todos pero me lo guardo */
     
     /* border-left: 2px solid #7a7a7a; /* Cambia el borde */

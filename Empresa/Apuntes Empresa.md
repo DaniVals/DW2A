@@ -10,10 +10,9 @@
 
 # TFGE
 - [[Brainstorm]]
-
-
 - [[Mapa de empatía]]
-- [[Libro Empresa.pdf#page=167|PDF Guia de empresa]]
+- 
++ [[Guia PDF notaciones]]
 
 
 

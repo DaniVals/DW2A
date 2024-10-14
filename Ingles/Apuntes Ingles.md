@@ -1,3 +1,7 @@
 [[Translations]]
+
+# Cool Clases
+- [[04-10-2024]]
+
 # T1
-- [[Job applications]]
+- [[EJ Job applications]]
