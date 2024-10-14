@@ -38,32 +38,38 @@ En este caso muestra los **tamaños** de los atributos
 
 
 # Anchura y altura
+=======
 Estas dos propiedades no controlan ninguna característica visual de la caja, sino que controlan directamente el tamaño de esta, forzando una caja a un **tamaño** especifico, relativo o absoluto.
 ## Anchura
 La propiedad `width` controla el ancho de una etiqueta, recibiendo generalmente una medida positiva (`px`) o un porcentaje `%`, aunque puede recibir `inherit` para usar el de su padre o `auto` para que rellene el espacio de forma automática.
+=======
+Estas dos propiedades no controlan ningún visual de la caja, sino que controlan directamente el tamaño de esta, forzando una caja a un **tamaño**
+
+La propiedad `width` y `height` controlan el **ancho** y el **alto** de una etiqueta, recibiendo generalmente una medida positiva (`px`) o un porcentaje `%`, aunque puede recibir `inherit` para usar el de su padre o `auto` para que rellene el espacio de forma automática.
+=======
 
 
 >[!quote]+  Tabla PDF
-| Propiedad     | width |
-| -------------- | ------ |
-| Valores       | unidad de medida / porcentaje / auto / inherit |
+| Propiedad | {width / height} |
+| ----------- | ----------------- |
+| Valores | unidad de medida / porcentaje / auto / inherit |
 | Valor inicial | auto |
-| Descripción   | Establece la anchura de un elemento |
-| Se aplica a   | Todos los elementos, salvo los elementos en línea que no sean imágenes, las filas de tabla y los grupos de filas de tabla |
+| Descripción | Establece la {anchura / altura} de un elemento |
+| Width se aplica a | Todos los elementos, salvo los elementos en línea que no sean imágenes, las filas de tabla y los grupos de filas de tabla |
+| Height se aplica a | Todos los elementos, salvo los elementos en línea que no sean imágenes, las columnas de tabla y los grupos de columnas de tabla |
 
 
->[!info]- Extra: min-width y max-width
+>[!info]- Extra: min y max
 >*Aunque la profe dice que lo veremos mas adelante yo prefiero dejarlo aquí ya, pero imagino que esto no cae en el examen*
 >Se pueden usar la propiedad ``min-width`` y/o ``max-width`` para establecer un rango a la propiedad, en vez de darle un valor fijo
+>Esto también se puede aplicar a la altura con ``min-height`` y/o ``max-height``
  
-## Altura
+
 
 
 # Margen y relleno
 ## Margen
-izquierda derecha / arriba abajo
-izquierda / derecha / arriba abajo
-izquierda / derecha / arriba / abajo
+
 ## Relleno
 
 
@@ -71,6 +77,7 @@ izquierda / derecha / arriba / abajo
 
 
 # Bordes
+
 
 ### Anchura
 ### Color
