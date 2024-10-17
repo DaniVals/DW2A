@@ -145,11 +145,11 @@ De valores se puede indicar de forma absoluta (`px`) o relativa (`em`), o usando
 | Se aplica a | Todos los elementos |
 
 ### Color
-La propiedad `border-color`
+La propiedad `border-color` establece el [[3 Medidas y Colores#Colores| color]] del borde
 
 ```css
 /* Ejemplo defiliendo 4 valores, ejemplo MUY bueno para entender y comprobar el shorthand */
-*{border-color: }
+*{border-color: red yellow green blue}
 ```
 
 >[!quote]-  Tabla PDF
@@ -184,44 +184,65 @@ La propiedad `border-style` define como se muestra el borde, ya sea completament
 
 
 
->[!quote]+  Tabla PDF
-| Propiedad |  |
+>[!quote]-  Tabla PDF
+| Propiedad | border-style |
 | ----------- | -------- |
-| Valores |  |
-| Valor inicial |  | 
-| Descripción |  |
-| Se aplica a |  |
+| Valores | (none / hidden / dotted / dashed / solid / double / groove / ridge / inset / outset ) {1, 4} / inherit |
+| Valor inicial | - | 
+| Descripción | Establece el estilo de todos los bordes del elemento |
+| Se aplica a | Todos los elementos |
 
 ### Redondear
-La propiedad `border-radius`
+La propiedad `border-radius` establece el radio de una esquina de un borde.
+Se puede aplicar a un elemento sin borde para redondearlo, como una foto
 
 ```css
 /* Ejemplo defiliendo 4 valores */
-*{border-radius: }
+*{border-radius: 5px 50%}
 ```
-
->[!quote]+  Tabla PDF
-| Propiedad |  |
-| ----------- | -------- |
-| Valores |  |
-| Valor inicial |  | 
-| Descripción |  |
-| Se aplica a |  |
+>[!caution] cuidado con los ovalos
+>*Esto **creo que no** lo dijo la profe pero lo apunto igual porque es bastante importante*
+>Cuando aplicar un radio excesivo con pixeles, simplemente se redondeara hasta que las esquinas "choquen" en un lado
+>Pero cuando usas porcentajes, se pone hasta tocarse en ambos lados, quedando de forma ovalada
+> <span style="border: 3px solid; border-radius: 999px">---- 999px ----</span> <span style="border: 3px solid; border-radius: 999%">---- 999% ----</span>
 
 ### Bordes *Shorthand*
-Se puede establecer un borde de forma shorthand usando
+Se puede establecer un borde de forma shorthand usando directamente el nombre que quieras cambiar, o simplemente `border` si quieres que sea igual en las cuatro caras
+```css
+/* un borde solido, negro y de 10px de ancho */
+*{border: 10px solid black;}
+```
 
 
->[!quote]+  Tabla PDF
-| Propiedad |  |
+>[!quote]-  Tabla PDF
+| Propiedad | border-top, border-right, border-bottom, border-left |
 | ----------- | -------- |
-| Valores |  |
-| Valor inicial |  | 
-| Descripción |  |
-| Se aplica a |  |
+| Valores | ( unidad de medida_borde // color_borde // estilo_borde ) / inherit |
+| Valor inicial | - | 
+| Descripción | Establece el estilo completo de cada uno de los cuatro bordes de los elementos |
+| Se aplica a | Todos los elementos |
+> ---
+| Propiedad | border |
+| ----------- | -------- |
+| Valores | ( unidad de medida_borde // color_borde // estilo_borde ) / inherit |
+| Valor inicial | - | 
+| Descripción | Establece el estilo completo de todos bordes de los elementos |
+| Se aplica a | Todos los elementos |
 
 # Background
 
+
+### bg color
+la imagen por defecto se duplica y se vuelve un *estampado*
+la imagen se pone por delante del bg-color
+
+>[!quote]+  Tabla PDF
+| Propiedad |  |
+| ----------- | -------- |
+| Valores |  |
+| Valor inicial |  | 
+| Descripción |  |
+| Se aplica a |  |
 
 ### bg image
 la imagen por defecto se duplica y se vuelve un *estampado*
@@ -235,12 +256,53 @@ la imagen se pone por delante del bg-color
 | Descripción |  |
 | Se aplica a |  |
 
-- [ ] DIseño: TODO bordes y background
+### bg repeat
+la imagen por defecto se duplica y se vuelve un *estampado*
+la imagen se pone por delante del bg-color
+
+>[!quote]+  Tabla PDF
+| Propiedad |  |
+| ----------- | -------- |
+| Valores |  |
+| Valor inicial |  | 
+| Descripción |  |
+| Se aplica a |  |
+
+
+### bg position
+la imagen por defecto se duplica y se vuelve un *estampado*
+la imagen se pone por delante del bg-color
+
+>[!quote]+  Tabla PDF
+| Propiedad |  |
+| ----------- | -------- |
+| Valores |  |
+| Valor inicial |  | 
+| Descripción |  |
+| Se aplica a |  |
+
+
+
+- [ ] DIseño: TODO background
 ---
 
 # Tamaño total de la caja
 La propiedad `box-sizing` define que se tendrá en cuenta para el tamaño de una caja
 
-La anchura total con la que se muestra un elemento no es solo su propiedad `width` y `height`, sino también el tamaño del `padding`, `border` y `margin`
+### content-box
+`content-box` define que la anchura total con la que se muestra un elemento es su propiedad `width` y `height`, y luego puede crecer con el tamaño del `padding`, `border` y `margin`.
 
-no recomendable usarlo en height
+```css
+*{box-sizing: content-box}
+```
+
+### border-box
+`content-box` define que la anchura total con la que se muestra un elemento no es solo su propiedad `width` y `height`, sino también el tamaño del `padding`, `border` y `margin`, obligando al propio contenido a menguar para que ocupe el tamaño especificado.
+```css
+*{box-sizing: border-box}
+```
+
+---
+>[!caution] Ten en cuenta
+> **No** es recomendable usarlo en height, ya que darle  un tamaño fijo a la altura de un elemento puede hacer que lo que no quepa en la etiqueta se sobreponga o no se muestre.
+> Pero si no le defines una altura, el elemento se ira alargando según le añadas información.
