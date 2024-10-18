@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<script>
+    /*
+        5. Comprobar Pares  
+        “Introducir datos” solicita al usuario números y los almacena en un array 
+        “Calcular Pares” devuelve la lista de números pares que hay en el array 
+        “Comprueba Pares” indica si en el array hay números pares o no. 
+        Utilizar métodos some() y filter() 
+    */
+
+    var arrayPedido = [];
+    var arrayPares  = [];
+    
+    function introducirDatos(){
+        let valorPedido;
+
+        valorPedido = prompt("introduzca un dato");
+        while (valorPedido != "" && valorPedido != null) {
+            arrayPedido.push(valorPedido);
+            valorPedido = prompt("introduzca un dato");
+        }
+
+        console.log(arrayPedido);
+    }
+
+    function calcularPares() {
+        arrayPares = arrayPedido.filter(esPar);
+        console.log(arrayPares);
+    }
+    function esPar(numArray) {
+        if (numArray%2 == 0) {
+            return true;
+        }
+        return false;
+    }
+
+    
+    function mostrarArray() {
+        document.write(arrayPares.join(" - "));
+    }
+
+</script>
+
+
+<body>
+
+    <button onclick="introducirDatos()">Introducir datos</button>
+    <button onclick="calcularPares()">Calcular Pares</button>
+    <button onclick="mostrarArray()">Comprueba Pares</button>
+    
+</body>
+</html>

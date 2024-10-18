@@ -1,6 +1,6 @@
 
 # Arrays
-Un array es una variable que guarda diferentes variables en sus posiciones, accediendo a ellas a traves de su **índex**, este se suele juntar con bucles `for`, ya que su longitud no suele ser modificado a menudo
+Un array (en español *arreglo*) es una variable que guarda diferentes variables en sus posiciones, accediendo a ellas a traves de su **índex**, este se suele juntar con bucles `for`, ya que su longitud no suele ser modificado a menudo
 En JS la longitud del array **NO** es fija, por lo que se puede
 Se puede usar `console.log(nombre_array)` directamente pare ver el array y su contenido en la consola
 
@@ -174,11 +174,48 @@ intDevuelto = array1.push('z');
 
 
 ### slice
-### splice
-### sort
+**Devuelve** un array nuevo con los datos del anterior entre dos índices
+```js
+let array1 = ['a','b','c','d','e','f'];
+let arrayDevuelto;
 
+// array1 == ['a','b','c','d','e','f']
+arrayDevuelto = array1.slice(2,4);
+// array1 == ['a','b','c','d','e','f']
+// arrayDevuelto == ['c','d','e'];
+```
+
+### splice
+No lo entiendo muy bien, esperare a que tengamos un ejemplo pq el de los apuntes es bien confuso
+- [ ] E. Cliente: TODO slice
+
+### sort
+**Modifica** el array con el que se llama por una versión ordenada de si mismo en orden alfabético
+```js
+let array1 = ['f','a','c','e','d','b'];
+
+// array1 == ['f','a','c','e','d','b']
+array1.sort();
+// array1 == ['a','b','c','d','e','f']
+```
+Se puede usar un algoritmo propio pasándole una función **sin paréntesis**, solo el nombre. 
+El algoritmo es como el que dimos en java:
+- devolver **0** es que es igual
+- devolver un numero **positivo** es que va antes
+- devolver un numero **negativo** es que va después
+```js
+array1.sort(ordenarAleatorio); // el nombre de la funcion SIN PARENTESIS
+
+// -- funcion para ordenar --
+function ordenarAleatorio(valor1, valor2){
+	return Math.random() - 0.5; // aleatorio XD
+}
+```
 
 ## Funciones comparativas
+
+### includes
+Esta no la dio la profe
 
 ### foreach
 ### every

@@ -48,19 +48,31 @@ Ve a otros padres con mejor cuerpo, haciendo actividades físicas con sus hijos
 Su hogar y lugar de trabajo, colegio, parques
 
 ### Sus problemas
-
+Falta de experiencia, miedo a lesionarse, no quiere pagar un entrenador privado. Sentirse motivada pero no forzada
 
 ## ¿Qué dice y hace?
 
 ### Su actitud en publico
+Amable, preocupada.
+
 ### Su apariencia
+Viste bien y es moderna
+
 ### Factor diferencial
+Quiere vivir el mayor tiempo posible, su mayor preocupación es mantenerse sana para su hija
 
-## Limitaciones / Obstaculos
+
+## Limitaciones / Obstáculos
 ### Sus miedos
-### Frustraciones
+La soledad y el abandono
 
+### Frustraciones
+Ser padre requiere mucha fuerza y no se siente capaz de aportarlo
 
 ## Oportunidades / Necesidades
+
 ### Necesidades
-### Oportunudades
+Ayudar a su hija
+
+### Oportunidades
+Como teletrabaja, tiene bastante mas tiempo libre que un adulto común

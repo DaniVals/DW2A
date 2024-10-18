@@ -32,7 +32,7 @@ Ejemplo sacado del PDF
 Ejemplo de inspeccionar una pagina
 En este caso muestra los **tamaños** de los atributos
 
-![[Pasted image 20241008110402.png]]
+![[Ejemplo cajas Navegador.png]]
 
 --- end-multi-column
 

@@ -4,6 +4,8 @@
 nano {nombre_archivo}
 ```
 
+crear archivo touch
+
 ### servidor de paquetes
 Aunque hay mas, **apt** es el mas común y el que viene preinstalado
 ```bash

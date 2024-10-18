@@ -6,7 +6,9 @@
     "Colored Sidebar Items",
     "GrayInfoCallout",
     "videosboysHeaders",
-    "YellowWarningCallout"
+    "YellowWarningCallout",
+    "videosboysTables",
+    "horario"
   ],
   "theme": "system"
 }

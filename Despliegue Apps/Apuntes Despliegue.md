@@ -1,8 +1,11 @@
 # Tema 1
 - [[Comandos debian]]
 - [[Arquitectura Web]]
-# Tema 2
+
++ (dimos docker un poquito, hasta el 10-10-2024)
+
 - [[Apache]]
+# Tema 2
 # Docker
 + [[Definiciones Docker]]
 + [[Comandos Docker]]

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<script>
+
+function analizarFrase() {
+    let textoPedido = prompt("dime una frase");
+    const letras = "ABCDEFGHIJJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz";
+    let contador = [];
+
+    for (let i = 0; i < letras.length; i++) {
+        contador.push(0);
+    }
+
+    for (let i = 0; i < textoPedido.length; i++) {
+        contador[letras.indexOf(textoPedido[i])]+= 1;
+    }
+    
+    for (let i = 0; i < letras.length; i++) {
+        document.write(letras[i] +"\t:"+ contador[i]+"<br>");
+    }
+}
+
+</script>
+
+<body>
+    <button onclick="analizarFrase()">fkuseb</button>
+</body>
+</html>

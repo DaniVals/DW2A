@@ -3,6 +3,7 @@ Todos los recursos y proyectos usados y creados a o largo de mi segundo año de 
 
 # Obsidian Home Page
 
+![[Horario]]
 
 --- start-multi-column: README1
 ```column-settings
