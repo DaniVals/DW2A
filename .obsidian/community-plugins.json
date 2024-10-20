@@ -1,16 +1,17 @@
 [
   "templater-obsidian",
-  "obsidian-excalidraw-plugin",
   "obsidian-tasks-plugin",
-  "obsidian-mind-map",
   "homepage",
-  "obsidian-linter",
   "obsidian-minimal-settings",
   "obsidian-latex-suite",
   "table-editor-obsidian",
   "obsidian-copy-block-link",
   "obsidian-icon-folder",
-  "highlightr-plugin",
   "dataview",
-  "multi-column-markdown"
+  "multi-column-markdown",
+  "obsidian-emoji-toolbar",
+  "obsidian-extract-pdf-highlights",
+  "drawio-obsidian",
+  "obsidian-nomnoml-diagram",
+  "mehrmaid"
 ]

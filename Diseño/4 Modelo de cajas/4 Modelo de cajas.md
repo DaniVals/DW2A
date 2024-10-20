@@ -15,6 +15,7 @@ Las partes que componen una caja ordenadas de interior a exterior
 - **Margen (margin):** espacio libre mínimo entre el resto de etiquetas próximas
 
 
+%% Una tabla para que se ponga cada ejemplo uno al lado del otro %%
 --- start-multi-column: EjemplosModeloCaja
 ```column-settings
 Number of Columns: 2
@@ -229,62 +230,166 @@ Se puede establecer un borde de forma shorthand usando directamente el nombre qu
 | Descripción | Establece el estilo completo de todos bordes de los elementos |
 | Se aplica a | Todos los elementos |
 
-# Background
 
 
-### bg color
-la imagen por defecto se duplica y se vuelve un *estampado*
-la imagen se pone por delante del bg-color
 
->[!quote]+  Tabla PDF
-| Propiedad |  |
+# Fondo
+El fondo (`background`) es el ultimo elemento que forma una caja, se pone **detrás** del contenido y del relleno (`padding`) pero **no** del borde ni del margen.
+
+Aunque lo mas común es darle un color plano, también se le puede dar una imagen. Estas dos opciones son compatibles, ya que el color se pone por detrás de la imagen, por lo que solo se ve si la imagen tiene transparencia.
+
+### background-color
+Esto permite poner un [[3 Medidas y Colores#Colores | color]] al fondo de una caja, por defecto es transparente.
+
+```css
+/* poner el fondo de color rojo */
+*{background-color: red;}
+```
+
+>[!quote]-  Tabla PDF
+| Propiedad | background-color |
 | ----------- | -------- |
-| Valores |  |
-| Valor inicial |  | 
-| Descripción |  |
-| Se aplica a |  |
+| Valores | color / transparent / inheri |
+| Valor inicial | transparent | 
+| Descripción | Establece un color de fondo para los elementos |
+| Se aplica a | Todos los elementos |
 
-### bg image
-la imagen por defecto se duplica y se vuelve un *estampado*
-la imagen se pone por delante del bg-color
+### background-image
+La propiedad `background-image` permite poner una imagen de fondo por delante del color, asignando la imagen a través de una dirección absoluta, relativa o una URL, indicando el valor de este dentro de la (¿función de CSS?, no estoy seguro de si es una función pero se que existen funciones dentro de CSS) `url()` **con comillas**
+```css
+*{
+	background-image: url("fondo.png"); /* relativa */
+	background-image: url("/carpeta/fondo.png"); /* absoluta */
+}
+```
+Se recomiendo poner igualmente un `background-color`, así si la imagen es transparente, se vera por detrás, y si no carga, se vera este color. 
 
->[!quote]+  Tabla PDF
-| Propiedad |  |
+Cuando una imagen es mas grande que su caja, esta se **recortara** en vez de estirarse, pero cuando es mas pequeña, esta se **duplicara**, creando un estampado. Esto permite subir imágenes muy pequeñas y bien *loopeadas* para que así puedan cargar rápido y crear **estampados**.
+Ejemplo PDF: ![[1.UsoEstilos39-65.pdf#page=21]]
+
+
+>[!info]- Extra: fondo por URL
+>Esto no lo dijo la profe, pero yo lo apunto porque es muy útil, pero se pueden poner fotos directamente online dentro de la función `url()`.
+>
+>Por cierto, cuando un archivo lo sacas de una URL, sigue teniendo su extensión al final, fíjate en si estas cargando una extensión valida (o una extensión de foto para empezar) cuando hagas esto y no funcione.
+>```css
+>*{background-image: url("https://pagina.web/fondo.png");}
+>```
+>Para obtener la URL a través del navegador, simplemente encuentra la foto en el navegador, haga click derecho y tienes que darle a la opción de ***copiar dirección de la imagen***
+
+>[!quote]-  Tabla PDF
+| Propiedad | background-image |
 | ----------- | -------- |
-| Valores |  |
-| Valor inicial |  | 
-| Descripción |  |
-| Se aplica a |  |
+| Valores | url / none / inherit |
+| Valor inicial | none | 
+| Descripción | Establece una imagen como fondo para los elementos |
+| Se aplica a | Todos los elementos |
 
-### bg repeat
-la imagen por defecto se duplica y se vuelve un *estampado*
-la imagen se pone por delante del bg-color
 
->[!quote]+  Tabla PDF
-| Propiedad |  |
+### background-repeat
+La propiedad `background-repeat` permite elegir si una imagen se repite como un estampado o no, o solamente en un eje con `repeat-x` y `repeat-y`. Por lo que depende de si hay una imagen de fondo.
+```css
+*{
+	background-image: url("estampado_horizontal.png");
+	background-repeat: repeat-x;
+}
+```
+
+>[!quote]-  Tabla PDF
+| Propiedad | background-repeat |
 | ----------- | -------- |
-| Valores |  |
-| Valor inicial |  | 
-| Descripción |  |
-| Se aplica a |  |
+| Valores | repeat / repeat-x / repeat-y / no-repeat / inherit |
+| Valor inicial | repeat | 
+| Descripción | Controla la forma en la que se repiten las imágenes de fondo |
+| Se aplica a | Todos los elementos |
 
 
-### bg position
-la imagen por defecto se duplica y se vuelve un *estampado*
-la imagen se pone por delante del bg-color
+>[!info]- Extra: mas atributos
+>`space`: esto sigue generando el estampado pero se asegura de que NO se recorte, añadiendo espacio transparente de forma dinámica y equilibrada hasta que quepa otra imagen, para asegurarse que la imagen siempre se queda alineada al borde de la caja
+>`round`: similar a *space* esto sigue generando el estampado pero se asegura de que NO se recorte, estirando de forma equivalente el estampado hasta que quepa otra imagen 
 
->[!quote]+  Tabla PDF
-| Propiedad |  |
+
+
+### background-position
+La propiedad `background-position` permite elegir la posición de la imagen del fondo esto se puede hacer de varias formas:
+- usando dos valores numéricos (px, em, %, etc...) para la posición x, y
+- estableciendo directamente la posición (center / bottom / top right)
+- estableciendo el valor de cada dimensión (top=50%, right=50%, bottom=50%, left=50%)
+```css
+*{
+	background-image: url("estampado_horizontal.png");
+	
+	/* los dos lo ponen en el centro */
+	background-position: 50% 50%;
+	background-position: center;
+}
+```
+Estas son compatibles con la propiedad `background-repeat`, como centrar un estampado horizontal a la parte inferior del encabezado
+
+
+>[!quote]-  Tabla PDF
+| Propiedad | background-position |
 | ----------- | -------- |
-| Valores |  |
-| Valor inicial |  | 
-| Descripción |  |
-| Se aplica a |  |
+| Valores | ( ( porcentaje / unidad de medida / left / center / right ) ( porcentaje / unidad de medida / top / center / bottom )? ) | ( ( left / center / right ) // ( top / center / bottom ) ) / inherit |
+| Valor inicial | 0% 0% | 
+| Descripción | Controla la posición en la que se muestra la imagen en el fondo del elemento |
+| Se aplica a | Todos los elementos |
+
+### background-attachment
+La propiedad `background-attachment` decide si la foto se mueve junto al scroll de la pantalla o no, especialmente útil si hay un menú lateral, que la imagen de fondo se desplace o no junto a la pagina.
+```css
+/* la profe no dio ejemplo de esto, asi q nose realmente como ponerlo.*/
+```
+
+>[!quote]-  Tabla PDF
+| Propiedad | background-attachment |
+| ----------- | -------- |
+| Valores | scroll / fixed / inherit |
+| Valor inicial | scroll | 
+| Descripción | Controla la forma en la que se visualiza la imagen de fondo: permanece fija cuando se hace scroll en la ventana del navegador o se desplaza junto con la ventana |
+| Se aplica a | Todos los elementos |
+
+### background *Shorthand*
+Como muchas propiedades de CSS, estas permiten indicar todas las propiedades, generalmente el orden es: color, url de imagen, repetición y posición.
+
+```css
+/* poner el fondo transparente, con la foto icon.png, sin repetir y centrada */
+*{background: transparent url("icon.png") no-repeat center;}
+```
+
+>[!quote]-  Tabla PDF
+| Propiedad | background |
+| ----------- | -------- |
+| Valores | ( background-color // background-image // background-repeat // background-attachment // background-position ) / inherit |
+| Valor inicial | - | 
+| Descripción | Establece todas las propiedades del fondo de un elemento |
+| Se aplica a | Todos los elementos |
 
 
 
-- [ ] DIseño: TODO background
----
+
+### Extra: background-size
+*Esta propiedad no la ha explicado la profe, pero la he añadido yo ya que es bastante útil*
+La propiedad `background-size` decide el tamaño de la foto del fondo. Este admite un tamaño fijo en unidades (como px) tanto una anchura y que calcule la altura, o usando dos unidades para forzar una anchura y una altura. También se puede usar el valor `contain` para que la imagen ocupe todo el espacio posible sin taparse, dejando hueco o siguiendo el estampado en el espacio restante, o usar `cover` para que la imagen se estire, escondiendo el sobrante
+
+
+```css
+*{
+	background-image: url("estampado_horizontal.png");
+	background-repeat: no-repeat;
+	
+	background-size: 10px 20px; /* forzar el tamaño de la imagen a 10px de ancho y 20px de alto */
+	
+	background-size: contain; /* que el tamaño se adapte al contenedor dejando espacio en el hueco sobrante */
+	
+	background-size: cover; /* que el tamaño se adapte al contenedor estirando la imagen para no dejar hueco */
+	
+}
+```
+
+
+
+
 
 # Tamaño total de la caja
 La propiedad `box-sizing` define que se tendrá en cuenta para el tamaño de una caja
