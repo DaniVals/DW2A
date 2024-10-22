@@ -1,0 +1,7 @@
+/* callout title text and svg */
+.callout[data-callout="caution"] .callout-title,
+.callout[data-callout="caution"] .callout-title svg
+{color: #f90;}
+/* callout main content */
+.callout[data-callout="caution"]
+{background-color: #f902;}

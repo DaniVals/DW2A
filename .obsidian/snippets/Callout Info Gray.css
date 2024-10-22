@@ -1,0 +1,7 @@
+/* callout title text and svg */
+.callout[data-callout="info"] .callout-title,
+.callout[data-callout="info"] .callout-title svg
+{color: #999;}
+/* callout main content */
+.callout[data-callout="info"]
+{background-color: #9992;}
