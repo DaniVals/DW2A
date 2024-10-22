@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiMail",
       "LiCalendar",
       "LiBook",
       "LiFileText",
-      "LiList",
-      "LiBookCheck"
+      "LiList"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -62,5 +62,6 @@
   "Tutoria y personal/Como hacer un CV.md": "LiCopy",
   "Tutoria y personal/horario.pdf": "LiCalendar",
   "Ingles/Escaneado Business English IT.pdf": "LiBook",
-  "Tutoria y personal/Horario.md": "LiCalendar"
+  "Tutoria y personal/Horario.md": "LiCalendar",
+  "Tutoria y personal/Correos.md": "LiMail"
 }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+
+<script>
+function calcular() {
+
+    if (isNaN(document.getElementById('Dia').value)) {
+        alert('Dia no es un numero');
+        return;
+    }
+    if (document.getElementById('Dia').value < 1) {
+        alert('Dia es menor que 1');
+        return;
+    }
+
+    if (isNaN(document.getElementById('Mes').value)) {
+        alert('Mes no es un numero');
+        return;
+    }
+    if (document.getElementById('Mes').value < 1 || 12 < document.getElementById('Mes').value) {
+        alert('Mes no esta entre 1 y 12');
+        return;
+    }
+
+    if (isNaN(document.getElementById('Ano').value)) {
+        alert('Año no es un numero');
+        return;
+    }
+
+    let fechaActual = new Date();
+
+    let fechaPedida = new Date(
+        document.getElementById('Ano').value,
+        document.getElementById('Mes').value -1,
+        document.getElementById('Dia').value
+    );
+
+    let dias = Math.floor((fechaPedida - fechaActual)/(1000*60*60*24));
+    if (0 < dias) {
+        alert('Faltan '+dias+' dias');
+    } else {
+        alert('Han pasado '+(dias * -1)+' dias');
+    }    
+}
+
+</script>
+<body>
+    
+    <input type="text" name="Dia" id="Dia">
+    <input type="text" name="Mes" id="Mes">
+    <input type="text" name="Ano" id="Ano">
+    <button onclick="calcular()">calcular</button>
+
+</body>
+</html>

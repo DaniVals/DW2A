@@ -4,14 +4,17 @@
 
 + (dimos docker un poquito, hasta el 10-10-2024)
 
-- [[Apache]]
+- [[Apache]] (sin acabar)
+- [[Practica Despliegue Servidor Web]] (tenemos dos semanas)
+
+
+
+
 # Tema 2
+
 # Docker
 + [[Definiciones Docker]]
 + [[Comandos Docker]]
-- [[03-10-2024]]
-- [[07-10-2024]]
-- [[10-10-2024]]
 
 
 

@@ -8,27 +8,3 @@
 | internship       | practicas de empresa                |
 | Resume / CV      | CV / Currículum                     |
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-|                                     |

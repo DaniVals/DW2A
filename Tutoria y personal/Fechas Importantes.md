@@ -2,7 +2,7 @@
 
 ## Exámenes 1º T
 
-- [/] **Despliegue** Teorico - ~~21~~ / 28 oct (lo atrasamos si vamos mal)
+- [/] **Despliegue** Teórico - 4 oct (va a ser un cuestionario)
 
 ![[Examen 1 Despliegue]]
 
@@ -23,6 +23,10 @@
 lo que vayamos trabajando en clase (lo que llevamos por ahora):
 - Mapa de empatía
 
+### Cosa de camino
+5 noviembre
+
+---
 
 ## Exámenes 2º T
 enero creo
