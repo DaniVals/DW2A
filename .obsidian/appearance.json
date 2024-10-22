@@ -4,9 +4,11 @@
   "enabledCssSnippets": [
     "style",
     "Colored Sidebar Items",
-    "GrayInfoCallout",
     "videosboysHeaders",
-    "YellowWarningCallout"
+    "YellowWarningCallout",
+    "GrayInfoCallout",
+    "Callout Caution Yellow",
+    "Callout Info Gray"
   ],
   "theme": "system"
 }

@@ -6,4 +6,5 @@
 | flex-time        | horario flexible                    |
 | applicants       | los que **aplican** para un trabajo |
 | internship       | practicas de empresa                |
-| Resume           | CV / Currículum                     |
+| Resume / CV      | Currículum / CV                     |
+| Strike           | Huelga                              |
