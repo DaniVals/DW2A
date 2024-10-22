@@ -1,0 +1,1 @@
+Seria una aplicacion movil gratuita con beneficion a traves de anuncios en la aplicacion

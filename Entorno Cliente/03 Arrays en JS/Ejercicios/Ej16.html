@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<script>
+    // 6. El enunciado es una imagen asi q miralo en el PDF (1-Ejercicios...)
+
+    var meses = ["enero" , "febrero" , "marzo" , "abril" , "mayo" , "junio" , 
+    "julio" , "agosto" , "septiembre" , "octubre" , "noviembre" , "diciembre"];
+
+
+    // ----------------------------------------
+    function mostrarArray() {
+        document.getElementById("div").innerHTML = meses.join(" - ");
+    }
+
+    // ----------------------------------------
+    function darVueltaArray() {
+        meses.reverse();
+    }
+
+    // ----------------------------------------
+    function truncarArray() {
+        document.getElementById("div").innerHTML = meses.slice(
+            document.getElementById("nInit").value, document.getElementById("nEnd").value
+        ).join(" - ");
+    }
+
+    // ----------------------------------------
+    function quitarPrimero() {
+        document.getElementById("div").innerHTML = "Elemento quitado: " + meses.shift();
+    }
+    
+    // ----------------------------------------
+    function ordenarAscendente() {
+        meses.sort();
+    }
+
+    // ----------------------------------------
+    function ordenarDescendente() {
+        meses.sort();
+        meses.reverse();
+    }
+
+    // ----------------------------------------
+    function ordenarPorUltimoCaracter() {
+        meses.sort(compararPorUltimoCaracter);
+    }
+    function compararPorUltimoCaracter(mes1, mes2) {
+        return mes1.charAt(mes1.length - 1).localeCompare(mes2.charAt(mes2.length - 1));
+    }
+
+</script>
+
+<style>
+    div{
+        height: 50px;
+        background-color: silver;
+    }
+</style>
+
+<body>
+
+
+    <div id="div">
+
+    </div>
+
+    <p>convertir array a cadena de texto <button onclick="mostrarArray()">convertir a texto</button></p>
+    <p>invertir orden del array <button onclick="darVueltaArray()">invertir orden</button></p>
+    
+    <p>de la posicion <input type="text" id="nInit"> a la posicion <input type="text" id="nEnd"> <button onclick="truncarArray()">ver meses seleccionados</button></p>
+    
+    <p>Elimina el primer elemento y lo guarda en una variable <button onclick="quitarPrimero()">eliminar</button></p>
+    
+    <p>ordena <button onclick="ordenarAscendente()">ascendente</button></p>
+    <p>ordena <button onclick="ordenarDescendente()">descendente</button></p>
+    
+    <p>ordena <button onclick="ordenarPorUltimoCaracter()">por el ultimo caracter en ascendiente</button></p>
+
+</body>
+</html>

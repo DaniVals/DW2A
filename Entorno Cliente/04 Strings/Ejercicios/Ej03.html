@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+
+<script>
+function pedirCadena() {
+    let textoPedido = "viento con en cien popa cañones a por toda banda vela";
+    const arrayTextoPedido = textoPedido.split(" ");
+    
+    
+    // ------------------------------
+    document.write("<p>Primera:</p>");
+    let parrafo11 = [];
+    let parrafo12 = [];
+    for (let i = 0; i < arrayTextoPedido.length; i++) {
+        if (i%2==1) {
+            parrafo11.push(arrayTextoPedido[i]);
+        }else{
+            parrafo12.push(arrayTextoPedido[i]);
+        }
+    }
+    document.write("<p>"+parrafo11.join(" ")+"</p>");
+    document.write("<p>"+parrafo12.join(" ")+"</p>");
+    document.write("<br>");
+
+    // ------------------------------
+    document.write("<p>Segunda:</p>");
+    let parrafo21 = [];
+    let parrafo22 = [];
+    for (let i = 0; i < parrafo11.length; i++) {
+        parrafo21.push(parrafo11[i].charAt(0).toUpperCase() + parrafo11[i].slice(1));
+        if (i == 0) {
+            parrafo22.push(parrafo11[i].charAt(0).toUpperCase() + parrafo11[i].slice(1));
+        }else{
+            parrafo22.push(parrafo11[i]);
+        }
+    }
+    document.write("<p>"+parrafo21.join(" ")+"</p>");
+    document.write("<p>"+parrafo22.join(" ")+"</p>");
+    document.write("<p>Longitud cadena: "+parrafo22.join(" ").length+"</p>");
+    document.write("<p>Numero palabras: "+parrafo22.length+"</p>");
+    document.write("<br>");
+
+    // ------------------------------
+    document.write("<p>Tercera:</p>");
+    for (let i = 0; i < parrafo11.length; i++) {
+        document.write("<p>"+(i+1)+"."+parrafo11[i]+"</p>");
+    }
+    document.write("<br>");
+
+    // ------------------------------
+    document.write("<p>Cuarta:</p>");
+    for (let i = 0; i < parrafo12.length; i++) {
+        document.write("<p>"+(i+1)+"."+parrafo12[i]+"</p>");
+    }
+    document.write("<br>");
+
+    // ------------------------------
+    document.write("<p>Quinta:</p>");
+    document.write("<p>"+parrafo12.join(" ").toUpperCase()+"</p>");
+    document.write("<br>");
+
+    // ------------------------------
+    document.write("<p>Sexta:</p>");
+    document.write("<p>Posicion palabra 'cañones': "+textoPedido.indexOf("cañones")+"</p>");
+    document.write("<br>");
+}
+    
+</script>
+<body>
+    
+    <button onclick="pedirCadena()">pedir cadena</button>
+
+</body>
+</html>

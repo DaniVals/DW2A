@@ -40,6 +40,11 @@ pide un dato por teclado al usuario
 var texto_por_teclado = prompt('Mensaje de la pregunta')
 ```
 
+### confirm
+pide una confirmacion por un prompt al usuario
+```js
+var bool_por_teclado = confirm('Mensaje de la pregunta')
+```
 
 
 

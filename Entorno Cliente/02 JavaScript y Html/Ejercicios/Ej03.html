@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<script>
+    function mostrarBono(edad) {
+        if (!isNaN(edad)) {
+            if (edad <= 18) {
+                alert("abono joven");
+                
+            }else if (65 <= edad) {
+                alert("abono 3ª edad");
+                
+            }else{
+                alert("abono comun");
+
+            }
+        }
+    }
+</script>
+
+<body>
+    
+    <input onblur="mostrarBono(document.getElementById('input_edad').value)" id="input_edad" type="text">
+    
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+.videosboyTable{
+    border: 2px solid !important;
+}
+.videosboyTable th{
+    border: 1px solid;
+    padding: 5px !important;
+}
+.videosboyTable td{
+    border: 1px solid;
+    padding: 5px !important;
+}

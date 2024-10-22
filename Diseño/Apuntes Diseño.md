@@ -32,8 +32,8 @@
 - [[4 Modelo de cajas]]
 - [[4 Modelo de cajas#Anchura y altura | Anchura y altura]]
 - [[4 Modelo de cajas#Margen y relleno | Margen y relleno]]
-- [[4 Modelo de cajas#Bordes | Bordes]]  (sin acabar)
-- [[4 Modelo de cajas#Background | Background]]  (sin acabar)
+- [[4 Modelo de cajas#Bordes | Bordes]]
+- [[4 Modelo de cajas#Fondo| Fondo]]
 
 [[1.UsoEstilos39-65.pdf|PDF]]
 

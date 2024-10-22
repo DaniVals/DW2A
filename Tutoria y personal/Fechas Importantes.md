@@ -2,7 +2,7 @@
 
 ## Exámenes 1º T
 
-- [/] **Despliegue** Teorico - 21 / 28 oct (lo atrasamos si vamos mal)
+- [/] **Despliegue** Teorico - ~~21~~ / 28 oct (lo atrasamos si vamos mal)
 
 ![[Examen 1 Despliegue]]
 

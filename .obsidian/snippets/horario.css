@@ -1,0 +1,11 @@
+/* un poquito de CSS basico para que se vea bonito */
+#horario th, #horario td {text-align: center !important;}
+#horario tr {height: 20px;}
+
+/* colores asignaturas */
+#horario .Diseño{		background-color: #f006;}
+#horario .Despliegue{	background-color: #f036;}
+#horario .Empresa{		background-color: #0f06;}
+#horario .Cliente{		background-color: #ff06;}
+#horario .Servidor{		background-color: #09f6;}
+#horario .Ingles{		background-color: #f0f6;}

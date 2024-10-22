@@ -1,6 +1,6 @@
 # T1
 + [[primer día|Dia 1]]
-- [[T1]]
+- [[Empresa/T1/T1]]
 - [[EjT1]]
 + [[Como hacer un CV]]
 
@@ -9,9 +9,9 @@
 - [[EjT2]]
 
 # TFGE
-- [[Brainstorm]]
-- [[Mapa de empatía]]
-- 
+1. [[Brainstorm]]
+2. [[Mapa de empatía]]
+3. [[Entorno Micro y Macro]] 
 + [[Guia PDF notaciones]]
 
 
