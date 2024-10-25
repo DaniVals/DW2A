@@ -2,17 +2,18 @@
 
 ## Exámenes 1º T
 
-- [/] **Despliegue** Teórico - 4 oct (va a ser un cuestionario)
+- [-] **Despliegue** Teórico - 4 oct (va a ser un cuestionario)
 
 ![[Examen 1 Despliegue]]
 
 - [/] **Empresa** - 6 nov
+- [/] **Ingles** - 8 nov
 - [/] **Diseño practico** - 12 nov
 - [/] **E. Cliente** - 13 nov
-- [ ] **Diseño teórico** - 14 nov
+- [/] **Diseño teórico** - 14 nov
 - [/] **E. Servidor** - 15 nov
 
-- [ ] **Despliegue** Practico - 18 nov (esto creo q me lie pero lo dejo por si acaso)
+- [/] **Despliegue** Practico - 18 nov (esto creo q me lie pero lo dejo por si acaso)
 
 ![[Examen Diseño]]
 

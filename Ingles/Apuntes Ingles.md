@@ -5,3 +5,11 @@
 
 # T1
 - [[Ingles/T1/T1]]
+
+
+> [!warning] Tareas
+> ```dataview
+> TASK 
+> FROM "Ingles"
+> SORT completed
+> ```

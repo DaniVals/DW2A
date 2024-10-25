@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<style>
+    #div1{
+        position: absolute;
+        width: 50px;
+        height: 20px;
+        background-color: aqua;
+    }
+</style>
+
+<script>
+
+function init() {
+
+    document.getElementById('div1').style.left = 0+'px'; 
+    document.getElementById('div1').style.top = 0+'px'; 
+    setInterval("moverDiv()", 10);
+}
+
+var dirx=1, diry=1;
+
+function moverDiv() {
+    if ((window.innerWidth - 50) <= parseInt(document.getElementById('div1').style.left) || parseInt(document.getElementById('div1').style.left) < 0) {
+        dirx = dirx * -1;
+    }
+    document.getElementById('div1').style.left = (parseInt(document.getElementById('div1').style.left) + (10 * dirx))+'px'; 
+    
+    if ((window.innerHeight - 20) <= parseInt(document.getElementById('div1').style.top) || parseInt(document.getElementById('div1').style.top) < 0) {
+        diry = diry * -1;
+    }
+
+    document.getElementById('div1').style.top = (parseInt(document.getElementById('div1').style.top) + (10 * diry))+'px'; 
+    
+}
+
+</script>
+
+<body onload='init()'>
+    <div id="div1">
+        div1
+    </div>
+</body>
+</html>
