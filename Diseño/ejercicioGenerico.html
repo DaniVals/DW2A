@@ -5,28 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-    
+
 <style>
-    div {
-      width: 160px;
-      height: 80px;
-      padding: 20px;
-      border: 8px solid red;
-      background: yellow;
-    }
-    
-    .content-box { 
-      box-sizing: content-box; 
-    }
-    
-    .border-box { 
-      box-sizing: border-box;
-    }
+	body {
+		background-color: green;
+	}
+
+	footer, header{
+		text-align: center;
+		border: 1px blue solid;
+		clear: left;
+	}
+	.der, .izq {
+		width: 40%;
+		margin: 5px;
+		border: 1px black solid;
+	}
+	.izq {float: left;}
+	.der {float: right;}
 </style>
 <body>
-    <div class="content-box">Contenido de la caja</div>
-    <br>
-    <div class="border-box">Borde de la caja</div>
+	<header>Aquí vamos a poner un título centrado</header>
+	<div class="izq"> Esta será una caja que ocupará la mitad de la pantalla izquierda</div>
+	<div class="der"> Esta será una caja que ocupará la mitad de la pantalla derecha</div>
+	<footer> Esta será una caja que ocupará toda la parte de abajo de la pantalla</footer>	
 </body>
 </html>
     

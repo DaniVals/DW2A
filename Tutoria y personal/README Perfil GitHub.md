@@ -33,6 +33,7 @@
 ## Proyectos | Projects
 <p align="flex">
   <a align="center" href="https://danivals.github.io" target="_blank"> <img src="https://img.shields.io/badge/My%20website-danivals.github.io-blue"></a>
+  <a align="center" href="https://github.com/DaniVals/Colorful-Callouts-for-Obsidian" target="_blank"> <img src="https://img.shields.io/badge/Colorful%20Callouts-for%20Obsidian-purple"></a>
 </p>
 
 ## Contacto | contact

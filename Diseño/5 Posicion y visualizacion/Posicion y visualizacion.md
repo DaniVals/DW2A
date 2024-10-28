@@ -11,11 +11,13 @@
 ## Posicionamiento normal
 ## Posicionamiento relativo
 ## Posicionamiento absoluto
-### fijo
-### flotante (``float``)
+## Posicionamiento fijo
+## Posicionamiento flotante (``float``)
 
 
 # Visualización
 
 
 ### ``display`` y ``visibilty``
+
+
