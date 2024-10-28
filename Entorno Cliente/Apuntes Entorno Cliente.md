@@ -20,6 +20,18 @@
 - [[Arrays JS#Funciones comparativas| Funciones Comparativas]] (sin acabar)
 [[Arrays en JS.pdf | PDF]] [[Métodos de Array.pdf | PDF 2]]
 
++ [[Objetos predefinidos de JavaScript.pdf | Objetos predefinidos JS - PDF]] (no esta acabado ninguno)
++ [[Strings]]
++ [[Date]]
++ [[Math]]
++ [[Number]]
++ [[Navigator]]
++ [[Screen]]
++ [[History]]
++ [[Location]]
++ [[Window]]
+
++ [[Otros]]
 
 > [!warning] Tareas
 > ```dataview

@@ -2,17 +2,18 @@
 
 ## Exámenes 1º T
 
-- [/] **Despliegue** Teorico - ~~21~~ / 28 oct (lo atrasamos si vamos mal)
+- [-] **Despliegue** Teórico - 4 oct (va a ser un cuestionario)
 
 ![[Examen 1 Despliegue]]
 
 - [/] **Empresa** - 6 nov
+- [/] **Ingles** - 8 nov
 - [/] **Diseño practico** - 12 nov
 - [/] **E. Cliente** - 13 nov
-- [ ] **Diseño teórico** - 14 nov
+- [/] **Diseño teórico** - 14 nov
 - [/] **E. Servidor** - 15 nov
 
-- [ ] **Despliegue** Practico - 18 nov (esto creo q me lie pero lo dejo por si acaso)
+- [/] **Despliegue** Practico - 18 nov (esto creo q me lie pero lo dejo por si acaso)
 
 ![[Examen Diseño]]
 
@@ -23,6 +24,10 @@
 lo que vayamos trabajando en clase (lo que llevamos por ahora):
 - Mapa de empatía
 
+### Cosa de camino
+5 noviembre
+
+---
 
 ## Exámenes 2º T
 enero creo

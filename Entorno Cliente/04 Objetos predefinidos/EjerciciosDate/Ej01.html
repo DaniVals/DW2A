@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<script>
+
+function mostrarFecha() {
+    let fecha = new Date(); // si lo creas asi hace por defecto la fecha actual
+    console.log(fecha);
+    const meses = ["January","February","March","April","May","June","July","agosto","September","octubre","noviembre","December"];
+    const semana = ["domingo","lunes","martes","Wednesday","Thursday","Friday","Saturday"];
+    // document.write("La fecha de hoy es "+fecha.getDate()+"/"+(fecha.getMonth()+1)+"/"+fecha.getFullYear());
+    // document.write("La hora exacta es "+fecha.get);
+
+    document.write("<br>La fecha de hoy es "+fecha.toLocaleDateString());
+    document.write("<br>La fecha de hoy es "+fecha.toLocaleTimeString());
+    document.write("<br>Hoy es "+fecha.getDay()+" del mes "+meses[fecha.getMonth()]);
+
+    let fechamenosdos = new Date(fecha.getFullYear(), fecha.getMonth()-2, fecha.getDate());
+    document.write("<br>Hace 2 meses era "+semana[fechamenosdos.getDay()]+" "+fechamenosdos.getDate()+" de "+meses[fechamenosdos.getMonth()]);
+    
+    let fechaen15 = new Date(fecha.getFullYear(), fecha.getMonth(), fecha.getDate()+15);
+    document.write("<br>Dentro de 15 dias "+semana[fechaen15.getDay()]+" "+fechaen15.getDate()+" de "+meses[fechaen15.getMonth()]);
+}
+
+</script>
+
+<body>
+    <button onclick="mostrarFecha()">mostrar fecha</button>
+</body>
+</html>

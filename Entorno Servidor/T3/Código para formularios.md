@@ -43,3 +43,4 @@ https://www.php.net/manual/es/filter.filters.php
 ```php
 header("Location: https://www.ejemplo.com");
 ```
+lo que hay abajo si lo ejecuta php, pero no el navegador;

@@ -23,8 +23,6 @@ Shadow: off
 > [[Apuntes Entorno Servidor|Entorno Servidor]]
 > [[Apuntes Ingles|Ingles]]
 
-![[4PDF - Diapositivas UD3 - sesiones.pdf]]
-
 ![[Fechas Importantes#Exámenes 1º T]]
 
 --- column-break ---

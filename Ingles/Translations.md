@@ -5,8 +5,12 @@
 >[!example]+ Other translation tables
 >![[Generic]]
 
+# Clarifications
 
-# tipos de traducción
+~~by~~ my own / ==on== my own
+
+
+# translations types
 
 ### top down 
 sacar la transduction literal de una palabra o frase

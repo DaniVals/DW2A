@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+
+<script>
+function pedirCadena() {
+    let textoPedido = "txt";
+    console.log(textoPedido[0]);
+    console.log(textoPedido.charAt(0));
+
+    textoPedido[0] = '1';
+    
+    console.log(textoPedido[0]);
+    console.log(textoPedido.charAt(0));
+    console.log(textoPedido);
+    
+    textoPedido.charAt(0) = '2';
+
+    console.log(textoPedido[0]);
+    console.log(textoPedido.charAt(0));
+    
+}
+    
+</script>
+<body>
+    
+    <button onclick="pedirCadena()">pedir cadena</button>
+
+</body>
+</html>

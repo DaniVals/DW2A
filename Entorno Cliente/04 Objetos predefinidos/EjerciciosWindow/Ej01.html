@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<style>
+    #div1{
+        position: absolute;
+        width: 50px;
+        background-color: aqua;
+
+        top: 50px;
+    }
+</style>
+
+<script>
+
+function init() {
+    document.getElementById('div1').style.left = 0+'px'; 
+    setInterval("moverDiv()", 10);
+}
+
+function moverDiv() {
+    if ((window.innerWidth - 50) <= parseInt(document.getElementById('div1').style.left)) {
+        document.getElementById('div1').style.left = 0+'px';
+    }
+
+    document.getElementById('div1').style.left = (parseInt(document.getElementById('div1').style.left) + 10)+'px'; 
+    
+}
+
+</script>
+
+<body onload='init()'>
+    <div id="div1">
+        div1
+    </div>
+</body>
+</html>

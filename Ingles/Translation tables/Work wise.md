@@ -8,3 +8,6 @@
 | internship       | practicas de empresa                |
 | Resume / CV      | Currículum / CV                     |
 | Strike           | Huelga                              |
+| position         | puesto de trabajo                   |
+
+
