@@ -8,22 +8,28 @@
 <script>
 
 
-
+let moviendo = true;
+let ventana;
 
 function initBody() {
-    
+    ventana = window.open('nombre',height=200, width=200 );
+    setInterval("movement()", 1000);
+    ventana.moveTo(screen.width/2 - 100, screen.height/2 - 100);
 }
 
 function movement() {
-    console.log(mover);
+    if (moviendo == true) {
+        ventana.moveTo(Math.random() * screen.width - 200, Math.random() * screen.height - 200);
+    }
 }
 
 function changeMovement() {
-    
+    moviendo = !moviendo;
 }
     
 </script>
-<body onload="initBody()">
-	<button onclick="changeMovement"></button>
+<body>
+	<button onclick="initBody()">init</button>
+	<button onclick="changeMovement">mover</button>
 </body>
 </html>

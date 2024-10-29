@@ -24,11 +24,17 @@
 + [[Cookies#MODIFICAR| Modificar una cookie]]
 + [[Cookies#BORRAR| Borrar una cookie]]
 
-- [[Sesiones]] (sin acabar)
+- [[Sesiones]] (repasar)
 
++ [[BBDD]] (sin acabar)
+
+- [[Correo]] (sin acabar)
+
++ [[Hash]] (dijo q no es muy importante)
 + [[Hash]] (esto no cae, simplemente lo mencionó y lo apunte pq me pareció interesante)
 
-[[1PDF - Diapositivas UD3 - paso de parámetros, formularios y redirecciones.pdf | PDF 1]] [[2PDF - Anexo - paso de parámetros y formularios.pdf | PDF 2]] [[3PDF - Diapositivas UD3 - cookies.pdf | PDF 3]] [[4PDF - Diapositivas UD3 - sesiones.pdf | PDF 4]]
+
+[[1PDF - Diapositivas UD3 - paso de parámetros, formularios y redirecciones.pdf | PDF 1]] [[2PDF - Anexo - paso de parámetros y formularios.pdf | PDF 2]] [[3PDF - Diapositivas UD3 - cookies.pdf | PDF 3]] [[4PDF - Diapositivas UD3 - sesiones.pdf | PDF 4]] [[5Diapositivas UD3 - bases de datos relacionales.pdf| PDF 5]] [[6Diapositivas UD3 - correo.pdf| PDF 6]] [[7Diapositivas UD3 - ficheros.pdf| PDF 7]]
 
 
 

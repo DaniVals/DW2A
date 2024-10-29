@@ -78,7 +78,7 @@ echo "Clave: " . $_POST["contra"];
 >[!caution] Cuidado
 >No todos los inputs devuelven algo en todos los casos, por lo que se puede comprobar que devuelvan cosas
 >[[Código para formularios#Validar parámetros|Funciones para validar datos]] 
->- Un "checkbox" devuelve true si se marca pero **NO** devuelve nada si se deja en blanco
+>- Un "checkbox" devuelve true si se marca pero **NO** devuelve nada si se deja en blanco, también se puede devolver un array con las opciones marcadas si se pone a [[HTML#input| varios checkboxs con un mismo nombre]],
 >- Un string vacio devuelve un string con el contenido ""
 >- Para enviar un fichero con y usarlo en `$_FILES` hay que añadir a la etiqueta `<form enctype>` como se ve [[#Como enviar ficheros|abajo]]
 

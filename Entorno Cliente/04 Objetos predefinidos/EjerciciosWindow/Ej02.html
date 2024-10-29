@@ -7,11 +7,12 @@
 
 <script>
 function ventana() {
-    myWindow = window.open('nombre',height=200, width=200 );
+    myWindow = window.open('','','nombre','height=200, width=200' );
 
-    myWindow.document.write("hola")
+    myWindow.document.write("<button onclick='max()'>max</button>");
+    myWindow.document.write("<button onclick='min()'>min</button>");
+    myWindow.document.write('<script src="Ej02.js"><\/script>');
 }
-
 </script>
 <body>
     <button onclick="ventana()">crear ventana</button>
