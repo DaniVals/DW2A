@@ -15,9 +15,4 @@
 ## Posicionamiento flotante (``float``)
 
 
-# Visualización
-
-
-### ``display`` y ``visibilty``
-
 
