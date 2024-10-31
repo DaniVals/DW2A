@@ -51,6 +51,8 @@
 
 [[1.UsoEstilos83-94.pdf|PDF]]
 
+https://cssgradient.io/
+
 > [!warning] Tareas
 > ```dataview
 > TASK 
