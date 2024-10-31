@@ -1,0 +1,68 @@
+a{color: #060; border-bottom: dashed 1px; text-decoration: none;}
+
+.aviso-copyright{  font-style: italic;}
+
+.aviso-copyright p{text-align: center;}
+.aviso-copyright hr{
+    background-color: #060;
+    border: none;
+    padding-top: 1px;
+}
+
+
+#encabezado{
+    background: linear-gradient(0deg, #fff 0%, #060 100%);
+    border: 1px #060 solid;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px #0006;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+#encabezado > div{
+    background: linear-gradient(0deg, #9f9 0%, #090 100%);
+    border: 1px #060 solid;
+    box-shadow: 0px 5px 3px #0006;
+
+    color: #060;
+
+    padding: 5px;
+    float: right;
+}
+#encabezado > div:hover{
+    background: linear-gradient(180deg, #9f9 0%, #090 100%);
+    color: #fff;
+}
+#encabezado h3{
+    margin-bottom: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 0px #0006;
+}
+
+
+
+.seccion{
+    margin: 0px 20px 50px;
+
+    list-style: square;
+}
+.seccion .titulo-seccion{
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: bolder;
+
+    background-color: #9c9;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 10px 5px 5px #0006;
+    padding: 5px;
+}
+.seccion .titulo-seccion h3{
+    margin: 0px;
+}
+
+.contenedor{
+    display: flex;
+}
+
+
