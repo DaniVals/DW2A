@@ -1,0 +1,13 @@
+1. Incluye un paso extra de forma que se pida confirmación durante el proceso de pedido.
+
+2. Después de añadir un producto al carrito la aplicación redirige a "carrito.php". 
+Modifícalo de forma que redirija a "productos.php", con la misma categoría.
+
+3. Haz los cambios necesarios para que se no se utilicen ni guarden las contraseñas en claro. Utiliza la función password_hash.
+
+4. Modifica "productos.php" de modo que los productos que están sin stock no se muestren 
+(pero ojo, no se te pide que decrementes el stock cada vez que se hace una compra).
+
+5. Modifica la aplicación para que al acceder a la carpeta del servidor (por ejemplo: http://localhost/pedidos) 
+aparezca directamente la página de login sin necesidad de especificar el fichero 
+(es decir, no tener que escribir http://localhost/pedidos/login.php).
