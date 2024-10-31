@@ -32,3 +32,6 @@ Se puede mezclar con HTML
 
 ---
 vardump()
+
+
+- [ ] Servidor TODO T2

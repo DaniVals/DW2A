@@ -3,12 +3,13 @@
   "baseFontSize": 16,
   "enabledCssSnippets": [
     "style",
-    "Colored Sidebar Items",
     "videosboysHeaders",
     "videosboysTables",
     "horario",
     "Callout Caution Yellow",
-    "Callout Info Gray"
+    "Callout Info Gray",
+    "Colored Sidebar Items",
+    "Simple Color Callouts"
   ],
   "theme": "system"
 }

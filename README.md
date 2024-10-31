@@ -25,7 +25,9 @@ Shadow: off
 
 ![[Fechas Importantes#Exámenes 1º T]]
 
+
 --- column-break ---
+
 
 >[!warning] Importante 
 > - hacer proyecto antes de las practicas, que luego no tendremos casi tiempo

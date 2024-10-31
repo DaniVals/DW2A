@@ -1,0 +1,5 @@
+
+# Visualización
+
+
+### ``display`` y ``visibilty``

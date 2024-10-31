@@ -37,6 +37,22 @@
 
 [[1.UsoEstilos39-65.pdf|PDF]]
 
+# Examen 4
+- [[5 Posición]]
+- [[5 Posición#Posicionamiento | posicionamento]]
+- [[5 Posición#Posicionamiento relativo | relativo]]
+- [[5 Posición#Posicionamiento absoluto | absoluto]]
+- [[5 Posición#Posicionamiento fijo | ]]
+- [[5 Posición#Posicionamiento flotante (``float``)]]
+
+[[1.UsoEstilos66-83.pdf|PDF]]
+
+- [[6 Visualización]]
+
+[[1.UsoEstilos83-94.pdf|PDF]]
+
+https://cssgradient.io/
+
 > [!warning] Tareas
 > ```dataview
 > TASK 

@@ -1,170 +1,198 @@
 :root{
 
-    --dfe: rgb(166, 0, 255);
+    --SCC-dfe: rgb(166, 0, 255);
     /* Basic colors */
-    --red: 255, 0, 0;
-    --orange: 255, 128, 0;
-    --yellow: 255, 255, 0;
-    --green: 0, 255, 0;
-    --celeste: 0, 255, 255;
-    --blue: 0, 0, 255;
-    --purple: 128, 0, 255;
-    --magenta: 255, 0, 255;
-    --rose: 255, 0, 128;
+    --SCC-red: 255, 0, 0;
+    --SCC-orange: 255, 128, 0;
+    --SCC-yellow: 255, 255, 0;
+    --SCC-green: 0, 255, 0;
+    --SCC-celeste: 0, 255, 255;
+    --SCC-ocean: 0, 128, 255;
+    --SCC-blue: 0, 0, 255;
+    --SCC-purple: 128, 0, 255;
+    --SCC-magenta: 255, 0, 255;
+    --SCC-rose: 255, 0, 128;
 
     /* Cool colors */
-    --coral: 255, 111, 97;
-    --pumpkin: 255, 117, 24;
-    --mint: 152, 255, 152;
-    --lavender: 181, 126, 220;
+    --SCC-coral: 255, 111, 97;
+    --SCC-pumpkin: 255, 117, 24;
+    --SCC-mint: 152, 255, 152;
+    --SCC-turquoise: 0, 200, 128;
+    --SCC-lavender: 181, 126, 220;
 
     /* if you want to add colors, remember to just add the rgb values with comas */
     /* then copy one of the blocks bellow and replace all the mentions of the old color with the new one */
 
-    --background-alpha: 0.15;
-    --svg-opacity: 0;
+    --SCC-background-alpha: 0.15;
+    --SCC-svg-opacity: 0;
 }
 
 
 /* === red === */
 
 /* Hide de SVG */
-.callout[data-callout="red"] .callout-title svg {opacity: var(--svg-opacity);}
+.callout[data-callout="red"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
 /* callout title */
-.callout[data-callout="red"] .callout-title svg,
-.callout[data-callout="red"] .callout-title {color: rgb(var(--red));}
+.callout[data-callout="red"] > .callout-title svg,
+.callout[data-callout="red"] > .callout-title {color: rgb(var(--SCC-red));}
 /* callout background */
-.callout[data-callout="red"] {background-color: rgba(var(--red), var(--background-alpha));}
+.callout[data-callout="red"] {background-color: rgba(var(--SCC-red), var(--SCC-background-alpha));}
+/* callout list */
+li::before {
+    /* color: rgba(var(--SCC-red)) */
+    color: "#0f0";
+}
 
 
 /* === orange === */
 
 /* Hide de SVG */
-.callout[data-callout="orange"] .callout-title svg {opacity: var(--svg-opacity);}
+.callout[data-callout="orange"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
 /* callout title */
-.callout[data-callout="orange"] .callout-title svg,
-.callout[data-callout="orange"] .callout-title {color: rgb(var(--orange));}
+.callout[data-callout="orange"] > .callout-title svg,
+.callout[data-callout="orange"] > .callout-title {color: rgb(var(--SCC-orange));}
 /* callout background */
-.callout[data-callout="orange"] {background-color: rgba(var(--orange), var(--background-alpha));}
+.callout[data-callout="orange"] {background-color: rgba(var(--SCC-orange), var(--SCC-background-alpha));}
 
 
 /* === yellow === */
 
 /* Hide de SVG */
-.callout[data-callout="yellow"] .callout-title svg {opacity: var(--svg-opacity);}
+.callout[data-callout="yellow"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
 /* callout title */
-.callout[data-callout="yellow"] .callout-title svg,
-.callout[data-callout="yellow"] .callout-title {color: rgb(var(--yellow));}
+.callout[data-callout="yellow"] > .callout-title svg,
+.callout[data-callout="yellow"] > .callout-title {color: rgb(var(--SCC-yellow));}
 /* callout background */
-.callout[data-callout="yellow"] {background-color: rgba(var(--yellow), var(--background-alpha));}
+.callout[data-callout="yellow"] {background-color: rgba(var(--SCC-yellow), var(--SCC-background-alpha));}
 
 
 /* === green === */
 
 /* Hide de SVG */
-.callout[data-callout="green"] .callout-title svg {opacity: var(--svg-opacity);}
+.callout[data-callout="green"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
 /* callout title */
-.callout[data-callout="green"] .callout-title svg,
-.callout[data-callout="green"] .callout-title {color: rgb(var(--green));}
+.callout[data-callout="green"] > .callout-title svg,
+.callout[data-callout="green"] > .callout-title {color: rgb(var(--SCC-green));}
 /* callout background */
-.callout[data-callout="green"] {background-color: rgba(var(--green), var(--background-alpha));}
+.callout[data-callout="green"] {background-color: rgba(var(--SCC-green), var(--SCC-background-alpha));}
 
 
 /* === celeste === */
 
 /* Hide de SVG */
-.callout[data-callout="celeste"] .callout-title svg {opacity: var(--svg-opacity);}
+.callout[data-callout="celeste"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
 /* callout title */
-.callout[data-callout="celeste"] .callout-title svg,
-.callout[data-callout="celeste"] .callout-title {color: rgb(var(--celeste));}
+.callout[data-callout="celeste"] > .callout-title svg,
+.callout[data-callout="celeste"] > .callout-title {color: rgb(var(--SCC-celeste));}
 /* callout background */
-.callout[data-callout="celeste"] {background-color: rgba(var(--celeste), var(--background-alpha));}
+.callout[data-callout="celeste"] {background-color: rgba(var(--SCC-celeste), var(--SCC-background-alpha));}
 
+
+/* === ocean === */
+
+/* Hide de SVG */
+.callout[data-callout="ocean"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
+/* callout title */
+.callout[data-callout="ocean"] > .callout-title svg,
+.callout[data-callout="ocean"] > .callout-title {color: rgb(var(--SCC-ocean));}
+/* callout background */
+.callout[data-callout="ocean"] {background-color: rgba(var(--SCC-ocean), var(--SCC-background-alpha));}
 
 
 /* === blue === */
 
 /* Hide de SVG */
-.callout[data-callout="blue"] .callout-title svg {opacity: var(--svg-opacity);}
+.callout[data-callout="blue"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
 /* callout title */
-.callout[data-callout="blue"] .callout-title svg,
-.callout[data-callout="blue"] .callout-title {color: rgb(var(--blue));}
+.callout[data-callout="blue"] > .callout-title svg,
+.callout[data-callout="blue"] > .callout-title {color: rgb(var(--SCC-blue));}
 /* callout background */
-.callout[data-callout="blue"] {background-color: rgba(var(--blue), var(--background-alpha));}
+.callout[data-callout="blue"] {background-color: rgba(var(--SCC-blue), var(--SCC-background-alpha));}
 
 
 /* === purple === */
 
 /* Hide de SVG */
-.callout[data-callout="purple"] .callout-title svg {opacity: var(--svg-opacity);}
+.callout[data-callout="purple"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
 /* callout title */
-.callout[data-callout="purple"] .callout-title svg,
-.callout[data-callout="purple"] .callout-title {color: rgb(var(--purple));}
+.callout[data-callout="purple"] > .callout-title svg,
+.callout[data-callout="purple"] > .callout-title {color: rgb(var(--SCC-purple));}
 /* callout background */
-.callout[data-callout="purple"] {background-color: rgba(var(--purple), var(--background-alpha));}
+.callout[data-callout="purple"] {background-color: rgba(var(--SCC-purple), var(--SCC-background-alpha));}
 
 
 /* === magenta === */
 
 /* Hide de SVG */
-.callout[data-callout="magenta"] .callout-title svg {opacity: var(--svg-opacity);}
+.callout[data-callout="magenta"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
 /* callout title */
-.callout[data-callout="magenta"] .callout-title svg,
-.callout[data-callout="magenta"] .callout-title {color: rgb(var(--magenta));}
+.callout[data-callout="magenta"] > .callout-title svg,
+.callout[data-callout="magenta"] > .callout-title {color: rgb(var(--SCC-magenta));}
 /* callout background */
-.callout[data-callout="magenta"] {background-color: rgba(var(--magenta), var(--background-alpha));}
+.callout[data-callout="magenta"] {background-color: rgba(var(--SCC-magenta), var(--SCC-background-alpha));}
 
 
 /* === rose === */
 
 /* Hide de SVG */
-.callout[data-callout="rose"] .callout-title svg {opacity: var(--svg-opacity);}
+.callout[data-callout="rose"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
 /* callout title */
-.callout[data-callout="rose"] .callout-title svg,
-.callout[data-callout="rose"] .callout-title {color: rgb(var(--rose));}
+.callout[data-callout="rose"] > .callout-title svg,
+.callout[data-callout="rose"] > .callout-title {color: rgb(var(--SCC-rose));}
 /* callout background */
-.callout[data-callout="rose"] {background-color: rgba(var(--rose), var(--background-alpha));}
+.callout[data-callout="rose"] {background-color: rgba(var(--SCC-rose), var(--SCC-background-alpha));}
 
 
 /* === coral === */
 
 /* Hide de SVG */
-.callout[data-callout="coral"] .callout-title svg {opacity: var(--svg-opacity);}
+.callout[data-callout="coral"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
 /* callout title */
-.callout[data-callout="coral"] .callout-title svg,
-.callout[data-callout="coral"] .callout-title {color: rgb(var(--coral));}
+.callout[data-callout="coral"] > .callout-title svg,
+.callout[data-callout="coral"] > .callout-title {color: rgb(var(--SCC-coral));}
 /* callout background */
-.callout[data-callout="coral"] {background-color: rgba(var(--coral), var(--background-alpha));}
+.callout[data-callout="coral"] {background-color: rgba(var(--SCC-coral), var(--SCC-background-alpha));}
 
 
 /* === pumpkin === */
 
 /* Hide de SVG */
-.callout[data-callout="pumpkin"] .callout-title svg {opacity: var(--svg-opacity);}
+.callout[data-callout="pumpkin"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
 /* callout title */
-.callout[data-callout="pumpkin"] .callout-title svg,
-.callout[data-callout="pumpkin"] .callout-title {color: rgb(var(--pumpkin));}
+.callout[data-callout="pumpkin"] > .callout-title svg,
+.callout[data-callout="pumpkin"] > .callout-title {color: rgb(var(--SCC-pumpkin));}
 /* callout background */
-.callout[data-callout="pumpkin"] {background-color: rgba(var(--pumpkin), var(--background-alpha));}
+.callout[data-callout="pumpkin"] {background-color: rgba(var(--SCC-pumpkin), var(--SCC-background-alpha));}
 
 
 /* === mint === */
 
 /* Hide de SVG */
-.callout[data-callout="mint"] .callout-title svg {opacity: var(--svg-opacity);}
+.callout[data-callout="mint"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
 /* callout title */
-.callout[data-callout="mint"] .callout-title svg,
-.callout[data-callout="mint"] .callout-title {color: rgb(var(--mint));}
+.callout[data-callout="mint"] > .callout-title svg,
+.callout[data-callout="mint"] > .callout-title {color: rgb(var(--SCC-mint));}
 /* callout background */
-.callout[data-callout="mint"] {background-color: rgba(var(--mint), var(--background-alpha));}
+.callout[data-callout="mint"] {background-color: rgba(var(--SCC-mint), var(--SCC-background-alpha));}
+
+
+/* === turquoise === */
+
+/* Hide de SVG */
+.callout[data-callout="turquoise"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
+/* callout title */
+.callout[data-callout="turquoise"] > .callout-title svg,
+.callout[data-callout="turquoise"] > .callout-title {color: rgb(var(--SCC-turquoise));}
+/* callout background */
+.callout[data-callout="turquoise"] {background-color: rgba(var(--SCC-turquoise), var(--SCC-background-alpha));}
 
 
 /* === lavender === */
 
 /* Hide de SVG */
-.callout[data-callout="lavender"] .callout-title svg {opacity: var(--svg-opacity);}
+.callout[data-callout="lavender"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
 /* callout title */
-.callout[data-callout="lavender"] .callout-title svg,
-.callout[data-callout="lavender"] .callout-title {color: rgb(var(--lavender));}
+.callout[data-callout="lavender"] > .callout-title svg,
+.callout[data-callout="lavender"] > .callout-title {color: rgb(var(--SCC-lavender));}
 /* callout background */
-.callout[data-callout="lavender"] {background-color: rgba(var(--lavender), var(--background-alpha));}
+.callout[data-callout="lavender"] {background-color: rgba(var(--SCC-lavender), var(--SCC-background-alpha));}
