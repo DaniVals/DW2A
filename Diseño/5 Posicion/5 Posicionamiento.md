@@ -57,21 +57,57 @@ En este caso, la caja se desplaza con `top/right/bottom/left` con respecto a su 
 
 Esta solo afecta a su renderización, pero no afecta al tamaño ocupado, por lo que las cajas adyacentes siguen detectando el espacio ocupado por dicha caja en su posición original
 
-(TODO: comprobar que es esto pq solo lo he copiado)
+(TODO: comprobar que es esto pq solo lo he copiado ya que esta aquí de repente)
 la propiedad `direction` define donde colocar el texto, si de izquierda a derecha, como en la mayoría de países, se usa `ltr` (left to right). Si quieres que sea de derecha a izquierda, como en países árabes, se usa `rtl` (right to left).
+
+
+
 
 ### Posicionamiento absoluto
 ```css
-*{position: relative}
+*{position: absolute}
 ```
-En este caso, la caja se desplaza con `top/right/bottom/left` con respecto a la posición del ultimo elemento padre con la propiedad `position` que no sea `static`. Si no encuentra nada, se usa el tamaño de la ventana del navegador.
+En este caso, la caja se desplaza con `top/right/bottom/left` con respecto a la posición del ultimo elemento padre con la propiedad `position` que no sea `static`. Si no encuentra nada, se usa el `<body>` como contenedor.
 
 Cuando una caja se muestra de forma absoluta, el resto de cajas la ignoran para calcular su posición.
 
-### Posicionamiento fijo
 
+
+### Posicionamiento fijo
+```css
+*{position: fixed}
+```
+Se considera que el posicionamiento fijo es un caso particular del absoluto, ya que solo se diferencian en como actúan las cajas de su alrededor.
+
+Este se diferencia en que no es fijo al `<body>`, sino a la ventana entera, es decir, 
+un `position: absolute` se movería hacia arriba y abajo junto a la pagina, 
+un `position: fixed` seguiría estando en la misma posición de la ventana
 
 ### Posicionamiento flotante (``float``)
+El posicionamiento flotante no funciona como el resto de posicionamientos, ya que no usa la propiedad `position`, sino una propia llamada `float`.
+
+```css
+.flotante-derecha{
+	float: right;
+}
+.flotante-izquierda{
+	float: left;
+}
+```
+
+Esta propiedad especifica el flujo de esa caja, es decir, si el flujo debería amontonarse hacia un lado o al otro. Como esta deja de pertenecer al posicionamiento normal, ya que pasa a ser flotante, el resto de cajas normales la ignoran **PERO NO** las demás cajas flotantes
+
+Estas cajas se colocan entre ellas sin solaparse ni sobresalir, colocándose de forma automática con el resto de elementos, que ocupan el poco espacio restante entre cajas flotantes 
+
+Cuando quieres evitar que una caja se encaje en esos pequeños huecos, algo especialmente común en los elementos en línea pero que también sucede con elementos en caja, usamos la propiedad `clear`, que permite especificar `left` o `right`, o simplemente usar `both` para evitar el posicionamiento flotante
+
+```css
+.evitar-flotamiento{
+	clear: both;
+}
+```
+
+Si una caja con elementos flotantes, pueden darse casos en los que el contenido se sale, por lo que recomienda ponerle `overflow: auto` para que se encargue de ello
 
 
-
+- [ ] Diseño - TODO: revisar y copiar las tablas del PDF (T5)

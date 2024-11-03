@@ -26,7 +26,7 @@
 
     /* i leave this in case you still want a background, but default is 0 */
     --SBC-background-alpha: 0;
-    --SBC-svg-opacity: 0;
+    /* --SBC-svg-opacity: 0; I just deleted the SVG in this one */
     --SBC-border-width: 1px;
 }
 
@@ -34,7 +34,7 @@
 /* === yellow === */
 
 /* Hide de SVG */
-.callout[data-callout="border-yellow"] > .callout-title svg {opacity: var(--SBC-svg-opacity);}
+.callout[data-callout="border-yellow"] > .callout-title svg {display: none}
 /* callout title */
 .callout[data-callout="border-yellow"] > .callout-title svg,
 .callout[data-callout="border-yellow"] > .callout-title {color: rgb(var(--SBC-yellow));}
@@ -45,7 +45,7 @@
 /* === celeste === */
 
 /* Hide de SVG */
-.callout[data-callout="border-celeste"] > .callout-title svg {opacity: var(--SBC-svg-opacity);}
+.callout[data-callout="border-celeste"] > .callout-title svg {display: none}
 /* callout title */
 .callout[data-callout="border-celeste"] > .callout-title svg,
 .callout[data-callout="border-celeste"] > .callout-title {color: rgb(var(--SBC-celeste));}
@@ -56,10 +56,21 @@
 /* === ocean === */
 
 /* Hide de SVG */
-.callout[data-callout="border-ocean"] > .callout-title svg {opacity: var(--SBC-svg-opacity);}
+.callout[data-callout="border-ocean"] > .callout-title svg {display: none}
 /* callout title */
 .callout[data-callout="border-ocean"] > .callout-title svg,
 .callout[data-callout="border-ocean"] > .callout-title {color: rgb(var(--SBC-ocean));}
 /* callout background */
 .callout[data-callout="border-ocean"] {border: var(--SBC-border-width) rgb(var(--SBC-ocean)) solid ;background-color: rgba(var(--SBC-ocean), var(--SBC-background-alpha));}
+
+
+/* === white === */
+
+/* Hide de SVG */
+.callout[data-callout="border-white"] > .callout-title svg {display: none}
+/* callout title */
+.callout[data-callout="border-white"] > .callout-title svg,
+.callout[data-callout="border-white"] > .callout-title {color: rgb(var(--SBC-white));}
+/* callout background */
+.callout[data-callout="border-white"] {border: var(--SBC-border-width) rgb(var(--SBC-white)) solid ;background-color: rgba(var(--SBC-white), var(--SBC-background-alpha));}
 

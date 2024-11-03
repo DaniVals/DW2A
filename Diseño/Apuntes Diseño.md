@@ -51,9 +51,11 @@
 
 [[1.UsoEstilos83-94.pdf|PDF]]
 
-# Paginas que he ido encontrando
+# Recursos
 
-https://cssgradient.io/
+[generador de degradados online](https://cssgradient.io/)
+
+[[chlueta_CSS3.pdf]] [[chuleta_html5.pdf]] [[CSS_Guia_ref_rap.pdf]]
 
 > [!warning] Tareas
 > ```dataview
