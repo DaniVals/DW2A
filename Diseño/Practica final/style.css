@@ -1,4 +1,12 @@
-a{color: #060; border-bottom: dashed 1px; text-decoration: none;}
+a{
+    color: #060; 
+    border-bottom: dashed 1px;
+
+
+    /* Esto no lo hemos dado, pero es meramente decorativo, 
+    solo quita el subrayado del enlace */
+    text-decoration: none; 
+}
 
 .aviso-copyright{  font-style: italic;}
 
@@ -7,6 +15,8 @@ a{color: #060; border-bottom: dashed 1px; text-decoration: none;}
     background-color: #060;
     border: none;
     padding-top: 1px;
+
+    clear: both;
 }
 
 
@@ -43,26 +53,27 @@ a{color: #060; border-bottom: dashed 1px; text-decoration: none;}
 
 .seccion{
     margin: 0px 20px 50px;
-
-    list-style: square;
+    float: left;
 }
 .seccion .titulo-seccion{
-    display: flex;
-    justify-content: space-between;
-
-    font-weight: bolder;
-
     background-color: #9c9;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 10px 5px 5px #0006;
+
     padding: 5px;
 }
 .seccion .titulo-seccion h3{
     margin: 0px;
+    display: inline;
+}
+.seccion .titulo-seccion span{
+    font-weight: bolder;
+    float: right;
 }
 
-.contenedor{
-    display: flex;
-}
 
-
+/* REGLA NUMERO 13 - meramente decorativa, 
+solo pone el cuadrado en vez de circulo en las <ul> ya que esta regla no se hereda
+pero esto no lo hemos dado asi que no se si hay que hacerlo
+*/
+ul{    list-style: square;}

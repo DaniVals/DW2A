@@ -38,18 +38,20 @@
 [[1.UsoEstilos39-65.pdf|PDF]]
 
 # Examen 4
-- [[5 Posición]]
-- [[5 Posición#Posicionamiento | posicionamento]]
-- [[5 Posición#Posicionamiento relativo | relativo]]
-- [[5 Posición#Posicionamiento absoluto | absoluto]]
-- [[5 Posición#Posicionamiento fijo | ]]
-- [[5 Posición#Posicionamiento flotante (``float``)]]
+- [[5 Posicionamiento]]
+- [[5 Posicionamiento#Tipos de elementos | Tipos de elementos: block e inline]]
+
++ [[5 Posicionamiento#Posicionamiento| posicionamiento: static, relative, absolute, fixed y float]]
 
 [[1.UsoEstilos66-83.pdf|PDF]]
 
 - [[6 Visualización]]
+- [[6.1 Enlaces]] (esto esta en el PDF de visualización, pero lo pongo aparte)
+- [[6.2 Validación]] (esto también esta en el PDF de visualización, pero es que no se donde meterlo sin que moleste)
 
 [[1.UsoEstilos83-94.pdf|PDF]]
+
+# Paginas que he ido encontrando
 
 https://cssgradient.io/
 

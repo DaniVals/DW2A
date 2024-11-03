@@ -2,4 +2,19 @@
 # Visualización
 
 
-### ``display`` y ``visibilty``
+### `display`
+
+
+### `visibilty`
+
+
+
+### `overflow`
+
+
+
+### `z-index`
+
+
+
+- [ ] Diseño - TODO: hacer tema 6 visualización
