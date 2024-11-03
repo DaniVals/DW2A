@@ -1,7 +1,3 @@
-# Pagina para buscar svg sin licencia y enlazables
-[svg repo](https://www.svgrepo.com/) 
-![svg](https://www.svgrepo.com/show/478379/svg.svg)
-
 
 
 # Etiquetas
@@ -21,3 +17,6 @@ border-collapse: collapse;
 ### `<td>`
 ``colspan`` y ``rowspan``
 
+
+## `<svg>`
+[[Generadores y buscadores de HTML#Pagina para buscar svg sin licencia y enlazables]]

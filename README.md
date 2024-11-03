@@ -32,7 +32,6 @@ Shadow: off
 >[!warning] Importante 
 > - hacer proyecto antes de las practicas, que luego no tendremos casi tiempo
 > - [[Faltas | Faltas calculadas]]
-> - [ ] TODO: resubir la pagina web
 
 > [!warning] Tareas
 > ```dataview

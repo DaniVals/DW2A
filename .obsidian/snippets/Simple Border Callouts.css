@@ -1,0 +1,65 @@
+:root{
+
+    /* Basic colors */
+    --SBC-red: 255, 0, 0;
+    --SBC-orange: 255, 128, 0;
+    --SBC-yellow: 255, 255, 0;
+    --SBC-green: 0, 255, 0;
+    --SBC-celeste: 0, 255, 255;
+    --SBC-ocean: 0, 128, 255;
+    --SBC-blue: 0, 0, 255;
+    --SBC-purple: 128, 0, 255;
+    --SBC-magenta: 255, 0, 255;
+    --SBC-rose: 255, 0, 128;
+    --SBC-white: 255, 255, 255;
+
+    /* Cool colors */
+    --SBC-coral: 255, 111, 97;
+    --SBC-pumpkin: 255, 117, 24;
+    --SBC-mint: 152, 255, 152;
+    --SBC-turquoise: 0, 200, 128;
+    --SBC-lavender: 181, 126, 220;
+
+    /* if you want to add colors, remember to just add the rgb values with comas */
+    /* then copy one of the blocks bellow and replace all the mentions of the old color with the new one */
+
+
+    /* i leave this in case you still want a background, but default is 0 */
+    --SBC-background-alpha: 0;
+    --SBC-svg-opacity: 0;
+    --SBC-border-width: 1px;
+}
+
+
+/* === yellow === */
+
+/* Hide de SVG */
+.callout[data-callout="border-yellow"] > .callout-title svg {opacity: var(--SBC-svg-opacity);}
+/* callout title */
+.callout[data-callout="border-yellow"] > .callout-title svg,
+.callout[data-callout="border-yellow"] > .callout-title {color: rgb(var(--SBC-yellow));}
+/* callout background */
+.callout[data-callout="border-yellow"] {border: var(--SBC-border-width) rgb(var(--SBC-yellow)) solid ;background-color: rgba(var(--SBC-yellow), var(--SBC-background-alpha));}
+
+
+/* === celeste === */
+
+/* Hide de SVG */
+.callout[data-callout="border-celeste"] > .callout-title svg {opacity: var(--SBC-svg-opacity);}
+/* callout title */
+.callout[data-callout="border-celeste"] > .callout-title svg,
+.callout[data-callout="border-celeste"] > .callout-title {color: rgb(var(--SBC-celeste));}
+/* callout background */
+.callout[data-callout="border-celeste"] {border: var(--SBC-border-width) rgb(var(--SBC-celeste)) solid ;background-color: rgba(var(--SBC-celeste), var(--SBC-background-alpha));}
+
+
+/* === ocean === */
+
+/* Hide de SVG */
+.callout[data-callout="border-ocean"] > .callout-title svg {opacity: var(--SBC-svg-opacity);}
+/* callout title */
+.callout[data-callout="border-ocean"] > .callout-title svg,
+.callout[data-callout="border-ocean"] > .callout-title {color: rgb(var(--SBC-ocean));}
+/* callout background */
+.callout[data-callout="border-ocean"] {border: var(--SBC-border-width) rgb(var(--SBC-ocean)) solid ;background-color: rgba(var(--SBC-ocean), var(--SBC-background-alpha));}
+

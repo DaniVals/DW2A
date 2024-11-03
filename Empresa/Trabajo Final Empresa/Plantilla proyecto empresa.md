@@ -11,11 +11,11 @@
 8. Cumplimentación modelo BUSINESS MODEL CANVAS. Según los apartados del libro, en formato horizontal donde se puedan leer correctamente cada uno de ellos).
 
 # checklist
-- [ ] RESUMEN EJECUTIVO. (Según guía página 166 libro)
-- [/] LA IDEA: descripción detallada de la misma, así como las técnicas utilizadas para su elección.
-- [ ] Presentación de PROMOTORES. (Según guía del libro).
-- [x] MAPA DE EMPATÍA. (Según los apartados del libro, en formato horizontal donde se puedan leer correctamente cada uno de ellos).
-- [/] Estudio de MACRO Y MICROENTORNO EMPRESARIAL.
-- [b] Definición cultura organizacional de mi empresa. (MISIÓN, VISIÓN Y VALORES),
-- [b] Elaboración de DAFO.
-- [b] Cumplimentación modelo BUSINESS MODEL CANVAS. Según los apartados del libro, en formato horizontal donde se puedan leer correctamente cada uno de ellos).
+- [/] PE - RESUMEN EJECUTIVO. (Según guía página 166 libro) [[Resumen ejecutivo]]
+- [/] PE - LA IDEA: descripción detallada de la misma, así como las técnicas utilizadas para su elección. [[Idea definida]]
+- [ ] PE - Presentación de PROMOTORES. (Según guía del libro).
+- [x] PE - MAPA DE EMPATÍA. (Según los apartados del libro, en formato horizontal donde se puedan leer correctamente cada uno de ellos). [[Mapa de empatía]]
+- [/] PE - Estudio de MACRO Y MICROENTORNO EMPRESARIAL. [[Entorno Micro y Macro]]
+- [b] PE - Definición cultura organizacional de mi empresa. (MISIÓN, VISIÓN Y VALORES), [[Imagen corporativa]]
+- [b] PE - Elaboración de DAFO. [[DAFO]]
+- [b] PE - Cumplimentación modelo BUSINESS MODEL CANVAS. Según los apartados del libro, en formato horizontal donde se puedan leer correctamente cada uno de ellos). [[Business Model Canvas]]

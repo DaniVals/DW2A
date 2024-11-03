@@ -1,5 +1,5 @@
-# Trimestre 1
-+ [[HTML | etiquetas HTML comunes]]
+# Trimestre 1. Mucho JavaScript
++ [[HTML | etiquetas HTML]]
 
 - [[JavaScript]] 
 - [[JavaScript#Que es JavaScript | Que es]]

@@ -9,15 +9,15 @@ $$
 $$
 
 $$
-\text{Cuota de Moncayo} = \frac{4312}{17331} x 100 =
+\text{Cuota de Moncayo} = \frac{4312}{17331} \times 100 =
 $$
 
 $$
-\text{Cuota de Benimar} = \frac{6723}{17331} x 100 =
+\text{Cuota de Benimar} = \frac{6723}{17331} \times 100 =
 $$
 
 $$
-\text{Cuota de Knauss} = \frac{2575}{17331} x 100 =
+\text{Cuota de Knauss} = \frac{2575}{17331} \times 100 =
 $$
 
 + ¿Cual es el lider de mercado? ¿Cual es la diferencia en cuota de mercado entre la empresa lider y la peor posicionada?
@@ -59,7 +59,7 @@ $$
 - las familias con hijos son el target > **segmentos de clientes**
 - Socios que tiene la empresa > **socios clave**
 - tarjeta de puntos > ~~actividades clave~~ (no porque se refiere a practicas INTERNAS) / **relaciones con clientes** (porque se enfoca mas en el cliente)
-- Coste de las materias primas > ~~recursos clave~~ **estructura de costes**
+- ==Coste== de las materias primas > ~~recursos clave~~ **estructura de costes**
 - Trafico en la pagina web de una empresa o llamada gracias a un anuncio puesto en Google Ads > ~~Flujo de ingresos~~ **recurso clave** 
 - Precio mas bajo y competente > **flujo de ingresos**
 - suscripción mas baja > **flujo de ingresos**

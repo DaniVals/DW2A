@@ -1,6 +1,5 @@
 :root{
 
-    --SCC-dfe: rgb(166, 0, 255);
     /* Basic colors */
     --SCC-red: 255, 0, 0;
     --SCC-orange: 255, 128, 0;
@@ -12,6 +11,7 @@
     --SCC-purple: 128, 0, 255;
     --SCC-magenta: 255, 0, 255;
     --SCC-rose: 255, 0, 128;
+    --SCC-white: 255, 255, 255;
 
     /* Cool colors */
     --SCC-coral: 255, 111, 97;
@@ -141,6 +141,17 @@ li::before {
 .callout[data-callout="rose"] > .callout-title {color: rgb(var(--SCC-rose));}
 /* callout background */
 .callout[data-callout="rose"] {background-color: rgba(var(--SCC-rose), var(--SCC-background-alpha));}
+
+
+/* === white === */
+
+/* Hide de SVG */
+.callout[data-callout="white"] > .callout-title svg {opacity: var(--SCC-svg-opacity);}
+/* callout title */
+.callout[data-callout="white"] > .callout-title svg,
+.callout[data-callout="white"] > .callout-title {color: rgb(var(--SCC-white));}
+/* callout background */
+.callout[data-callout="white"] {background-color: rgba(var(--SCC-white), var(--SCC-background-alpha));}
 
 
 /* === coral === */

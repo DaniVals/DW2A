@@ -1,0 +1,18 @@
+.videosboys-ul{
+    margin-top: -10px !important;
+}
+.videosboys-ul li{
+    /* list-style-type: '->'; */
+    list-style: square !important;
+}
+
+
+.no-margin-list ul, .no-margin-list ol{
+    margin-top: -1em;
+}
+.no-margin-list .callout ul, .no-margin-list .callout ol{
+    margin-top: 0px;
+}
+.no-margin-list p+ul, .no-margin-list p+ol{
+    margin-top: -1em !important;
+}

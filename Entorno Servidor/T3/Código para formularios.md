@@ -9,9 +9,6 @@ $_SERVER["REQUEST_METHOD"] == "GET"
 
 
 
-
-
-
 ## Validar parámetros
 #### Todos funcionan con `GET` y `POST`
 
@@ -29,8 +26,8 @@ empty($_POST["variable"])
 ### Validar cadenas de texto
 
 https://www.php.net/manual/es/filter.filters.php
-- [ ] TODO: PHP funciones validar cadenas de texto
-
+- [ ] Servidor - TODO: funciones validar cadenas de texto
+- [ ] Servidor - TODO: pasar estas funciones a las de php en el T2 (no todas pero mirar cuales encajan)
 
 
 
