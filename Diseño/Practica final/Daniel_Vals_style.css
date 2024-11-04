@@ -1,26 +1,13 @@
-a{
+a {
     color: #060; 
     border-bottom: dashed 1px;
-
-
-    /* Esto no lo hemos dado, pero es meramente decorativo, 
-    solo quita el subrayado del enlace */
     text-decoration: none; 
 }
-
-.aviso-copyright{  font-style: italic;}
-
-.aviso-copyright p{text-align: center;}
-.aviso-copyright hr{
-    background-color: #060;
-    border: none;
-    padding-top: 1px;
-
-    clear: both;
-}
+ul {list-style: square;}
 
 
-#encabezado{
+
+#encabezado {
     background: linear-gradient(0deg, #fff 0%, #060 100%);
     border: 1px #060 solid;
     border-radius: 10px;
@@ -28,7 +15,7 @@ a{
     padding: 10px;
     margin-bottom: 50px;
 }
-#encabezado > div{
+#encabezado > div {
     background: linear-gradient(0deg, #9f9 0%, #090 100%);
     border: 1px #060 solid;
     box-shadow: 0px 5px 3px #0006;
@@ -38,11 +25,11 @@ a{
     padding: 5px;
     float: right;
 }
-#encabezado > div:hover{
+#encabezado > div:hover {
     background: linear-gradient(180deg, #9f9 0%, #090 100%);
     color: #fff;
 }
-#encabezado h3{
+#encabezado h3 {
     margin-bottom: 0px;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -51,29 +38,30 @@ a{
 
 
 
-.seccion{
+.seccion {
     margin: 0px 20px 50px;
     float: left;
 }
-.seccion .titulo-seccion{
+.seccion .titulo-seccion {
     background-color: #9c9;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 10px 5px 5px #0006;
 
     padding: 5px;
 }
-.seccion .titulo-seccion h3{
+.seccion .titulo-seccion h3 {
     margin: 0px;
     display: inline;
 }
-.seccion .titulo-seccion span{
+.seccion .titulo-seccion span {
     font-weight: bolder;
     float: right;
 }
 
-
-/* REGLA NUMERO 13 - meramente decorativa, 
-solo pone el cuadrado en vez de circulo en las <ul> ya que esta regla no se hereda
-pero esto no lo hemos dado asi que no se si hay que hacerlo
-*/
-ul{    list-style: square;}
+.aviso-copyright {  font-style: italic;}
+.aviso-copyright p {
+    text-align: center;
+    border-top: #060 1px solid;
+    padding-top: 5px;
+    clear: both;
+}
