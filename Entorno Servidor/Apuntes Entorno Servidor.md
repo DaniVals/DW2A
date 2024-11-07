@@ -39,7 +39,7 @@
 # 4. Hacer paginas web
 
 ### Practica 1 - tickets técnicos
-- [[Enunciado]]
+- [[Entorno Servidor/T4/12 tickets tecnicos/Enunciado]]
 - [[TODO]]
 
 > [!warning] Tareas

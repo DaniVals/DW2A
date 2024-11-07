@@ -1,4 +1,4 @@
-[[Enunciado]]
+[[Entorno Servidor/T4/12 tickets tecnicos/Enunciado]]
 # Externo (SQL)
 - [ ] Esquema de la base de datos
 
@@ -6,7 +6,7 @@
 - [/] Cabecera
 - [ ] Funciones
 
-+ [ ] index
++ [x] index
 + [ ] Log in
 + [ ] Log out
 + [ ] Sign in
@@ -19,7 +19,7 @@
 # Detalles / Aclaraciones
 - [ ] Validar formularios (debe tener al menos asunto y descripción, poner que no se acepte a menos que la longitud del asunto sea {3} y de la descripción {10}) (también de paso ponerle máximo a la longitud de la BBDD)
 - [ ] ``ticket_list`` tiene que estar ordenado por fecha y hora
-- [ ] ``ticket_list`` se llama (`<title>`) "mis tickets" en empleado y "lista de tickets" en técnico
+- [x] ``ticket_list`` se llama (`<title>`) "mis tickets" en empleado y "lista de tickets" en técnico
 - [ ] ``ticket_list`` muestra: el ID, el asunto, el estado y la hora y fecha de creación
 - [ ] ``ticket`` se ven TODOS los datos (esto lo miramos con la BD abierta)
 - [ ] en ticket SOLO puede responder un técnico, esta limitación se quita si hacemos la ampliación [[#1. Tickets realistas]]

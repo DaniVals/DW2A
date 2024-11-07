@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+  <title></title>
+  <script>
+  function noEntero(x)
+  {
+	if(x%1 != 0)
+		return true;
+	else
+		return false;
+ }
+ </script>
+</head>
+<body>
+<script type="text/javascript">
+var dni; 
+var letras = new Array("T","R","W","A","G","M","Y","F","P","D","X","B","N","J","Z","S","Q","V","H","L","C","K","E","T");
+do{
+   dni = prompt("Introduzca el numero del DNI");
+  }while(dni=="" || isNaN(dni) || dni.length!=8 || noEntero(dni));
+
+var valorDNI = parseInt(dni);
+var resultado = valorDNI%23;
+var letraDNI = letras[resultado];
+document.write("La letra que corresponde a este DNI es: " + letraDNI);
+</script>
+</body>
+</html>
+

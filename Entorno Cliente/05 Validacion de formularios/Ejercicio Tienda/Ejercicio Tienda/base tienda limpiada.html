@@ -1,0 +1,243 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Mi tienda</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			h1 {
+				float: right;
+				padding-top: 20px;
+				font-family: Collegiate-Normal;
+			}
+			#cabecera {
+				background-color: white;
+				height: 110px;
+				font-size:250%;
+				background-image: url("logo.jpg")
+			}
+			#titulo2{
+				color:blue;
+				font-weight: bold;
+			}
+			#formulario {
+				background-color: white;
+			}
+			#nomb {
+				padding-left: 100px;
+			}
+			#apell {
+				float: right;
+				margin-right: 150px;
+			}
+			#ed {
+				margin-top: 10px;
+				padding-left: 100px;
+			}
+			#direc {
+				float: right;
+				margin-top: 10px;
+				margin-right: 150px;
+			}
+			#correo {
+				margin-top: 10px;
+				padding-left: 100px;
+			}
+			#tel {
+				float: right;
+				margin-top: 10px;
+				margin-right: 150px;
+			}
+			#prov {
+				padding-left: 100px;
+				margin-top: 10px;
+			}
+			#prod {
+				float: right;
+				margin-top: 10px;
+				margin-right: 150px;
+				
+			}
+			#productos {
+				height:100px;
+				background-color: #FAED92;
+				display: flex;
+				align-items: center;
+				border-color: black;
+				border-style:solid;
+			}
+			#datosPersonales {
+				border-color: black;
+				border-style:solid;
+				background-color: #FAED92;
+			}
+			#can {
+				margin-top: 10px;
+			}
+			#term {
+				clear: right;
+				margin-top: 30px;
+				padding-left: 100px;
+			}
+			#botones {
+				margin-top: 50px;
+				text-align: center;
+			}
+			#color {
+				
+				padding-right: 275px;
+				color: red;
+			}
+			body {
+				background-color: lightyellow;
+				font-family: sans-serif;
+			}
+			label {
+				color: maroon;
+				display: block;
+				padding: 5px;
+			}
+			img {
+				float: left;
+				width: 100px;
+				height: 100px;
+			}
+			#titulo {
+				background-color: #F4A460;
+				padding-top: 10px;
+				font-size:150%;
+			}		
+		</style>
+	</head>
+	<script src="./validarFormulario.js"></script>
+	<body>	
+		<div id="formulario">
+			<form name="formularioContacto" onsubmit="return validarFormulario()">
+				<p id="titulo" align="center">FORMULARIO PEDIDO</p>
+		
+				<div id="productos">
+					<table>
+						<tr>
+							<td><p id="titulo2">Añadir productos:</p></td>
+						</tr>
+						<tr>
+							<td>
+								<div id="prod">
+									<span>Producto:</span>
+									<select id="producto">
+										<option>--Producto--</option>
+										<option value="10">Jamon York (10€)</option>
+										<option value="12">Chorizo (12€)</option>
+										<option value="13">Morcilla (13€)</option>
+										<option value="14">Lomo (14€)</option>
+										<option value="8">Pavo (8€)</option>
+										<option value="20">Jamon (20€)</option>
+									</select>
+								</div>
+							</td>
+							<td>
+								<span>Cantidad:</span>
+								<input type="number" id="cantidad" value="0">
+							</td>
+							<td>
+								<input type="button" value="Añadir línea pedido" id="btnAnadir" onclick="anadirLinea()">
+							</td>
+						</tr>
+					</table>
+				</div>
+		
+				<div id="datosPersonales">
+					<table>
+						<tr>
+							<td><p id="titulo2">Datos envío:</p></td>
+						</tr>
+						<tr>
+							<td>
+								<div id="apell">
+									<span>Apellidos:</span>
+									<input id="apellidos" type="text" name="apellidos" onblur="convertirMayusculas()">
+								</div>
+							</td>
+							<td>
+								<div id="nomb">
+									<span>Nombre:</span>
+									<input id="nombre" type="text" name="nombre" onblur="convertirMayusculas()">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div id="direc">
+									<span>Direccion:</span>
+									<input id="direccion" type="text" name="direccion">
+								</div>
+							</td>
+							<td>
+								<div id="ed">
+									<span>Cod. Postal:</span>
+									<input id="codigo" type="text" name="codigo">
+								</div>
+							</td>
+							<td>
+								<div id="prov">
+									<span>Provincia:</span>
+									<select id="provincia">
+										<option>--Provincia--</option>
+										<option>Madrid</option>
+										<option>Barcelona</option>
+										<option>Sevilla</option>
+									</select>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div id="tel">
+									<span>Teléfono:</span>
+									<input id="telefono" type="text" name="telefono">
+								</div>
+							</td>
+							<td>
+								<div id="correo">
+									<span>E-mail:</span>
+									<input id="email" type="text" name="email">
+								</div>
+							</td>
+							<td>
+								<div id="fechaEntrega">
+									<span>Fecha entrega:</span>
+									<input id="fecha" type="text" name="fecha">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div id="can">
+									Forma de pago:
+									<input type="radio" id="fpago1" name="fpago" value="Contrareembolso"> Contrareembolso
+									<input type="radio" id="fpago2" name="fpago" value="Visa"> Visa
+									<input type="radio" id="fpago3" name="fpago" value="Transferencia"> Transferencia
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div id="term">
+									<input id="terminos" type="checkbox" name="terminos">
+									Acepta los términos de condición de compra.
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div id="botones">
+									<input type="submit" value="Enviar">
+									<input type="reset" value="Cancelar">
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

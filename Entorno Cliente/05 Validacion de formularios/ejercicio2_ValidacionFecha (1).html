@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Faltan</title>
+<script language='javascript'>
+  function DimeCuantosFaltan(){
+  	var un_dia_completo = 24 * 60 * 60 * 1000;
+	var hoy=new Date();
+    var ldia, lmes, lanio;
+    ldia = parseInt(document.getElementById("dia").value);
+    lmes = parseInt(document.getElementById("mes").value) - 1;
+    lanio = parseInt(document.getElementById("anio").value);     
+
+    var futuro =new Date(lanio, lmes, ldia);
+	
+	if((futuro.getDate()==ldia) && (futuro.getMonth()==lmes) && (futuro.getFullYear()==lanio)){ 
+		dias_q_faltan = (futuro - hoy)/un_dia_completo;
+		dias_q_faltan = Math.ceil(dias_q_faltan);
+		if(dias_q_faltan>=0)
+			alert ('Faltan: '+dias_q_faltan+ " días");
+		else	
+			alert ('Han pasado: '+Math.abs(dias_q_faltan)+ " días");
+	}
+	else
+		alert("FECHA INCORRECTA")
+	}
+</script>
+</head>
+
+<body>
+ <br /><br /><hr /><h2>Días de diferencia...</h2><hr /><br /><br />
+ <form name='miform'>
+  Dia: <input type='text' id='dia' size='2'><br />
+  Mes: <input type='text' id='mes' size='2'><br />
+  Año: <input type='text' id='anio' size='4'><br />
+  <Input type='button' value='Cacular' onclick="DimeCuantosFaltan()">    
+ </form>
+</body>
+</html>

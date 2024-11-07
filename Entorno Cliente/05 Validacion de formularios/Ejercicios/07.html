@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<script>
+
+function validar() {
+    let cadena = document.getElementById('texto').value;
+    const regex = /^(0[0-9]|1[0-9]|2[0-3])(\:[0-5][0-9]){2}$/;
+
+
+    if (regex.test(cadena)) {
+        alert("si es");
+    } else {
+        alert("no es");
+    }
+}
+
+</script>
+
+<body onload='init()'>
+    <input type="text" id="texto">
+    <button onclick="validar()">validar</button>
+</body>
+</html>

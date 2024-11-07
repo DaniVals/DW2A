@@ -1,0 +1,69 @@
+<html>
+<head>
+<script>
+function validacion(){
+var i,j;
+var pagoSeleccionado=0;
+//VALIDAR NOMBRE
+nombre=document.getElementById("Nombre").value;
+if (nombre.trim()==""){
+     alert("Has de introducir datos en el campo Nombre");
+		document.getElementById("Nombre").focus();
+		return false;
+}
+//VALIDAR PAIS
+if (document.getElementById("pais").value==" "){
+	alert("Debes seleccionar un pais");
+	return false;
+}
+//VALIDAR FORMA DE PAGO
+for(j=0;j<form1.fpago.length;j++)
+	if(form1.fpago[j].checked) pagoSeleccionado=1;
+if(pagoSeleccionado==0){
+	alert("Has de seleccionar una opción en Forma de pago");
+	return false;
+}
+/*OTRA FORMA DE VALIDAR FORMA DE PAGO
+pagoSeleccionado=form1.fpago.value;
+if(pagoSeleccionado.length==0){
+alert("Has de seleccionar una opción en Forma de pago");
+	return false;
+}
+*/
+}
+</script>
+</head>
+<form name="form1" id="form1" onsubmit="return validacion()">
+<H1>INTRODUCIR DATOS:</H1>
+<table>
+<tr><td>
+Nombre*:</td><td><INPUT TYPE="Text" id="Nombre" name="Nombre"></td>
+<td>Apellidos*:</td><td><INPUT TYPE="Text" id="Apellidos" name="Apellidos"></td></tr>
+<tr><td>País de origen*:</td>
+<td><select size="1" id="pais">
+  <option value=" " selected></option>
+  <option value="España">España</option>
+  <option value="Francia">Francia</option>
+  <option value="Gran Bretaña">Gran Bretaña</option>
+  <option value="Italia">Italia</option>
+</select></td></tr>
+<tr><td>Forma de pago*:</td>
+<Td><input type="Radio"  name="fpago"  value="Mensual">Mensual
+<input type="Radio" name="fpago"  value="Trimestral">Trimestral
+<input type="Radio" name="fpago"  value="Anual">Anual
+</td></tr>
+<tr><td>Aficiones*:</td> 
+<td><input type="checkbox" name="Aficiones" id="Aficiones" value="Deporte">Deporte
+<input type="checkbox" name="Aficiones" value="Lectura">Lectura
+<input type="checkbox" name="Aficiones" value="Otros">Otros
+</td></tr>
+
+<tr><td><h3>Fecha*:</h3></td></tr>
+<tr><td>Dia:<input type="text" id="dia" size="4" name="dia"></td></tr>
+<tr><td>Mes:<input type="text" size="4"  id="mes" name="mes"></td></tr>
+<tr><td>Año:<input type="text" id="anyo" name="anyo" size="4"></td></tr>
+<tr><td><input type="submit" value="Enviar" ></td>
+</tr>
+</table>
+</form>
+</html>
