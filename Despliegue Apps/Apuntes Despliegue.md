@@ -4,9 +4,11 @@
 
 + (dimos docker un poquito, hasta el 10-10-2024)
 
-- [[Apache]] (sin acabar)
+- [[Apache2]] (sin acabar)
 - [[Practica Despliegue Servidor Web]] (tenemos dos semanas)
 
+- Despliegue - TODO: poner la configuracion al puerto 80 y redirigir a HTTPS
+- Despliegue - TODO: cambiar 
 
 
 

@@ -28,6 +28,8 @@
 
 # Peticiones Web
 ### http  
+HTTP (HyperText Transfer Protocol)
+
 - el cliente establece una conexión con el servidor (a través de la IP)
 - luego le hace una petición http (Request tipo GET) (tipos = get / post / put / delete)
 - le devuelve lo solicitado (una pagina web por el puerto 80)

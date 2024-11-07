@@ -1,10 +1,12 @@
 {
 	"folders": [
 		{
-			"path": ".."
+			"path": "..",
+			"name": "DW2A"
 		},
 		{
-			"path": "../../../../../../xampp/htdocs"
+			"path": "../../../../../../xampp/htdocs",
+			"name": "xampp - htdocs"
 		}
 	],
 	"settings": {
