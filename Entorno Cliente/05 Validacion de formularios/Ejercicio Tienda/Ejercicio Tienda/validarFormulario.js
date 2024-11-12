@@ -8,6 +8,7 @@ function validarFormulario() {
     let comprovacion = true;
 
     const regexTextoNoVacio = /^[a-zñáéíóú ]+$/i;
+    const regexTextoNoVacioDir = /^[a-zñáéíóú\/]+$/i;
     
     const apellidos = document.getElementById("apellidos").value;
     const nombre = document.getElementById("nombre").value;
@@ -21,7 +22,7 @@ function validarFormulario() {
         ventanaDeError("Nombre no valido");
         comprovacion = false;
     }
-    if (!regexTextoNoVacio.test(direccion)) {
+    if (!regexTextoNoVacioDir.test(direccion)) {
         ventanaDeError("Direccion no valida");
         comprovacion = false;
     }
@@ -59,10 +60,27 @@ function validarFormulario() {
         comprovacion = false;
     }
     
+    if (
+        !(document.getElementById("fpago1").checked) &&
+        !(document.getElementById("fpago2").checked) &&
+        !(document.getElementById("fpago3").checked)
+    ) {
+        ventanaDeError("Selecciona una forma de pago");
+        comprovacion = false;
+    }
+    const fpago = document.getElementsByName("fpago");
+    let selected;
+    for (let i = 0; i < fpago.length; i++) {
+        if (fpago[i].checked) {
+            selected = i;
+        }
+        
+    }
+    
     const fecha = document.getElementById("fecha").value;
-    const regexFecha = /([0-9]{2}[:]{1}){2}[0-9]{4}/;
+    const regexFecha = /([0-9]{2}[\/]{1}){2}[0-9]{4}/;
     if (!regexFecha.test(fecha)) {
-        ventanaDeError("Formato de fecha no valida (dd:mm:yyyy)");
+        ventanaDeError("Formato de fecha no valida (dd/mm/yyyy)");
         comprovacion = false;
     }
 
@@ -72,12 +90,7 @@ function validarFormulario() {
         ventanaDeError("Fecha incorrecta, tiene que ser posterior a la fecha actual");
         comprovacion = false;
     }
-    /*
-
-    // como se mira el pago??
-    const fpago1 = document.getElementById("fpago1");
-    
-    */
+   
 
     if (!comprovacion) {
         return false;
@@ -107,9 +120,12 @@ function validarFormulario() {
     ventana.document.write("<h3> telefono: "+telefono+"</h3>");
     ventana.document.write("<h3> correo: "+correo+"</h3>");
     ventana.document.write("<h3> provincia: "+provincia.options[provincia.selectedIndex].innerText+"</h3>");
-    ventana.document.write("<h3> provincia: "+provincia.options[provincia.selectedIndex].innerText+"</h3>");
+    ventana.document.write("<h3> fecha de llegada: "+date1+"</h3>");
+    ventana.document.write("<h3> forma de pago: "+fpago[selected].value+"</h3>");
+
+    ventana.document.write("<input type='button' value='confirmar' onclick='alert(\"compra realizada\")'>")
     
-    return false;
+    return true;
 }
 function ventanaDeError(mensaje) {
     
@@ -127,16 +143,29 @@ function anadirLinea() {
     const selectProductos   = document.getElementById("producto");
     const cantidadProductos = document.getElementById("cantidad");
 
-    arrayPedidos.push([
-        selectProductos.options[selectProductos.selectedIndex].innerText,
-        selectProductos.value,
-        cantidadProductos.value
-    ]);
+    let pos = -1;
+    for (let i = 0; i < arrayPedidos.length; i++) {
+        if (arrayPedidos[i][0] === selectProductos.options[selectProductos.selectedIndex].innerText) {
+            pos = i;
+        }
+    }
+
+    if (pos == -1) {
+        arrayPedidos.push([
+            selectProductos.options[selectProductos.selectedIndex].innerText,
+            selectProductos.value,
+            parseInt(cantidadProductos.value)
+        ]);
+        
+    } else {
+        arrayPedidos[pos][2] = arrayPedidos[pos][2] + parseInt(cantidadProductos.value);
+    }
 
     // DEBUG
-    console.log(arrayPedidos);
+    // console.log(arrayPedidos);
     
     selectProductos.selectedIndex = 0;
+    cantidadProductos.value = 0;
 }
 
 function convertirMayusculas(id) {    
