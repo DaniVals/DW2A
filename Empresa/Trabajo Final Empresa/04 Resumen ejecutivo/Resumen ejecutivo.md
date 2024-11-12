@@ -10,8 +10,3 @@ Surgió fijándonos en personas sin tiempo para informarse de como hacer ejercic
 Por la creciente demanda de fitness online y el aumento de trabajos sedentarios.
 
 
-
-
-
-
-- [ ] PE - TODO empresa idea de negocio

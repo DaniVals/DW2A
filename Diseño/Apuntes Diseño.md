@@ -1,4 +1,5 @@
-# Examen 1
+# Uso de estilos
+## Examen 1
 - [[1 Introducción|1. Introducción CSS]]
 - [[1 Introducción#Incluir CSS en HTML|Como incluir CSS en HTML]]
 - [[1 Introducción#Glosario|Glosario]]
@@ -8,7 +9,7 @@
 [[1.UsoEstilos1-29.pdf|PDF]]
 
 
-# Examen 2
+## Examen 2
 
 + [[2 Selectores]]
 + [[2 Selectores#Selectores Básicos|Selectores Básicos]]
@@ -22,7 +23,7 @@
 [[1.UsoEstilos1-29.pdf#page=12|PDF]]
 
 
-# Examen 3
+## Examen 3
 - [[3 Medidas y Colores]]
 - [[3 Medidas y Colores#Tipos de unidades| Unidades de medida]]
 - [[3 Medidas y Colores#Colores| Colores]]
@@ -37,7 +38,7 @@
 
 [[1.UsoEstilos39-65.pdf|PDF]]
 
-# Examen 4
+## Examen 4
 - [[5 Posicionamiento]]
 - [[5 Posicionamiento#Tipos de elementos | Tipos de elementos: block e inline]]
 
@@ -50,6 +51,9 @@
 - [[6.2 Validación]] (esto también esta en el PDF de visualización, pero es que no se donde meterlo sin que moleste)
 
 [[1.UsoEstilos83-94.pdf|PDF]]
+
+# Diseño amigable
+
 
 # Recursos
 

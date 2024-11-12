@@ -1,0 +1,20 @@
+<html>
+    <script>
+
+function prueba() {
+    
+    const fecha = "12:34:5678";
+    console.log(fecha);
+    console.log(fecha.substring(6, 12) +"/"+ fecha.substring(3, 5) +"/"+ fecha.substring(0, 2));
+    
+    console.log(fecha);
+    const date1 = new Date(parseInt(fecha.substring(8, 12)), parseInt(fecha.substring(4, 6))-1, parseInt(fecha.substring(0, 2)));
+    console.log(date1);
+}
+
+
+
+    </script>
+    <input type="text" name="fecha" id="fecha">
+    <input type="button" value="" onclick="prueba()">
+</html>

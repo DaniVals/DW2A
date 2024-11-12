@@ -154,13 +154,13 @@
 							<td>
 								<div id="apell">
 									<span>Apellidos:</span>
-									<input id="apellidos" type="text" name="apellidos" onblur="convertirMayusculas('apellidos')">
+									<input id="apellidos" type="text" name="apellidos" onblur="convertirMayusculas()" value="apellido">
 								</div>
 							</td>
 							<td>
 								<div id="nomb">
 									<span>Nombre:</span>
-									<input id="nombre" type="text" name="nombre" onblur="convertirMayusculas('nombre')">
+									<input id="nombre" type="text" name="nombre" onblur="convertirMayusculas()" value="nombre">
 								</div>
 							</td>
 						</tr>
@@ -168,13 +168,13 @@
 							<td>
 								<div id="direc">
 									<span>Direccion:</span>
-									<input id="direccion" type="text" name="direccion">
+									<input id="direccion" type="text" name="direccion" value="dirrecion">
 								</div>
 							</td>
 							<td>
 								<div id="ed">
 									<span>Cod. Postal:</span>
-									<input id="codigo" type="text" name="codigo">
+									<input id="codigo" type="text" name="codigo" value="12345">
 								</div>
 							</td>
 							<td>
@@ -193,19 +193,19 @@
 							<td>
 								<div id="tel">
 									<span>Teléfono:</span>
-									<input id="telefono" type="text" name="telefono">
+									<input id="telefono" type="text" name="telefono" value="923456789">
 								</div>
 							</td>
 							<td>
 								<div id="correo">
 									<span>E-mail:</span>
-									<input id="email" type="text" name="email">
+									<input id="email" type="text" name="email" value="correo@gmail.com">
 								</div>
 							</td>
 							<td>
 								<div id="fechaEntrega">
 									<span>Fecha entrega:</span>
-									<input id="fecha" type="text" name="fecha">
+									<input id="fecha" type="text" name="fecha" value="10:10:2030">
 								</div>
 							</td>
 						</tr>
@@ -222,7 +222,7 @@
 						<tr>
 							<td>
 								<div id="term">
-									<input id="terminos" type="checkbox" name="terminos">
+									<input id="terminos" type="checkbox" name="terminos" checked>
 									Acepta los términos de condición de compra.
 								</div>
 							</td>
