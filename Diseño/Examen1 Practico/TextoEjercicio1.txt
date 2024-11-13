@@ -1,0 +1,10 @@
+La Interacción Persona-Ordenador (IPO), es la disciplina que estudia el intercambio de información entre las personas y los ordenadores (el término en inglés es HCI, Human Computer Interaction). Su objetivo es que este intercambio sea más eficiente, minimizando errores e incrementando la satisfacción. La IPO ofrece un marco empírico con todo lo referente a calidad de uso e interacción de interfaces de usuario.
+La Psicología es la disciplina que estudia:
+
+    La percepción
+    La memoria
+    La adquisición de habilidades y el aprendizaje
+    La resolución de problemas
+    El movimiento,
+    Las tareas de juicio, de búsqueda o procesamiento de información y de la comunicación.
+
