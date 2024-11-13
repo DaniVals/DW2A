@@ -1,0 +1,170 @@
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
+body{
+  display: grid; /* Enables grid layout */
+  grid-template-rows: 1fr 1fr; /* Two columns of equal width */
+  grid-template-columns: 1fr 200px 1fr; /* Three rows, middle row is taller */
+  background-color: #0f03;
+}
+#div-foto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#div-foto img{
+    height: 200px;
+}
+#div-foto h2{
+    margin-bottom: 5px;
+}
+
+.seccion{
+    background-color: #0f01;
+    border-radius: 10px;
+    margin: 3px;
+}
+.seccion h2{
+    background-color: #0f03;
+    margin-left:  10px;
+    margin-right: 10px;
+    border-radius: 999px;
+
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.seccion h3{
+    margin-top: 0.5em;
+    padding-left: 5px;
+}
+.seccion p{
+    padding-left: 14px;
+}
+
+</style>
+<body>
+    <div class="seccion">
+        <h2>¿Qué piensa y siente?</h2>
+        <h3>Considera importante</h3>
+        <p>
+            Su salud, su familia y su trabajo <br>
+            Tener mas energía para poder pasar mas tiempo con su hija
+        </p>
+        <h3>Preocupaciones</h3>
+        <p>
+            Sentirse guapa <br>
+            No poder cuidar de su hija
+        </p>
+        <h3>Aspiraciones</h3>
+        <p>
+            Sentirse mejor consigo misma <br>
+            Evitar problemas de salud
+        </p>
+        <h3>Sentimientos</h3>
+        <p>
+            Insegura, ansiosa <br>
+            Miedo al futuro
+        </p>
+    </div>
+
+    <div id="div-foto" class="seccion-fina">
+        <!-- TODO cambiar por imagen menos alta y sin marca de awa -->
+        <img src="https://i.pinimg.com/736x/2e/30/a4/2e30a4e5e18b99db9e3f61a0894ca07a.jpg" alt="">
+        <div>
+            <h2>Ana</h2>
+            <p>Trabaja desde casa <br> y es madre</p>
+        </div>
+    </div>
+
+    <div class="seccion">
+        <h2>¿Qué escucha?</h2>
+        <h3>Su entorno dice</h3>
+        <p>
+            Su circulo de amigos se están apuntando a gimnasios también (ella se quiere apuntar pero no sabe ni que ni como hacer)
+        </p>
+        <h3>Canales de comunicación</h3>
+        <p>
+            En redes sociales le aparecen influencers mas guapos que ella, y eso la causa inseguridad
+        </p>
+        <h3>Las personas más influyentes dicen:</h3>
+        <p>
+            Que hay que cuidarse, muestran su rutina y motivan a sus seguidores a imitarlos
+        </p>
+    </div>
+
+    <div class="seccion">
+        <h2>¿Qué ve?</h2>
+        <h3>El mercado ofrece</h3>
+        <p>
+            Rutinas genéricas 
+        </p>
+        <h3>A sus amigos</h3>
+        <p>
+            Ve a sus amigos tener una vida mas saludable y mas activa.
+            Ve a otros padres con mejor cuerpo, haciendo actividades físicas con sus hijos
+        </p>
+        <h3>A sus amigos</h3>
+        <p>
+        </p>
+        <h3>Su entorno</h3>
+        <p>
+            Su hogar y lugar de trabajo, colegio, parques
+        </p>
+        <h3>Sus problemas</h3>
+        <p>
+            Falta de experiencia, miedo a lesionarse, no quiere pagar un entrenador privado. Sentirse motivada pero no forzada
+        </p>
+    </div>
+
+    <div class="seccion seccion-fina">
+        <h2>¿Qué dice y hace?</h2>
+        <h3>Su actitud en publico</h3>
+        <p>
+        Amable, preocupada.
+        </p>
+        <h3>Su apariencia</h3>
+        <p>
+        Viste bien y es moderna
+        </p>
+        <h3>Factor diferencial</h3>
+        <p>
+        Quiere vivir el mayor tiempo posible, su mayor preocupación es mantenerse sana para su hija
+        </p>
+    </div>
+
+    <div class="seccion">
+        <h2>Limitaciones / Obstáculos</h2>
+            <h3>Sus miedos</h3>
+            <p>
+            La soledad y el abandono
+            </p>
+
+            <h3>Frustraciones</h3>
+            <p>
+            Ser padre requiere mucha fuerza y no se siente capaz de aportarlo
+            </p>
+
+
+        <h2>Oportunidades / Necesidades</h2>
+            <h3>Necesidades</h3>
+            <p>
+            Ayudar a su hija
+            </p>
+
+            <h3>Oportunidades</h3>
+            <p>
+            Como teletrabaja, tiene bastante mas tiempo libre que un adulto común
+            </p>
+    </div>
+
+</body>

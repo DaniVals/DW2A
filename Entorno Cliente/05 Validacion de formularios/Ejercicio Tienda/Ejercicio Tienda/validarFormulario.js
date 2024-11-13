@@ -123,7 +123,8 @@ function validarFormulario() {
     ventana.document.write("<h3> fecha de llegada: "+date1+"</h3>");
     ventana.document.write("<h3> forma de pago: "+fpago[selected].value+"</h3>");
 
-    ventana.document.write("<input type='button' value='confirmar' onclick='alert(\"compra realizada\")'>")
+    ventana.document.write("<input type='button' value='confirmar' onclick='alert(\"compra realizada\"); window.close()'>")
+    ventana.document.write("<input type='button' value='cancelar'  onclick='alert(\"cancelado\"); window.close()'>")
     
     return true;
 }
