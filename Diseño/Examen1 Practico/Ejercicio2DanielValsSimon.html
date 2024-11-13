@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Vals Simon</title>
+
+<style>
+
+/*
+==== Enunciado ====
+(2 puntos) Se te proporcionan dos ficheros llamados 
+Ejercicio2.html y Ejercicio2.css.
+
+Rellena las reglas del fichero css para que la página
+se muestre lo más parecida posible a la
+que se muestra a continuación.
+
+Guarda los ficheros con el nombre Ejercicio2<tunombre>.
+No se pueden usar posiciones
+absolutas, la propiedad height 
+ni modificar las marcas de la página html 
+en caso de hacerlo el ejercicio puntúa con 0.
+Al colocarse sobre Ayuda, Alumnos, Cursos, Información e Inicio 
+cambiará el color de la caja y el de la letra.
+*/
+
+/* yo prefiero hacerlo todo en un archivo que me fio mas para entregarlo */
+div.cabecera {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+
+    float: left;
+
+    background: linear-gradient(#006, #66f, #fff);
+    border: 2px solid red;
+    border-radius: 10px 0px;
+    box-shadow: #0006 1px 5px 5px;
+}
+.menu a{
+    padding: 10px;
+
+    float: right;
+
+    border: 1px solid red;
+    color: black;
+    text-decoration: none;
+    box-shadow: #9906 0px 5px 5px;
+}
+.menu a:hover{
+    color: white;
+    background-color: #ff06;
+}
+.logo{
+    float: left;
+}
+.logo p{
+    margin-bottom: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #0006 1px 2px;
+    font-size: larger;
+}
+
+
+</style>
+</head>
+
+<body>
+    <div class="cabecera">
+        <div class="menu">
+            <a href="#inicio">Inicio</a></li>
+            <a href="#informacion">Información</a></li>
+            <a href="#cursos">Cursos</a></li>
+            <a href="#alumnos">Alumnos</a></li>
+            <a href="#ayuda">Ayuda</a></li>
+        </div>
+        <div class="logo">
+            <p>Todo FP</p>
+            <a href="http://www.educacion.gob.es">www.educacion.gob.es</a>
+        </div>
+    </div>
+</body>
+</html>

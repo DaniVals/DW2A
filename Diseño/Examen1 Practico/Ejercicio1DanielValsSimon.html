@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Vals Simon</title>
+
+<style>
+/* yo prefiero hacerlo todo en un archivo que me fio mas para entregarlo */
+/*
+Crea una página lo más parecida a la mostrada 
+en las siguientes imágenes.
+
+Guardar con el nombre Ejercicio1<tunombre>.
+– Máximo de 2 clases.
+– Máximo 3 div
+– Medidas de relleno y márgenes en medida relativa
+– Tamaño de la letra más grande 2 veces el de la letra normal.
+– No hay margen en el borde punteado
+*/
+
+/* Para quitar el margin en el body (he usado 8px porque es el margin por defecto del <html>) */
+/* html{
+    padding: 8px;
+}
+body{
+    margin: 0px;
+} */
+
+html{
+    background: url("img.png");
+}
+body{
+    border: dotted;
+    padding: 1em;
+}
+div::first-letter{
+    color: green;
+    font-size: 2em;
+}
+div.contenido{
+    background-color: #6f09;
+    float: left;
+    width: 400px;
+
+    margin-bottom: 1em;
+    padding: 1em;
+}
+div.foto{
+    clear: both;
+    padding: 1em;
+
+    background: #fff url("imagen.png") center left no-repeat;
+    border: solid green;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+    <div class="contenido">
+        La Interacción Persona-Ordenador (IPO), es la disciplina que estudia el intercambio de información entre las personas y los ordenadores (el término en inglés es HCI, Human Computer Interaction). Su objetivo es que este intercambio sea más eficiente, minimizando errores e incrementando la satisfacción. La IPO ofrece un marco empírico con todo lo referente a calidad de uso e interacción de interfaces de usuario.
+    </div>
+
+    <div class="contenido">
+        La Psicología es la disciplina que estudia:
+        <ul>
+            <li>La percepción</li>
+            <li>La memoria</li>
+            <li>La adquisición de habilidades y el aprendizaje</li>
+            <li>La resolución de problemas</li>
+            <li>El movimiento</li>
+            <li>Las tareas de juicio, de búsqueda o procesamiento de información y de la comunicación.</li>
+        </ul>
+    </div>
+    <div class="foto">
+        Interacción Persona-Ordenador
+    </div>
+
+</body>
+</html>
