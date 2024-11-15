@@ -15,7 +15,7 @@ texto[0] // devuelve 't'
 texto[1] // devuelve 'x'
 texto[2] // devuelve 't'
 
-texto.lenght // devuelve 3
+texto.length // devuelve 3
 ```
 
 # Funciones

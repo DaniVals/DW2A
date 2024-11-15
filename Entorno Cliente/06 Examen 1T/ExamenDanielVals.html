@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Daniel Vals Simon</title>
+</head>
+<script>
+    
+    // ==== mover el nombre ====
+    var spanPos = false;
+    function init() {
+        setInterval("moveName()", 500);
+    }
+    function moveName() {
+        const spanName = document.getElementById('nombreSpan');        
+
+        if (spanPos) {  spanName.style.inset = '0px auto auto 0px';}
+        else{           spanName.style.inset = 'auto 0px 0px auto';}
+
+        spanPos = !spanPos;
+    }
+
+    // ==== formulario ====
+    var arrayDatosFormulario = [];
+    function validarFormulario() {
+        
+        const regexDecimal = /^[+-]{0,1}[0-9]+$/;
+        const regexHexadecimal = /^[0]{1}[x]{1}[0-9A-F]{4}$/i;
+
+        const nombreForm = document.getElementById("nombre").value;
+        const tipoForm = document.getElementById("Tipo");
+        const valorForm = document.getElementById("valor").value;
+        
+        
+
+        switch (tipoForm.selectedIndex) {
+
+            // Decimal
+            case 1:
+                if (!regexDecimal.test(valorForm)) {
+                    alert("Error: el valor debe ser un numero positivo o negativo");
+                    return false;
+                }
+                break;
+
+            // Hexadecimal
+            case 2:
+                if (!regexHexadecimal.test(valorForm)) {
+                    alert("Error: el valor debe ser un numero en hexadecimal, de cuatro digitos, empezado por '0x'");
+                    return false;
+                }
+                break;
+        
+            // En caso de que no elija
+            default:
+                alert("Error: Elija un tipo de numeracion");
+                return false;
+        }
+
+        arrayDatosFormulario.push([nombreForm,tipoForm.options[tipoForm.selectedIndex].innerText,valorForm]);
+
+        console.log(arrayDatosFormulario);
+        
+        // por si acaso
+        return true;
+    }
+
+    // ==== buscar y contar letra ====
+    function buscarLetra() {
+        const letra = prompt("Dame la letra que quieres que busque")[0]; // el [0] para se solo coja el primer caracter
+        const stringForm = document.getElementById("nombre").value;
+
+        let contador = 0;
+
+        for (let i = 0; i < stringForm.length; i++) {
+            if (letra == stringForm[i]) {
+                contador++;
+            }
+        }
+
+        let ventana = window.open("","nombre","height="+130+", width="+250);
+        ventana.moveTo(screen.width/2 - 250/2, screen.height/2 - 130/2);
+        ventana.document.write("Nº de repeticiones de la letra '"+letra+"' : " + contador);
+    }
+</script>
+<body onload="init()">
+    <form>
+        <h1>Registrar</h1>
+        <table>
+
+            <tr>
+                <td>Nombre objeto*:</td>
+                <td>
+                    <input type="text" id="nombre" maxlength="8" required>
+                    <input type="button" value="contar letra" onclick="buscarLetra()">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Tipo numeracion*:</td>
+                <td>
+                    <select size="1" id="Tipo" required>
+                        <option value=" " selected></option>
+                        <option value="Entero">Decimal</option>
+                        <option value="Hexadecimal">Hexadecimal</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Valor*:</td>
+                <td>
+                    <input type="text" id="valor" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" name="Acepto" id="Acepto" value="Acepto" required>Acepto enviar los datos</td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Registrar" onclick="validarFormulario()"></td>
+            </tr>
+
+        </table>
+    </form>
+
+    <div id="nombreSpan" style="background-color: aqua; position: absolute; top: 0px; left: 0px;">Daniel Vals</div>
+</body>
+</html>
