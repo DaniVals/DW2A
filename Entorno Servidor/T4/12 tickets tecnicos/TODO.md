@@ -56,4 +56,3 @@ No apunto nada por ahora y copio los detalles de la que nos llame la atención
 - [ ] Order By en el buscador
 
 ### 13. Notificación de correo
-
