@@ -47,6 +47,7 @@
 
 + [[Plantilla proyecto empresa]] (este no lo hicimos por el libro, simplemente lo mando como guía)
 + [[Resumen ejecutivo]]
++ [[Corrección Entrega Parcial]]
 
 
 

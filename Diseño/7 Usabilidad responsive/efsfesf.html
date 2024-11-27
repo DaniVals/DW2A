@@ -1,0 +1,22 @@
+<html>
+<style>
+#vertical {
+    display: none;
+}
+#horizontal {
+    display: block;
+}
+@media (orientation: landscape) {
+    #vertical {
+        display: block;
+    }
+    #horizontal {
+        display: none;
+    }
+}
+</style>
+<body>
+    <p id="vertical">vertical</p>
+    <p id="horizontal">horizontal</p>
+</body>
+</html>

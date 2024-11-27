@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>Selects dependientes</title>
+</head>
+<body>
+    <form name="f1">
+        <select name="com" id="com" onchange="cambia_provincia()">
+            <option value="0" selected>Seleccione...</option>
+            <option value="1">Andalucía</option>
+            <option value="2">Extremadura</option>
+            <option value="3">Aragón</option>
+            <option value="4">Cantabria</option>
+        </select>
+        <select name="provincia" id="provincia">
+            <option value="-">-
+        </select>
+    </form>
+</body>
+<script>
+const array_datos = [
+    ["-"],
+    ["andalucia01" , "andalucia02", 1111],
+    ["extremadura01" , "extremadura02", 2222],
+    ["aragon01" , "aragon02", 3333],
+    ["cantabria01" , "cantabria02", 4444]
+]
+
+function cambia_provincia() {
+
+    const selected_option = document.getElementById("com").selectedIndex;
+
+    const provincia = document.getElementById("provincia");
+    provincia.innerHTML = "";
+    for (let i = 0; i < array_datos[selected_option].length; i++) {
+        const option = document.createElement("option");
+        option.text = array_datos[selected_option][i];
+        provincia.appendChild(option);
+    }
+}
+</script>
+</html>

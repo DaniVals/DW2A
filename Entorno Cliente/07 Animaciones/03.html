@@ -1,0 +1,34 @@
+<html>
+<body>
+    <form id="f1">
+    <input type="button" id="Boton" value="Boton que desaparece"><br><br>
+
+    <input type="text" id="Caja" value="Caja que desaparece"><br>
+
+    <p id="Texto">Texto que desaparece </p><br>
+    <p id="BotonGlobal"> Pulsa aquí para que todo aparezca </p>
+    </form>
+</body>
+<script language="javascript">
+    // esto se hace con CSS, hacerlo con JS es muy ineficiente
+</script>
+<style>
+body:has(#BotonGlobal:hover) #Boton,
+body:has(#BotonGlobal:hover) #Caja,
+body:has(#BotonGlobal:hover) #Texto,
+#BotonGlobal:hover {
+    visibility: hidden;
+}
+#Boton:hover {
+    visibility: hidden;
+}
+#Caja:hover {
+    visibility: hidden;
+}
+#Texto:hover {
+    visibility: hidden;
+}
+</style>
+</html>
+    
+    

@@ -1,0 +1,19 @@
+<html>
+<body>
+    <h2 id="h2">0</h2>
+    <textarea id="textarea" onkeyup="limitarChars()"></textarea>
+</body>
+<script>
+
+function limitarChars() {
+    const textarea = document.getElementById("textarea");
+    const h2 = document.getElementById("h2");
+
+    if (10 < textarea.value.length) {
+        textarea.value = textarea.value.substring(0, 10);
+    }
+    h2.innerText = textarea.value.length;
+}
+
+</script>
+</html>

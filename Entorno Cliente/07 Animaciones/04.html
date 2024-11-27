@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Ejercicio</title>
+</head>
+<body bgcolor="#FFFFCC">
+    <h1 align="center"><font color="#000088" face="Verdana"><b>IMAGENES VIAJE</b></font></h1>
+    <p align="center">
+        <img border="2" src="Foto1.gif" width="300" height="224" name="Foto" id="Foto" hspace="2" vspace="2">
+    </p>
+    <p align="center">
+        <a href="javascript:Primero()">  <img alt="primero" src="primero.jpg"></a>&nbsp;
+        <a href="javascript:Anterior()"> <img alt="anterior" src="anterior.jpg"></a>&nbsp;
+        <a href="javascript:Siguiente()"><img alt="siguiente" src="siguiente.jpg"></a>&nbsp;
+        <a href="javascript:Ultimo()">   <img alt="ultimo" src="ultimo.jpg"></a>&nbsp;
+    </p>
+</body>
+<script language="javascript">
+
+const imagenes = ["Foto1.gif", "Foto2.gif", "Foto3.gif", "Foto4.gif", "Foto5.gif"];
+let index = 0;
+
+function actualizarFoto() {
+    document.getElementById("Foto").src = imagenes[index];
+    document.getElementById("Foto").alt = imagenes[index];
+}
+
+
+function Primero() {
+    index = 0;
+    actualizarFoto();
+}
+function Ultimo() {
+    index = imagenes.length - 1;
+    actualizarFoto();
+}
+function Anterior() {
+    index--;
+    if (index < 0) {
+        index = 0;
+    }
+    actualizarFoto();
+}
+function Siguiente() {
+    index++;
+    if (imagenes.length - 1 < index) {
+        index = imagenes.length - 1;
+    }
+    actualizarFoto();
+}
+
+</script>
+</html>

@@ -1,0 +1,26 @@
+<HTML>
+<HEAD>
+<title>Fondo Colores</title>
+<STYLE TYPE=TEXT/CSS>
+#Caja1 {position: absolute; top: 5px; left:5px;width:150;height:150; background-color:lightblue;}
+</STYLE>
+<SCRIPT LANGUAJE="JavaScript">
+</SCRIPT>
+</HEAD>
+<BODY>
+<form>
+<center>
+¿Qué fondo desea cambiar?<br>	
+<input type="radio" name="elemento" value="documento" checked>Documento	
+<input type="radio" name="elemento" value="caja">Caja
+<p>
+<INPUT type="Button" value="Fondo Rojo">
+<INPUT type="Button" value="Fondo Azul" >
+<INPUT type="Button" value="Fondo Verde" >
+<INPUT type="Button" value="Fondo Amarillo" >
+<INPUT type="Button" value="Fondo Negro" >
+</center>
+</form>
+<div id="Caja1"></div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <TITLE> Ejercicio  </TITLE>
+  <SCRIPT LANGUAJE="JAVASCRIPT">
+  </SCRIPT>
+</HEAD>
+<BODY>
+ <form id="f1">
+  <INPUT TYPE=BUTTON id="Boton"
+         VALUE="Botón que desaparece"><BR><BR>
+
+  <INPUT TYPE=TEXT id="Caja" 
+         VALUE="Caja que desaparece"><BR>
+
+  <P id="Texto">
+         Texto que desaparece </P><BR>
+  <P > Pulsa aquí para que todo aparezca </P>
+  </form>
+</BODY>
+</HTML>
+

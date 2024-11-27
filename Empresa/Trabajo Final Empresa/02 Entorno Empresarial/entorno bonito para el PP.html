@@ -2,6 +2,13 @@
 <html>
     <!-- PREFI -->
 <style>
+:root{
+    --color-base: #83ff6d;
+
+    --color-titulo: #83ff6d;
+    --color-seccion: #83ff6d99;
+    --color-fondo: #83ff6d99;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -15,14 +22,14 @@ body{
     margin: 5px;
     border-radius: 10px;
     overflow: hidden;
-    background-color: #6f63;
+    background-color: var(--color-fondo);
 
 }
 #Macro > h2{
     padding: 10px;
     display: block;
     text-align: center;
-    background-color: #0f0;
+    background-color: var(--color-titulo);
 }
 
 #Micro > div,
@@ -37,12 +44,12 @@ body{
     display: block;
     text-align: center;
     border-radius: 10px;
-    background-color: #6f6;
+    background-color: var(--color-titulo);
 
     padding: 0px 50px;
 }
 ul{
-    background-color: #6f66 !important;
+    background-color: var(--color-fondo) !important;
     list-style-position: inside;
     list-style-type: square;
     margin: 0px 10px;
@@ -55,14 +62,14 @@ ul{
 #Micro{
     clear: both;
     width: 99% !important;
-    background-color: #6f66;
+    background-color: var(--color-fondo);
     border-radius: 10px;
 }
 #Micro > h2{
     padding: 10px !important;
     display: block;
     text-align: center;
-    background-color: #0f0 !important;
+    background-color: var(--color-titulo) !important;
     border-radius: 10px 10px 0px 0px !important;
 }
 

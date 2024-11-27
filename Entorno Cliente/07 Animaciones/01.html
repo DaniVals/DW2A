@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Fondo Colores</title>
+    <style TYPE=TEXT/CSS>
+        #Caja1 {
+            position: absolute;
+            top: 150px;
+            left: calc(50% - 150px);
+            width: 300px;
+            height: 150px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<script lang="JavaScript">
+function cambiarColor(color) {
+    const elemento = document.getElementsByName("elemento");
+    let selected;
+    for (let i = 0; i < elemento.length; i++) {
+        if (elemento[i].checked) {
+            selected = i;
+        }
+    }
+
+    switch (selected) {
+        case 0:
+            document.body.style.backgroundColor = color;
+            break;
+        case 1:
+            document.getElementById("Caja1").style.backgroundColor = color;
+            break;
+    }
+}
+
+</script>
+
+<body>
+    <form>
+        <center>
+            ¿Qué fondo desea cambiar?
+            <br>
+            <input type="radio" name="elemento" value="documento" checked>Documento
+            <input type="radio" name="elemento" value="caja">Caja
+            <p></p>
+            <input type="Button" onclick="cambiarColor('#f00')" value="Fondo Rojo">
+            <input type="Button" onclick="cambiarColor('#00f')" value="Fondo Azul">
+            <input type="Button" onclick="cambiarColor('#0f0')" value="Fondo Verde">
+            <input type="Button" onclick="cambiarColor('#ff0')" value="Fondo Amarillo">
+            <input type="Button" onclick="cambiarColor('#000')" value="Fondo Negro">
+        </center>
+    </form>
+    <div id="Caja1"></div>
+</body>
+</html>

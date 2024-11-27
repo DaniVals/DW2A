@@ -1,0 +1,32 @@
+<BODY BGCOLOR="#FFFFFF" >
+    <CENTER>
+      <HR>
+      <H1 style="color:blue">Alumnos de la clase DAW2A</H1>
+      <HR>
+    
+      Seleccione el alumno cuyos datos desea ver:<P>
+    <FORM NAME="f1">
+	<SELECT NAME="sel" id="sel" >
+	<option value="Pedro Ramirez Ramos">Pedro Ramirez Ramos
+	<option value="Victor Manuel Rivas Santos">Victor Manuel Rivas Santos
+	<option value="Gustavo Romero Lopez">Gustavo Romero Lopez
+	<option value="Jesús Gonzalez Peñalver">Jesús Gonzalez Peñalver
+	</SELECT>
+	 <HR>
+	 </center>
+	 <TABLE>
+	  <tr><td><IMG SRC="" id="foto" WIDTH="150" HEIGHT="150"></td>
+	 <td>
+	 <table>
+	    <tr><td>Nombre:</td><td><INPUT TYPE="text" id="nombre" SIZE="40" VALUE=""></td></tr>
+	    <td>Aficiones:</td><td><INPUT TYPE="text" id="aficiones" SIZE="50" VALUE=""></td></tr>
+	    <tr><td></td><td><A HREF=""  name="enlace" id="enlace">Pulse aquí para ver su página</A></tr>
+	    <tr><td></td><td><A HREF="" id="correo">Pulse aquí para enviarle un correo</tr>
+	  </table>
+	  </form>
+	</td></tr>
+    </TABLE>
+	   <HR>
+	   <center><input type="button" value="Buscar Alumnos por Aficiones" onClick="Buscar()"></center>
+  </BODY>
+</HTML>

@@ -1,0 +1,20 @@
+<HTML>
+<HEAD>
+<TITLE>Ejercicio </TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+</SCRIPT>
+</HEAD>
+<BODY bgcolor="#FFFFCC">
+<h1 align="center"><font color="#000088" face="Verdana"><b>IMAGENES VIAJE</b></font></h1>
+<p align="center">
+<img border="2" src="Foto1.gif" width="300" height="224" name="Foto" id="Foto"
+	hspace="2" vspace="2"></p>
+<p align="center">
+<a href="javascript:Primero()"><img src="primero.jpg"> </a>&nbsp;
+<a href="javascript:Anterior()"><img src="anterior.jpg"> </a>&nbsp;
+<a href="javascript:Siguiente()"><img src="siguiente.jpg"> </a>&nbsp;
+<a href="javascript:Ultimo()"><img src="ultimo.jpg"> </a>&nbsp;
+</BODY>
+</HTML>
+
+

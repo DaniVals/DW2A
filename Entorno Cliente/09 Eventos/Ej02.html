@@ -1,0 +1,20 @@
+<html>
+<body>
+    <h1 id="h1" onmouseover="cambiarColor(true)" onmouseout="cambiarColor(false)">encabezado</h1>
+</body>
+<script>
+
+function cambiarColor(cambiar) {
+    const h1 = document.getElementById("h1");
+    
+    if (cambiar) {
+        h1.style.color = "red";
+        h1.style.background = "yellow";
+    } else {
+        h1.style.color = "black";
+        h1.style.background = "none";
+    }
+}
+
+</script>
+</html>

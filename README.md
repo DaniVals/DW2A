@@ -23,8 +23,6 @@ Shadow: off
 > [[Apuntes Entorno Servidor|Entorno Servidor]]
 > [[Apuntes Ingles|Ingles]]
 
-![[Fechas Importantes#Exámenes 1º T]]
-
 
 --- column-break ---
 
@@ -33,12 +31,14 @@ Shadow: off
 > - hacer proyecto antes de las practicas, que luego no tendremos casi tiempo
 > - [[Faltas | Faltas calculadas]]
 
+
+--- end-multi-column 
+
+![[Fechas Importantes#Exámenes 1º T]]
+
 > [!warning] Tareas
 > ```dataview
 > TASK
 > FROM ""
 > SORT completed
 > ```
-
-
---- end-multi-column 

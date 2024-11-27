@@ -20,3 +20,6 @@ Se pueden tener desplegados tantos contenedores como se necesite, aunque hay que
 
 # Imagen
 - [ ] Despliegue: preguntar al profe definición de imagen
+
+# Volumen
+- [ ] Despliegue: definición Volumen

@@ -1,0 +1,24 @@
+<html>
+<head>
+
+</head>
+<body>
+<script>
+	function loadDoc() {
+		var xhttp = new XMLHttpRequest();
+		
+		xhttp.onreadystatechange = function() {
+			
+			if (this.readyState == 4 && this.status == 200) {
+				alert(this.response);
+			}
+		};
+		xhttp.open("POST", "diasemana.php", true);
+		xhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		xhttp.send("numero=2"); // numero1=1&numero2=2
+		return false;
+	}
+	loadDoc();
+</script>
+</body>
+</html>

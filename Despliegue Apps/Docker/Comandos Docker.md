@@ -59,3 +59,7 @@ docker rmi
 ```bash
 docker inspect
 ```
+
+
+# Docker Compose
+- [ ] Despliegue: TODO - apuntes docker compose

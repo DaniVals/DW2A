@@ -1,0 +1,29 @@
+<html>
+<head></head>
+<body>
+    <h1>Dar la fecha</h1>
+    <input type="text" id="nombre">
+    <button onclick="sacarFecha()">Pulsa aquí para obtener la fecha</button>
+     <div id="caja"></div>
+    <script>
+        function sacarFecha() {
+            // Me recupero el nombre que me ha escrito el usuario en la caja
+            var nom = nombre.value;
+
+            // Instancia un objeto
+            var xhttp = new XMLHttpRequest();     
+
+            // Si cambia el estado del objeto, me llamas a una función
+            xhttp.onreadystatechange = function() {
+                // Comprobar si el objeto está en estado 4 y si la respuesta del serv. es 200 (OK)
+                if (this.readyState == 4 && this.status == 200) {  
+                    // Hago lo que tengo que hacer (imprimir la fecha en la pagína)
+                    caja.innerHTML = this.response;
+                }
+            };
+            xhttp.open("GET", "devuelve_fecha.php?nom="+nom, true);     
+            xhttp.send(); 
+        }
+    </script>
+</body>
+</html>

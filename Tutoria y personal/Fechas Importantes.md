@@ -30,10 +30,16 @@ lo que vayamos trabajando en clase (lo que llevamos por ahora):
 ---
 
 ## Exámenes 2º T
-enero creo
+antes 7 febrero
+
+- [ ] 24 enero -> oral
+- [ ] 31 enero -> written exam
+- [ ] 24 enero -> oral
 
 ### Entrega trabajo de empresa
 
+## ordinaria
+21-27 febrero
 
 ## Fin de Grado
 ### Entrega Trabajo Fin Grado

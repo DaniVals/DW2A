@@ -1,18 +1,31 @@
 <style>
+:root{
+    --color-base: #83ff6d;
+
+    --color-titulo: #83ff6d;
+    --color-seccion: #83ff6d99;
+    --color-fondo: #83ff6d99;
+}
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-wrap: balance;
 }
 html{
     padding: 10px;
     background-color: #000;
-    color: #fff;
+    color: #000;
 }
 body{
-  display: grid; /* Enables grid layout */
-  grid-template-rows: 1fr 1fr; /* Two columns of equal width */
-  grid-template-columns: 1fr 200px 1fr; /* Three rows, middle row is taller */
-  background-color: #0f03;
+    /* el tamaño con el que hice la captura */
+    width: 900px;
+
+    display: grid; /* Enables grid layout */
+    grid-template-rows: 1fr 1fr; /* Two columns of equal width */
+    grid-template-columns: 1fr 30% 1fr; /* Three rows, middle row is taller */
+    /* background-color: #0f03; */
+    background-color: var(--color-fondo);
 }
 #div-foto{
     text-align: center;
@@ -29,12 +42,12 @@ body{
 }
 
 .seccion{
-    background-color: #0f01;
+    background-color: var(--color-seccion);
     border-radius: 10px;
     margin: 3px;
 }
 .seccion h2{
-    background-color: #0f03;
+    background-color: var(--color-titulo);
     margin-left:  10px;
     margin-right: 10px;
     border-radius: 999px;
@@ -112,9 +125,6 @@ body{
         <p>
             Ve a sus amigos tener una vida mas saludable y mas activa.
             Ve a otros padres con mejor cuerpo, haciendo actividades físicas con sus hijos
-        </p>
-        <h3>A sus amigos</h3>
-        <p>
         </p>
         <h3>Su entorno</h3>
         <p>
