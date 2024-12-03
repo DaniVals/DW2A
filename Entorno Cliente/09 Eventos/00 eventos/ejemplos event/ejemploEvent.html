@@ -1,0 +1,38 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script>
+function controlEvent(even)
+{
+   evt=window.event || even;
+   var info = "";
+   info += "Elemento tratado = " + evt.currentTarget + "/" + evt.currentTarget.id + "\n";
+   info += "Elemento desencadenante = ";
+   info += evt.target.id + "\n";
+   info += "Nombre del evento = " + evt.type + "\n";
+   info += "fase =  " + evt.eventPhase + "\n";
+   info += "Coordenadas del ratón : ";
+   info += "pantalla=" + evt.screenX + "," + evt.screenY;
+   info += " - ventana=" + evt.clientX + "," + evt.clientY;
+   info += " - elemento HTML=" + evt.offsetX + "," + evt.offsetY + "\n";
+   alert(info);
+}
+</script>
+</head>
+<BODY onclick="controlEvent(event);">
+	<DIV  id=div1 onclick="controlEvent(event);">
+		<DIV  id=div2 onclick="controlEvent(event);"
+				style="position:absolute; left:200px; top:100px;">
+				<INPUT id=boton1 onclick="controlEvent(event);"
+         type=button value="Botón 1 (onclick)">
+		</DIV>
+		<DIV  id=div3  onmousemove="controlEvent(event);"
+		style="position:absolute; left:300px; top:200px;">
+			<INPUT id=boton2 onmousemove="controlEvent(event);"
+				type=button  value="Botón 2 (onmousemove)">
+		</DIV>
+   </DIV>
+</BODY>
+</html>
+

@@ -1,0 +1,89 @@
+<body>
+    <table id="tabla1" border="1">
+        <tr>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+        </tr>
+        <tr>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+        </tr>
+        <tr>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+        </tr>
+        <tr>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+        </tr>
+        <tr>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+            <td>pueba</td>
+        </tr>
+    </table>
+    <input type="button" id="boton1" value="Activar">
+</body>
+
+
+<!-- 
+
+====================================================== 
+
+3. Crear una tabla de 5x5 celdas y mediante activación/desactivación de eventos permitir alternar el color de fondo de las celdas
+cada vez que el usuario haga clic sobre ellas.
+
+El botón “Activar” activa/desactiva  los eventos de las celdas,
+cambiando el texto del mismo según la función que activará/desactivará. 
+-->
+
+<script>
+    const color = "red";
+
+    const tabla1 = document.getElementById("tabla1");
+    const boton1 = document.getElementById("boton1");
+    let activar = false;
+
+    boton1.addEventListener("click", function() {
+        if (activar) {
+            activar = false;
+            boton1.value = "Activar";
+            for (let i = 0; i < tabla1.rows.length; i++) {
+                for (let j = 0; j < tabla1.rows[i].cells.length; j++) {
+                    tabla1.rows[i].cells[j].removeEventListener("click", cambiarColor);
+                }
+            }
+            
+        } else {
+            activar = true;
+            boton1.value = "Desactivar";
+            for (let i = 0; i < tabla1.rows.length; i++) {
+                for (let j = 0; j < tabla1.rows[i].cells.length; j++) {
+                    tabla1.rows[i].cells[j].addEventListener("click", cambiarColor);
+                }
+            }
+        }
+    });
+
+    function cambiarColor(event) {
+        if (event.target.style.backgroundColor === color) {
+            event.target.style.backgroundColor = "white";
+        } else {
+            event.target.style.backgroundColor = color;
+        }
+    }
+</script>

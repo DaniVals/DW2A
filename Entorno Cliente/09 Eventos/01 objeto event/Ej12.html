@@ -1,0 +1,48 @@
+<html onmousemove="actualizarCoords(event)" onkeydown="actualizarCoords(event)" onmousedown="actualizarCoords(event)">
+<body>
+    <div>
+        <h2>Raton</h2>
+        <p>Ventana: <span id="coords_vent">---</span></p>
+        <p>Pantalla: <span id="coords_pant">---</span></p>
+    </div>
+    <div>
+        <h2>Teclado</h2>
+        <p>Caracter: <span id="key_char">---</span></p>
+        <p>Codigo:   <span id="key_code">---</span></p>
+    </div>
+</body>
+<script>
+
+function actualizarCoords(evento) {    
+    switch (evento.type) {
+        case "mousemove":
+            document.getElementById("coords_vent").innerHTML = "X: " + evento.clientX + " Y: " + evento.clientY;
+            document.getElementById("coords_pant").innerHTML = "X: " + evento.screenX + " Y: " + evento.screenY;
+        break;
+
+        case "keydown":
+            document.getElementById("key_char").innerHTML = evento.key;
+            document.getElementById("key_code").innerHTML = evento.keyCode;
+        break;
+
+        case "mousedown":
+            const body = document.body.style;
+
+            if (body.backgroundColor == "red") {
+                body.backgroundColor = "blue";
+            } else {
+                body.backgroundColor = "red";
+            }
+        break;
+    }
+}
+
+</script>
+<style>
+    div {
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+    }
+</style>
+</html>

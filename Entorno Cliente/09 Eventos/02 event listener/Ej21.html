@@ -1,0 +1,47 @@
+<body>
+    <h1 id="titulo">Ejercicio 1</h1>
+    <input type="text" id="text1" name="text1" size="30">
+    <br>
+    <input type="text" id="text2" name="text2" size="30">
+</body>
+<!--
+
+=========================
+
+1. Crear un formulario que muestre un encabezado de tipo H1 y dos controles de tipo text (código html inferior).
+    Activar los siguientes eventos:
+    - cuando se ingrese con el mouse dentro del encabezado cambiará el color a letra roja y color de fondo amarillo y
+      cuando se mueva la flecha del mouse fuera del encabezado volverá al color original.
+    - el control de tipo texto que tenga el foco mostrará su texto de color rojo y
+      aquel que no tenga el foco mostrará el texto de color negro.
+-->
+<script>
+    
+    const color = "red";
+    const bg_color = "yellow";
+
+    const titulo = document.getElementById("titulo");
+    const text1 = document.getElementById("text1");
+    const text2 = document.getElementById("text2");
+
+    titulo.addEventListener("mouseenter", function() {
+        titulo.style['background-color'] = bg_color;
+        titulo.style['color'] = color;
+    });
+    titulo.addEventListener("mouseleave", function() {
+        titulo.style['background-color'] = "inherit";
+        titulo.style['color'] = "inherit";
+    });
+
+    text1.addEventListener("focus", function() {
+        changeColor(text1);
+    });
+    text2.addEventListener("focus", function() {
+        changeColor(text2);
+    });
+
+    function changeColor(cambiado) {
+        console.log(cambiado);
+    }
+
+</script>

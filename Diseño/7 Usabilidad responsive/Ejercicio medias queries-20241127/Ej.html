@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Camisetas</title>
+</head>
+<style>
+*{
+    font-family: Arial, sans-serif;
+}
+#cabecera,
+#pie {
+    clear: both;
+    background-color: green;
+
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#cabecera{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+#listado {
+    width: 200px;
+    float: left;
+}
+#camisetas {
+    float: right;
+    width: calc(100% - 200px);
+}
+@media (max-width: 850px) {
+    #listado {
+        display: none;
+    }
+    #camisetas {
+        width: 100%;
+    }
+}
+
+</style>
+<body>
+    <div id="cabecera">
+        Venta de Camisetas
+    </div>
+
+    <div id="listado">
+        Elige tu camiseta
+        <ol>
+            <li>Milan</li>
+            <li>Paris-Saint-germain</li>
+            <li>Barcelona</li>
+            <li>Arsenal</li>
+            <li>Bayern</li>
+            <li>Manchester</li>
+        </ol>
+    </div>
+    <div id="camisetas">
+        <img src="1.Milan.jpg">
+        <img src="2.paris-saint-germain.jpg">
+        <img src="3.Barcelona.jpg">
+        <img src="4.Arsenal.jpg">
+        <img src="5.Bayern.jpg">
+        <img src="6.Manchester.jpg">
+    </div>
+
+    <div id="pie">
+        Gracias por comprar
+    </div>
+</body>
+</html>

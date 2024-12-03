@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DOM</title>
+		<style>
+		</style>
+		<script>
+		    window.addEventListener('load', asignarEventos, false);
+			function imprimirEvento(evento) {
+				var mensaje = evento.type + ' - ' + evento.target.id ;
+                alert(mensaje)
+			}
+			function asignarEventos(evento) {
+					document.getElementById("campo1").addEventListener('keydown', imprimirEvento);
+					document.getElementById("campo2").addEventListener('click', imprimirEvento);
+			}	
+			
+		</script>
+	</head>
+	<body>
+		<label for='campo1'>Campo 1:</label>
+		<input id='campo1' type='text' />
+		<br />
+		<label for='campo2'>Campo 2:</label>
+		<input id='campo2' type='text' />
+	</body>
+</html>

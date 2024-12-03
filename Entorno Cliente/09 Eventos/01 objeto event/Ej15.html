@@ -1,0 +1,41 @@
+<html>
+<body>
+    <section>
+        <div style="background: red"   onmouseenter="pintar(event)"></div>
+        <div style="background: yellow"   onmouseenter="pintar(event)"></div>
+        <div style="background: blue"  onmouseenter="pintar(event)"></div>
+        <div style="background: black"   onmouseenter="pintar(event)"></div>
+        <div id="bloque2" style="background: white" onmouseenter="pintar(event)"></div>
+        <div style="background: white"   onmouseenter="pintar(event)"></div>
+        <div style="background: orange"   onmouseenter="pintar(event)"></div>
+        <div style="background: green"   onmouseenter="pintar(event)"></div>
+        <div style="background: purple"   onmouseenter="pintar(event)"></div>
+    </section>
+</body>
+<style>
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: fit-content;
+    }
+    div {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        margin: 20px;
+    }
+</style>
+<script>
+var color = "white";
+
+function pintar(evento) {
+    if (evento.target.id == "bloque2") {
+        evento.target.style.background = color;
+    } else {
+        color = evento.target.style.background;
+    }
+}
+
+</script>
+
+ 

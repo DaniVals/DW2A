@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DOM</title>
+		<style>
+		</style>
+		<script>
+		    document.addEventListener('readystatechange', asignarEventos, false);
+			function imprimirEvento(evento) {
+				var mensaje = evento.type + ' - ' + evento.target.id ;
+                alert(mensaje)
+			}
+
+			function asignarEventos(evento) {
+				if (document.readyState == 'complete') {
+					document.getElementById("campo1").addEventListener('keydown', imprimirEvento);
+					document.getElementById("campo2").addEventListener('click', imprimirEvento);
+					document.getElementById("b1").addEventListener('click',desactivar,false);
+				}	
+			}
+			function desactivar(){
+				document.getElementById("campo1").removeEventListener('keydown',imprimirEvento,false);
+				document.getElementById("campo2").removeEventListener('click',imprimirEvento,false);
+			}
+			
+		</script>
+	</head>
+	<body>
+		<label for='campo1'>Campo 1:</label>
+		<input id='campo1' type='text' />
+		<br />
+		<label for='campo2'>Campo 2:</label>
+		<input id='campo2' type='text' />
+		<input type="button" id="b1" value="Desactivar">
+	</body>
+</html>

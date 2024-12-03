@@ -1,0 +1,72 @@
+<html onmousedown="actualizarCoords(event)">
+<body>
+    <div style="position: absolute; background-color: aqua;" id="div">---</div>
+    Haz click
+</body>
+<script>
+
+function actualizarCoords(evento) {
+
+    const divMovil = document.getElementById('div');        
+    // let newPosicion = [];
+
+    let mitadCoordX = window.innerWidth / 2;
+    let mitadCoordY = window.innerHeight / 2;
+
+    let textoDevuelto = "Estas a la ";
+
+    if (mitadCoordX < evento.clientX) {
+        textoDevuelto += "derecha";
+        divMovil.style.left = '50%';
+        divMovil.style.right = '0px';
+
+        // newPosicion[0] = '0px';
+        // newPosicion[3] = '50%';
+    } else {
+        textoDevuelto += "izquierda";
+        divMovil.style.left = '0px';
+        divMovil.style.right = '50%';
+
+        // newPosicion[0] = '50%';
+        // newPosicion[3] = '0px';
+    }
+
+    if (mitadCoordY < evento.clientY) {
+        textoDevuelto += " inferior";
+        divMovil.style.top = '50%';
+        divMovil.style.bottom = '0px';
+
+        // newPosicion[1] = '50%';
+        // newPosicion[2] = '0px';
+    } else {
+        textoDevuelto += " superior";
+        divMovil.style.top = '0px';
+        divMovil.style.bottom = '50%';
+
+        // newPosicion[1] = '0px';
+        // newPosicion[2] = '50%';
+    }
+
+    textoDevuelto += " de la pantalla";
+    divMovil.innerHTML = textoDevuelto;
+
+    if (mitadCoordY < evento.clientY) {
+        if (mitadCoordX < evento.clientX) {
+            divMovil.style.backgroundColor = 'blue';
+        } else {
+            divMovil.style.backgroundColor = 'green';
+        }
+    } else {
+        if (mitadCoordX < evento.clientX) {
+            divMovil.style.backgroundColor = 'yellow';
+        } else {
+            divMovil.style.backgroundColor = 'red';
+        }
+    }
+
+
+    // divMovil.style.inset = newPosicion.join(' ');
+}
+
+</script>
+</html>
