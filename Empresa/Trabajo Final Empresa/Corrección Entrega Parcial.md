@@ -2,7 +2,7 @@
 
 - [ ] Hablar también de otras ideas desechadas así como las técnicas para la selección.
 
-- [ ] Los promotores tienen que venir definidos brevemente su puesto y funciones principales.
+- [x] Los promotores tienen que venir definidos brevemente su puesto y funciones principales.
 
 - [ ] Debéis concretar más los factores tanto del microentorno como macroentorno.
 
@@ -10,4 +10,4 @@
 
 - [-] Por qué repetís el modelo Canvas?
 
-- [ ] Falta conclusión e infografía o webgrafía.
+- [x] Falta conclusión e infografía o webgrafía.

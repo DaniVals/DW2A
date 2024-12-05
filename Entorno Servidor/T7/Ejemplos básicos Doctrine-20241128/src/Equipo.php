@@ -62,7 +62,11 @@ class Equipo{
 	public function setCiudad($ciudad)
     {
         $this->ciudad = $ciudad;
-    }  	
+    }
+
+    public function __toString() {
+        return "Equipo $this->id: Nombre: $this->nombre, Fundacion: $this->fundacion, Socios: $this->socios, Ciudad: $this->ciudad";
+    }
 }
 
 

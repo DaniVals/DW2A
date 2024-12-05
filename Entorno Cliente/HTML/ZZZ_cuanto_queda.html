@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>¿Cuanto queda?</h1>
+    <form action="" method="get" onsubmit="return false; actualizarPreview()" onchange="actualizarPreview()">
+        <input type="date" id="fecha">
+        <input type="time" id="hora" >
+
+        <br>
+        <!-- <input type="submit" value="calcular"> -->
+    </form>
+    
+    <p id="dias"></p>
+    <p id="horas"></p>
+    <p id="minutos"></p>
+    <p id="segundos"></p>
+</body>
+<script>
+function actualizarPreview() {
+    let fecha = new Date();
+    let fechaFin = new Date(document.getElementById("fecha").value + "T" + document.getElementById("hora").value);
+    
+    let diferencia = fechaFin - fecha;
+
+    let dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+    let horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+    let segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+
+    document.getElementById("dias").innerText = "Días: " + dias;
+    document.getElementById("horas").innerText = "Horas: " + horas;
+    document.getElementById("minutos").innerText = "Minutos: " + minutos;
+    document.getElementById("segundos").innerText = "Segundos: " + segundos;
+    
+
+    return false;
+}
+
+setInterval(actualizarPreview, 100);
+
+</script>
+</html>
