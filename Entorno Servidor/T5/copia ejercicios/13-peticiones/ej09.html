@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<!--
+9. Haz una página ver restaurantes_registrados.html y obtener restaurantes_registrados.php. 
+La primera tiene un botón "Mostrar", que con AJAX provoca que se haga una petición a la segunda y se muestren, 
+en una tabla HTML, los usuarios y contraseñas de cada uno. 
+-->
+
+
+<script>
+
+    function createTD(content) {
+        let td = document.createElement("td");
+        td.innerHTML = content;
+        return td;
+    }
+
+    function cargarRestaurantes() {
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+
+                document.getElementById("restaurantes").innerHTML = "";
+                
+                const categorias = JSON.parse(this.response);
+                for (let i = 0; i < categorias.length; i++) {
+
+                    let row = document.createElement("tr");
+                    
+                    row.appendChild(createTD(categorias[i].Correo));
+                    row.appendChild(createTD(categorias[i].Clave));
+                    row.appendChild(createTD(categorias[i].Ciudad));
+                    row.appendChild(createTD(categorias[i].Direccion));
+
+                    document.getElementById("restaurantes").appendChild(row);
+                }
+            }
+        };
+        xhttp.open("GET", "ej09_datos_restaurantes_json.php", true);
+        xhttp.send();
+    }
+</script>
+<body>
+    <table id="restaurantes"></table>
+    <a href="javascript:cargarRestaurantes()">Restaurantes</a>
+</body>
+</html>

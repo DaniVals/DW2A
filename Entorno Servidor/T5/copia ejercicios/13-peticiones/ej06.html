@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<!--
+6. Modifica datos_categorias_json.php para que las categorías se obtengan desde la base de datos de "pedidos" 
+(tabla "categorías") cuando se visita lista_categorias_evento_enlace.html.
+-->
+
+
+<script>
+    function cargarCategorias() {
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                const categorias = JSON.parse(this.response);
+
+                for (let i = 0; i < categorias.length; i++) {
+                    const nombre = categorias[i].Nombre;
+
+                    let lista = document.createElement("li");
+                    lista.innerHTML = nombre;
+                    document.getElementById("categorias").appendChild(lista);
+                }
+            }
+        };
+        xhttp.open("GET", "ej06_datos_categorias_json.php", true);
+        xhttp.send();
+    }
+</script>
+<body>
+    <ul id="categorias"></ul>
+    <a href="javascript:cargarCategorias()">Categorias</a>
+</body>
+</html>

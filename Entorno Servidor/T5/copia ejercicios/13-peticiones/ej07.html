@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<!--
+7. Añade un enlace al ejercicio anterior, 
+de forma que la lista se actualice si la base de datos ha cambiado, 
+pero sin refrescar la página.
+-->
+
+
+<script>
+    function cargarCategorias() {
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+
+                document.getElementById("categorias").innerHTML = "";
+                
+                const categorias = JSON.parse(this.response);
+                for (let i = 0; i < categorias.length; i++) {
+                    const nombre = categorias[i].Nombre;
+
+                    let lista = document.createElement("li");
+                    lista.innerHTML = nombre;
+                    document.getElementById("categorias").appendChild(lista);
+                }
+            }
+        };
+        xhttp.open("GET", "ej06_datos_categorias_json.php", true);
+        xhttp.send();
+    }
+
+    setInterval("cargarCategorias()", 1000);
+    cargarCategorias();
+</script>
+<body>
+    <ul id="categorias"></ul>
+</body>
+</html>

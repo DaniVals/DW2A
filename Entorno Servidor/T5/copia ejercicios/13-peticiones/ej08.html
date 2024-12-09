@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<!--
+8. Crea una página registrar_restaurante.html que permita 
+introducir el email de un restaurante (por ejemplo, "valencia2@empresa.com" y una contraseña "321"). Funciona así:
+
+- Se pulsa un enlace de "Registrar restaurante".
+- Se hace una petición con AJAX a registrar.php.
+- La página PHP da de alta al restaurante e imprime un JSON del tipo { "error" : 1 } o { "error" : 1 }.
+- Cuando llega a la función de JavaScript la respuesta, se muestra un icono de error o de éxito al usuario junto a un texto (dependiendo de si ha funcionado o no).
+-->
+
+
+<script>
+    function cargarCategorias() {
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+
+            }
+        };
+        xhttp.open("GET", "ej06_datos_categorias_json.php", true);
+        xhttp.send();
+    }
+</script>
+<body>
+</body>
+</html>

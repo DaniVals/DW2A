@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+3. Crea una web que, mediante AJAX, recupere del servidor dos cartas del numeradas del 1 al 12, por ejemplo: "4-11". 
+Javascript procesará el resultado, si la primera es inferior a la segunda, 
+mostrará un video de YouTube dando la enhorabuena, de lo contrario, dirá "Has perdido".
+-->
+
+
+<script>
+    function elegirCarta(cartaSeleccionada) {
+
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                let array = this.response.split(",");
+
+                document.getElementById("carta1").innerHTML = array[0];
+                document.getElementById("carta2").innerHTML = array[1];
+
+                let carta1 = parseInt(array[0]);
+                let carta2 = parseInt(array[1]);
+
+                if (cartaSeleccionada == 2) {
+                    if (carta1 < carta2) {
+                        document.getElementById("respuesta").innerHTML = "<iframe width='420' height='315' src='https://www.youtube.com/embed/oUr_skr0bOM'></iframe>";
+                    } else {
+                        document.getElementById("respuesta").innerHTML = "<h3>Has perdido<h3>";
+                    }
+                }else{
+                    if (carta2 < carta1) {
+                        document.getElementById("respuesta").innerHTML = "<iframe width='420' height='315' src='https://www.youtube.com/embed/oUr_skr0bOM'></iframe>";
+                    } else {
+                        document.getElementById("respuesta").innerHTML = "<h3>Has perdido<h3>";
+                    }
+                }
+            }
+        };
+
+        xhttp.open("GET", "ej03_dos_numeros.php", true);
+        xhttp.send();
+    }
+</script>
+<style>
+    #carta1, #carta2 {
+        display: inline-block;
+        width: 100px;
+        height: 150px;
+        border: 1px solid black;
+        margin: 10px;
+    }
+</style>
+<body>
+    <h1>Elige una</h1>
+    <div id="carta1" onclick="elegirCarta(1)"></div>
+    <div id="carta2" onclick="elegirCarta(2)"></div>
+    <div id="respuesta"></div>
+</body>
+</html>

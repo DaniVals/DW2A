@@ -1,0 +1,26 @@
+<html>
+<body>
+    <input type="number" id="num1">
+    <input type="number" id="num2">
+
+    <input type="button" value="calcular" onclick="suma()">
+
+</body>
+<script>
+function suma() {
+    let n1 = document.getElementById('num1').value;
+    let n2 = document.getElementById('num2').value;
+
+    let xhttp = new XMLHttpRequest();
+
+    xhttp.onreadystatechange = function() {
+        
+        if (this.readyState == 4 && this.status == 200) {
+            alert(this.response);
+        }
+    };
+    xhttp.open("GET", "suma.php?n1="+n1+"&n2="+n2, true);
+    xhttp.send();
+}
+</script>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<!--
+4. Modifica el archivo hora.php para que compruebe si hay un error 404 y muestre una alerta si se produce
+(pista: página 32 de las diapositivas). 
+Apunta la URL a una dirección del servidor que no exista para comprobar si funciona.
+-->
+
+
+<script>
+    function loadDoc() {
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.status == 404) {
+                document.getElementById("hora").innerHTML = "Error 404: pagina no encontrada";
+                
+            }
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("hora").innerHTML = "Hora : " + this.response;
+            }
+        };
+        // xhttp.open("GET", "ej04_hora_servidor.php", true);
+        xhttp.open("GET", "ej04_no existe.php", true);
+        xhttp.send();
+    }
+    setInterval("loadDoc()", 500);
+</script>
+<body>
+    <h1>Hora en el servidor</h1>
+    <section id="hora">Hora : </section>	
+</body>
+</html>

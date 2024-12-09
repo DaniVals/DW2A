@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<!-- 0. Modifica los archivos de hora.php y hora_servidor.php para que, en lugar de la hora, 
+    la página genere números de lotería de navidad aleatorios cada 2 segundos. -->
+
+
+<script>
+    function loadDoc() {
+        console.log("loadDoc");
+        
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("hora").innerHTML = "Numero ganador : " + this.response;
+            }
+        };
+        xhttp.open("GET", "ej00_num_loteria.php", true);
+        xhttp.send();
+        return false;
+    }
+    setInterval("loadDoc()", 500);
+</script>
+<body>
+    <h1>Numero en el servidor</h1>
+    <section id="hora"></section>		
+</body>
+</html>

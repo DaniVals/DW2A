@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+1. Usando AJAX y PHP, haz una página web dados.html que:
+
+    Tenga una imagen de unos dados.
+    Si se pulsa, se lance una petición AJAX al servidor calcula_dados.php.
+    El servidor devuelve resultado en un texto (por ejemplo: "7 y 10").
+    La página muestra el resultado.
+
+-->
+
+
+<script>
+    function resultadoDados() {        
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("resultado").innerHTML = "Resultado: " + this.response;
+            }
+        };
+        xhttp.open("GET", "ej01_calcula_dados.php", true);
+        xhttp.send();
+    }
+</script>
+<body>
+    <img src="https://img.freepik.com/vector-premium/plantilla-dados-modelo-cubo-blanco_149267-196.jpg?w=360" alt="dados" onclick="resultadoDados()">
+    <section id="resultado">Resultado: </section>		
+</body>
+</html>
