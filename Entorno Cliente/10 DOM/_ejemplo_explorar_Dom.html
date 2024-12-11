@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Navegando por los elementos del documento </title>
+</head>
+<body>
+<ul><li><a href="uno.html">El primer enlace</a></li><li id="elemento"><a href="dos.html" target="new">El segundo enlace</a></li><li><a href="tres.html">El tercer enlace</a></li></ul>
+</body>
+<script>
+var nodo=document.getElementById( "elemento" )
+document.write( "El propio nodo: ", nodo.nodeName, "<br/>" )
+document.write( "Su hermano anterior: ", nodo.previousSibling.nodeName, "<br/>" )
+document.write( "El hermano anterior a ese: ", nodo.previousSibling.previousSibling, "<br/>" )
+document.write( "Su hermano posterior: ", nodo.nextSibling.nodeName, "<br/>" )
+document.write( "El padre del nodo: ", nodo.parentNode.nodeName, "<br/>" )
+document.write( "¿Tiene nodos hijo?: ", nodo.hasChildNodes() , "<br/>" )
+document.write( "Número de hijos: ", nodo.childNodes.length, "<br/>" )
+document.write( "Primer hijo: ", nodo.firstChild.nodeName, "<br/>" )
+document.write( "Último hijo: ", nodo.lastChild.nodeName, "<br/>" )
+</script>
+</body>
+</html>
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DOM</title>
+		<style>
+			.activo {color:red;}
+		</style>
+		<script>			
+			function cambiarElementoActivo(elemento){
+				elementoActivo.className='';
+				elemento.className = 'activo';
+				elementoActivo = elemento;
+			}
+			function primerHijo(){
+			
+				if(elementoActivo.nextSibling != null){
+					if(elementoActivo.nextSibling.nodeName == 'OL'){
+						cambiarElementoActivo(elementoActivo.nextSibling.firstChild);
+					}
+				}
+			}
+			function ultimoHijo(){
+				if(elementoActivo.nextSibling != null){
+					if(elementoActivo.nextSibling.nodeName == 'OL'){
+						cambiarElementoActivo(elementoActivo.nextSibling.lastChild)
+					}
+				}
+				
+				}
+			function siguienteHermano(){
+				if(elementoActivo.nextSibling != null){
+					if(elementoActivo.nextSibling.nodeName == 'LI'){
+						cambiarElementoActivo(elementoActivo.nextSibling);
+					}
+				}
+			}
+			function anteriorHermano(){
+				if(elementoActivo.previousSibling != null){
+					if(elementoActivo.previousSibling.nodeName == 'LI'){
+						cambiarElementoActivo(elementoActivo.previousSibling);
+					}
+				}
+			}
+			function padre(){
+				if(elementoActivo.parentNode.previousSibling != null){
+					if(elementoActivo.parentNode.previousSibling.nodeName == 'LI'){
+						cambiarElementoActivo (elementoActivo.parentNode.previousSibling);
+					}
+				}
+			}
+			
+		</script>
+	</head>
+	<body>
+		<ol>
+			<li id='padre' class='activo'>Padre</li><ol><li>Hijo mayor</li><li>Hijo mediano</li><li>Hijo menor</li></ol>
+		</ol>				
+		<button type='button' onclick='primerHijo();'>firstChild</button>
+		<button type='button' onclick='ultimoHijo();'>lastChild</button>
+		<button type='button' onclick='anteriorHermano();'>previousSibling</button>
+		<button type='button' onclick='siguienteHermano();'>nextSibling</button>
+		<button type='button' onclick='padre();'>parentNode</button>
+		<script>
+			var elementoActivo = document.getElementById('padre');
+		</script>
+	</body>
+</html>
+

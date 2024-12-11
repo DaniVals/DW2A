@@ -1,0 +1,29 @@
+<html>
+<body>
+    <div id="parrafos">
+        <p id="p1">Este es el primer párrafo</p>
+        <p id="p2">Este es el segundo párrafo</p>
+        <p id="p3">Este es el tercer párrafo</p>
+        <p id="p4">Este es el cuarto párrafo</p>
+        <p id="p5">Este es el quinto párrafo</p>
+    </div> 
+    <input type="button" value="insertar párrafo entre el tercero y el cuarto" onClick="insertarEnMedio()">
+</body>
+<!-- 
+Definir una página que contenga un div con 5 párrafos. Al presionar un botón crear un 
+nodo de tipo elemento (párrafo) y un nodo de tipo texto, luego insertar el nodo de tipo 
+elemento entre el tercer y cuarto párrafo
+ -->
+<script>
+
+function insertarEnMedio(){
+    var parrafo = document.createElement("p");
+    var texto = document.createTextNode("Este es el párrafo insertado");
+    parrafo.appendChild(texto);
+    var div = document.getElementById("parrafos");
+    var p4 = document.getElementById("p4");
+    div.insertBefore(parrafo, p4);
+}
+
+</script>
+</html>

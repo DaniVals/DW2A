@@ -1,0 +1,28 @@
+<html>
+<body>
+    <div id="parrafos">
+        <p>Parrafo 0</p>
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+    </div> 
+    <input type="text" id="posicion" name="posicion"> 
+    <input type="button" value="Eliminar el párrafo de la  posición introducida" onclick="eliminarPos()">
+</body>
+<!-- 
+Tenemos una página con un div con tres párrafos. Ingresar en un control de tipo text el 
+nº de párrafo a borrar (un valor entero). Luego borrar el párrafo que coincida con dicho 
+valor
+ -->
+<script>
+
+function eliminarPos(){
+    const pos = document.getElementById("posicion").value;
+    const div = document.getElementById("parrafos");
+    const ps = div.getElementsByTagName("p");
+    if(pos < ps.length){
+        div.removeChild(ps[pos]);
+    }
+}
+
+</script>
+</html>

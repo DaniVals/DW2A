@@ -1,0 +1,35 @@
+<html>
+<body>
+    <div id="parrafos">
+        <p id="p1">Este es el primer párrafo</p>
+        <p id="p2">Este es el segundo párrafo</p>
+        <p id="p3">Este es el tercer párrafo</p>
+        <p id="p4">Este es el cuarto párrafo</p>
+        <p id="p5">Este es el quinto párrafo</p>
+    </div> 
+    <input type="button" value="insertar párrafo entre el tercero y el cuarto" onclick="imprimirEstructura()">
+</body>
+<!-- 
+Realizar un script que recorra y muestre con un alert de JavaScript, cada tipo de nodo del árbol 
+de una página HTML, que previamente haya creado en los ejercicios anteriores. 
+ -->
+<script>
+
+function imprimirEstructura(){
+    const base = document.body; 
+    imprimir(base.nodeName, base.children);
+}
+
+function imprimir(textoPadre, arrayHijos){
+    for (let i = 0; i < arrayHijos.length; i++) {
+        if (arrayHijos[i].children.length == 0) {
+            console.log(textoPadre + " - " + arrayHijos[i].nodeName);
+        }else{
+            imprimir(textoPadre + " - " + arrayHijos[i].nodeName, arrayHijos[i].children);
+        }
+    }
+    
+}
+
+</script>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<body>
+    <button id="boton1" onclick="crearInput()" >Crear</button>
+</body>
+<script>
+
+function crearInput(){
+    document.getElementById("boton1").remove();
+
+    var label = document.createElement("label");
+    label.innerHTML = "Nombre";
+    document.body.appendChild(label);
+
+    var input = document.createElement("input");
+    input.id = "input1";
+    document.body.appendChild(input);
+
+    var botonTexto = document.createElement("button");
+    botonTexto.innerHTML = "Mostrar texto";
+    botonTexto.id = "boton2";
+    document.body.appendChild(botonTexto);
+}
+
+</script>
+</html>

@@ -1,0 +1,29 @@
+<html>
+<body>
+    <div id="bloque1">
+        <h1>Primer Bloque de párrafos.</h1>
+        <p>Este es el primer párrafo</p>
+        <p>Este es el segundo párrafo</p>
+        <p>Este es el tercer párrafo</p>
+    </div>
+    <div id="bloque2">
+        <h1>Segundo Bloque de párrafos.</h1>
+        <p>Este es el primer párrafo</p>
+        <p>Este es el segundo párrafo</p>
+        <p>Este es el tercer párrafo</p>
+    </div> <input type="button" value="Agregar un punto al final de cada párrafo" onclick="puntoFinal()">
+</body>
+<!-- 
+Agregar un punto al final de cada párrafo contenido en el div con id llamado bloque2
+ -->
+<script>
+
+function puntoFinal(){
+    var parrafos = document.getElementById("bloque2").getElementsByTagName("p");
+    for (var i = 0; i < parrafos.length; i++) {
+        parrafos[i].innerHTML += ".";
+    }
+}
+
+</script>
+</html>
