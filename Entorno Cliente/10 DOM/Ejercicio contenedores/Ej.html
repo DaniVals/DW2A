@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej Contenedores DOM - Daniel Vals</title>
+</head>
+<style>
+    .contenedor {
+        width: 100%;
+        height: 100px;
+        background-color: #f0f0f0;
+        margin-bottom: 10px;
+    }
+    .contenedor span {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+        padding-top: calc(50px - 0.5em);
+    }
+
+
+    #contenedorBotones,
+    #contenedorInput {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor button {
+        background-color: #00ffcc;
+
+        border: none;
+        border-radius: 10px;
+        
+        padding: 5px 20px;
+        margin: 10px;
+    }
+
+    #mensajes {
+        width: 100%;
+        color: #f00;
+        text-align: center;
+    }
+    
+</style>
+<body>
+</body>
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+    crearPagina();
+});
+
+var array = [];
+const TAMAÑO_MAXIMO_ARRAY = 10;
+
+function crearPagina() {
+    const body = document.body;
+
+    // div 1 - donde se muestran los elementos del array
+    let div1 = document.createElement("div");
+    div1.className = "contenedor";
+    body.appendChild(div1);
+    let span = document.createElement("span");
+    span.textContent = "Soy un span";
+    span.id = "textoArray";
+    div1.appendChild(span);
+
+    // div 2 - donde se modifican los elementos del array
+    let div2 = document.createElement("div");
+    div2.className = "contenedor";
+    body.appendChild(div2);
+
+    let div21 = document.createElement("div");
+    div21.id = "contenedorBotones";
+    div2.appendChild(div21);
+    let div22 = document.createElement("div");
+    div22.id = "contenedorInput";
+    div2.appendChild(div22);
+
+    let botonGuardar = document.createElement("button");
+    botonGuardar.textContent = "Guardar";
+    botonGuardar.onclick = function() {
+        anadirAlArray();
+    }
+    div21.appendChild(botonGuardar);
+    let botonReiniciar = document.createElement("button");
+    botonReiniciar.textContent = "Reiniciar";
+    botonReiniciar.onclick = function() {
+        borrarArray();
+    }
+    div21.appendChild(botonReiniciar);
+
+
+    let label = document.createElement("label");
+    label.textContent = "Introduce un valor: ";
+    label.htmlFor = "inputArray";
+    div22.appendChild(label);
+    let input = document.createElement("input");
+    input.type = "text";
+    input.id = "inputArray";
+    div22.appendChild(input);
+
+    // div 3 - mensajes de error
+    let div3 = document.createElement("div");
+    div3.className = "contenedor";
+    div3.id = "mensajes";
+    body.appendChild(div3);
+}
+
+function anadirAlArray() {
+    const inputNum = document.getElementById("inputArray");
+
+    // comprobar si es un número
+    if (isNaN(inputNum.value)) {
+        let mensajes = document.getElementById("mensajes");
+        mensajes.textContent = "El valor introducido no es un número";
+        return;
+    }
+
+    // comprobar si esta entre 1 y 10
+    if (inputNum.value < 1 || inputNum.value > 10) {
+        let mensajes = document.getElementById("mensajes");
+        mensajes.textContent = "El valor introducido no está entre 1 y 10";
+        return;
+    }
+
+    // comprobar si es un float
+    if (inputNum.value % 1 !== 0) {
+        let mensajes = document.getElementById("mensajes");
+        mensajes.textContent = "El valor introducido no es un número entero";
+        return;
+    }
+
+    // comprobar si el array esta lleno
+    if (array.length >= TAMAÑO_MAXIMO_ARRAY) {
+        let mensajes = document.getElementById("mensajes");
+        mensajes.textContent = "El array está lleno";
+        return;
+    }
+    
+    array.push(inputNum.value);
+    inputNum.value = "";
+    mensajes.textContent = "El valor se ha introducido correctamente";
+    mostrarArray();
+}
+
+function borrarArray() {
+    array = [];
+    mostrarArray();
+}
+
+function mostrarArray() {
+    let textoArray = document.getElementById("textoArray");
+    textoArray.textContent = array.join(", ");
+}
+
+</script>
+</html>

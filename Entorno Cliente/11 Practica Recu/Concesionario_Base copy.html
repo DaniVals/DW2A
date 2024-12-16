@@ -44,31 +44,31 @@
     <form id="pedidoForm">
         <h2 style="color:blue">Datos del Concesionario</h2>
         <label for="nombreConcesionario">Nombre del Concesionario:</label>
-        <input type="text" id="nombreConcesionario" name="nombreConcesionario" >
+        <input type="text" id="nombreConcesionario" name="nombreConcesionario" value="Nombre Concesionario">
 		<table><tr><td>
         <label for="direccion">Dirección:</label>
-        <input type="text" id="direccion" name="direccion" ></td>
+        <input type="text" id="direccion" name="direccion" value="mi casita"></td>
 
         <td><label for="ciudad">Ciudad:</label>
-        <input type="text" id="ciudad" name="ciudad" ></td>
+        <input type="text" id="ciudad" name="ciudad" value="Madrid cuidad"></td>
 
         <td><label for="provincia">Provincia:</label>
         <select id="provincia" name="provincia" >
             <option value="">Seleccione una provincia</option>
-            <option value="Madrid">Madrid</option>
+            <option value="Madrid" selected>Madrid</option>
             <option value="Barcelona">Barcelona</option>
             <option value="Caceres">Cáceres</option>
             <option value="Segovia">Segovia</option>
         </select></td></tr>
 
         <tr><td><label for="codigoPostal">Código Postal:</label>
-        <input type="text" id="codigoPostal" name="codigoPostal" ></td>
+        <input type="text" id="codigoPostal" name="codigoPostal" value="12345"></td>
 
         <td><label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" name="telefono" ></td></tr>
+        <input type="tel" id="telefono" name="telefono" value="687954321"></td></tr>
 
         <tr><td colspan=2><label for="email">E-mail:</label>
-        <input type="text" id="email" name="email" ></td>
+        <input type="text" id="email" name="email" value="correo@domi.com"></td>
 
         <td><label for="fechaEntrega">Fecha de Entrega:</label>
         <input type="text" id="fechaEntrega" name="fechaEntrega" ></td></tr>
@@ -100,7 +100,7 @@
         <input type="checkbox" id="pinturaMetalizada" name="pinturaMetalizada">Pintura Metalizada (+750€)</input>
         <input type="checkbox" id="dvd" name="dvd">DVD (+800€)</input>
 		<p><p>
-        <button type="button" >Añadir Vehículo</button>
+        <button type="button">Añadir Vehículo</button>
         <button type="button">Enviar Pedido</button>
     </form>
 </html>
