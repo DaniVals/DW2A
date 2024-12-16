@@ -72,5 +72,8 @@
 		},
 		"liveServer.settings.multiRootWorkspaceName": "DW2A",
 		"liveServer.settings.NoBrowser": true,
+		"terminal.integrated.env.windows": {
+    		"PATH": "C:\\Users\\Dani\\scoop\\shims;${env:PATH}"
+		}
 	}
 }

@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Ejercicio 1</title>
+<script type="text/javascript">
+</script>
+</head>
+<body>
+<div id="informacion" style="border:thin solid silver; padding:.5em"></div>
+<p>Introducci�n a DOM <a href="http://prueba">enlace a prueba</a>. El Modelo de Objetos del Documento (DOM) es un API para documentos HTML y XML. Proporciona una representaci�n estructural del documento, permitiendo la modificaci�n de su contenido y visualizaci�n. Esencialmente, comunica las p�ginas web con los scripts o los lenguajes de programaci�n <a href="http://prueba2">enlace a prueba2</a>. Todas las propiedades, m�todos, y eventos disponibles por el desarrollador web para manipular y crear p�ginas web est�n organizados en objetos (por ejemplo: el objeto 'document' representa al documento en s� mismo, el objeto 'table' representa los elementos HTML para tablas, etc�tera). En los navegadores modernos estos objetos son manejables con lenguajes de scripts.</p>
+<p>Es muy com�n usar DOM conjuntamente con JavaScript. As� es, el c�digo es escrito en JavaScript, pero �ste usa DOM para tener acceso a la p�gina Web y sus elementos.  <a href="http://prueba">enlace a prueba</a>Sin embargo, DOM fue dise�ado para ser independiente de cualquier lenguaje de programaci�n concreto, poniendo la representaci�n estructural del documento disponible en un solo API consistente.</p>
+<p>Aunque  nos centremos en JavaScript, las implementaciones de DOM pueden hacerse para cualquier lenguaje. <a href="http://prueba">enlace a prueba</a>. El Consorcio de World Wide Web establece un est�ndar para el DOM, llamado W3C DOM.  <a href="http://prueba4">enlace a prueba4</a> Actualmente los navegadores m�s importantes lo soportan correctamente, �sto permite crear poderosas aplicaciones multi-navegador. <a href="http://prueba5">enlace a prueba5</a>El modelo DOM HTML se define a trav�s de una estructura de �rbol.
+</html>
+<!-- 
+A partir de la página web proporcionada y utilizando las funciones DOM,
+mostrar por pantalla la siguiente información:
+1. Número de enlaces de la página
+2. Dirección a la que enlaza el penúltimo enlace
+3. Numero de enlaces que enlazan a http://prueba
+4. Número de enlaces del tercer párrafo
+-->
+<script>
+
+function contarEnlaces() {
+    alert("Número de enlaces de la página: " + document.getElementsByTagName("a").length);
+}
+
+function penultimoEnlace() {
+    var enlaces = document.getElementsByTagName("a");
+    alert("Dirección a la que enlaza el penúltimo enlace: " + enlaces[enlaces.length - 2].href);
+}
+
+function enlacesPrueba() {
+    var enlaces = document.getElementsByTagName("a");
+    var contador = 0;
+    for (var i = 0; i < enlaces.length; i++) {
+        if (enlaces[i].href == "http://prueba") {
+            contador++;
+        }
+    }
+    alert("Número de enlaces que enlazan a http://prueba: " + contador);
+}
+
+function enlacesTercerParrafo() {
+    var parrafos = document.getElementsByTagName("p");
+    var enlaces = parrafos[2].getElementsByTagName("a");
+    alert("Número de enlaces del tercer párrafo: " + enlaces.length);
+}
+</script>

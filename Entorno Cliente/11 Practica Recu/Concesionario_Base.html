@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        select, input[type="text"], input[type="tel"], input[type="date"], input[type="number"]{
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 8px;
+            
+           
+        }
+		
+        button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Pedido de Coches</h1>
+    <form id="pedidoForm">
+        <h2 style="color:blue">Datos del Concesionario</h2>
+        <label for="nombreConcesionario">Nombre del Concesionario:</label>
+        <input type="text" id="nombreConcesionario" name="nombreConcesionario" >
+		<table><tr><td>
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" ></td>
+
+        <td><label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" ></td>
+
+        <td><label for="provincia">Provincia:</label>
+        <select id="provincia" name="provincia" >
+            <option value="">Seleccione una provincia</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Caceres">Cáceres</option>
+            <option value="Segovia">Segovia</option>
+        </select></td></tr>
+
+        <tr><td><label for="codigoPostal">Código Postal:</label>
+        <input type="text" id="codigoPostal" name="codigoPostal" ></td>
+
+        <td><label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" ></td></tr>
+
+        <tr><td colspan=2><label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" ></td>
+
+        <td><label for="fechaEntrega">Fecha de Entrega:</label>
+        <input type="text" id="fechaEntrega" name="fechaEntrega" ></td></tr>
+
+        <tr><td><h2 style="color:blue">Características del Vehículo</h2>
+        <label for="motor">Motor:</label>
+        <select id="motor" name="motor" >
+            <option value="gasolina">Gasolina</option>
+            <option value="diesel">Diesel (+1500€)</option>
+            <option value="hibrido">Híbrido (+3000€)</option>
+        </select></td></tr>
+
+        <tr><td><label for="modelo">Modelo:</label>
+        <select id="modelo" name="modelo" >
+            <option value="3puertas">3 puertas (-2000€)</option>
+            <option value="5puertas">5 puertas</option>
+            <option value="familiar">Familiar (+1500€)</option>
+        </select></td></tr>
+
+       <tr><td><label for="color">Color:</label>
+        <select id="color" name="color" >
+            <option value="rojo">Rojo</option>
+            <option value="verde">Verde</option>
+            <option value="naranja">Naranja</option>
+            <option value="blanco">Blanco (-500€)</option>
+            <option value="negro">Negro (-600€)</option>
+        </select></td></tr></table>
+
+        <input type="checkbox" id="pinturaMetalizada" name="pinturaMetalizada">Pintura Metalizada (+750€)</input>
+        <input type="checkbox" id="dvd" name="dvd">DVD (+800€)</input>
+		<p><p>
+        <button type="button" >Añadir Vehículo</button>
+        <button type="button">Enviar Pedido</button>
+    </form>
+</html>
+   

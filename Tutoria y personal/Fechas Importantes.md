@@ -2,18 +2,18 @@
 
 ## Exámenes 1º T
 
-- [-] **Despliegue** Teórico - 4 oct (va a ser un cuestionario)
+- [x] **Despliegue** Teórico - 4 oct (va a ser un cuestionario)
 
 ![[Examen 1 Despliegue]]
 
-- [/] **Empresa** - 6 nov
-- [/] **Ingles** - 8 nov
-- [/] **Diseño practico** - 12 nov
-- [/] **E. Cliente** - 13 nov
-- [/] **Diseño teórico** - 14 nov
-- [/] **E. Servidor** - 15 nov
+- [x] **Empresa** - 6 nov
+- [x] **Ingles** - 8 nov
+- [x] **Diseño practico** - 12 nov
+- [x] **E. Cliente** - 13 nov
+- [x] **Diseño teórico** - 14 nov
+- [x] **E. Servidor** - 15 nov
 
-- [/] **Despliegue** Practico - 18 nov (esto creo q me lie pero lo dejo por si acaso)
+- [x] **Despliegue** Practico - 18 nov (esto creo q me lie pero lo dejo por si acaso)
 
 ![[Examen Diseño]]
 
@@ -32,11 +32,17 @@ lo que vayamos trabajando en clase (lo que llevamos por ahora):
 ## Exámenes 2º T
 antes 7 febrero
 
-- [ ] 24 enero -> oral
-- [ ] 31 enero -> written exam
-- [ ] 24 enero -> oral
+- [ ] Examen DNS despliegue -> 3 febrero
+- [ ] Examen despliegue -> 17 febrero
+
+- [ ] Examen inglés -> 24 enero
+- [ ] Examen inglés oral -> 7 febrero 
+
+- [ ] Examen Empresa -> 29 enero
+
 
 ### Entrega trabajo de empresa
+5 febrero
 
 ## ordinaria
 21-27 febrero

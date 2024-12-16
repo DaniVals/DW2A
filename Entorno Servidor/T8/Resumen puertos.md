@@ -1,0 +1,3 @@
+- 8000 para Symfony
+- 80 para apache (para el PHPmyAdmin)
+- 3306 para la BBDD

@@ -34,7 +34,7 @@ Shadow: off
 
 --- end-multi-column 
 
-![[Fechas Importantes#Exámenes 1º T]]
+![[Fechas Importantes#Exámenes 2º T]]
 
 > [!warning] Tareas
 > ```dataview
