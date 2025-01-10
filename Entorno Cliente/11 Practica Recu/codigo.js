@@ -92,7 +92,7 @@ function enviarPedido() {
     const ciudad = document.getElementById("ciudad").value;
     
     if (!regexTextoNoVacio.test(nombreConcesionario)) {
-        ventanaDeError("Apellido no valido");
+        ventanaDeError("Nombre no valido");
         comprobacion = false;
     }
     if (!regexTextoNoVacioDir.test(direccion)) {
@@ -118,7 +118,7 @@ function enviarPedido() {
     }
     
     const telefono = document.getElementById("telefono").value;
-    const regexTelefono = /^[769]{1}[0-9]{8}$/;
+    const regexTelefono = /^[678]{1}[0-9]{8}$/;
     if (!regexTelefono.test(telefono)) {
         ventanaDeError("Telefono no valido");
         comprobacion = false;
@@ -166,6 +166,12 @@ function enviarPedido() {
         ventana.document.write("</li>");
     }
     ventana.document.write("</ul>");
+
+    let sumaPrecios = 0;
+    for (let i = 0; i < coches.length; i++) {
+        sumaPrecios += coches[i][0];
+    }
+    ventana.document.write("<h3>Total: "+sumaPrecios+"€</h3>");
 
     ventana.document.write("<h1>Datos</h1>");
     ventana.document.write("<h3> nombre: "+nombreConcesionario+"</h3>");

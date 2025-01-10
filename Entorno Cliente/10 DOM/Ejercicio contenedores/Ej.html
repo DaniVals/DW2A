@@ -42,6 +42,13 @@
         color: #f00;
         text-align: center;
     }
+
+    .numGrafica {
+        background-color: aqua;
+        height: 1.5em !important;
+        display: block;
+        padding: 10px;
+    }
     
 </style>
 <body>
@@ -63,7 +70,6 @@ function crearPagina() {
     div1.className = "contenedor";
     body.appendChild(div1);
     let span = document.createElement("span");
-    span.textContent = "Soy un span";
     span.id = "textoArray";
     div1.appendChild(span);
 
@@ -91,6 +97,12 @@ function crearPagina() {
         borrarArray();
     }
     div21.appendChild(botonReiniciar);
+    let botonMostrar = document.createElement("button");
+    botonMostrar.textContent = "Mostrar";
+    botonMostrar.onclick = function() {
+        graficaArray();
+    }
+    div21.appendChild(botonMostrar);
 
 
     let label = document.createElement("label");
@@ -107,6 +119,12 @@ function crearPagina() {
     div3.className = "contenedor";
     div3.id = "mensajes";
     body.appendChild(div3);
+
+    // div 4 - visualizar el array
+    let div4 = document.createElement("div");
+    div4.className = "contenedor";
+    div4.id = "graficaArray";
+    body.appendChild(div4);
 }
 
 function anadirAlArray() {
@@ -149,11 +167,26 @@ function anadirAlArray() {
 function borrarArray() {
     array = [];
     mostrarArray();
+    graficaArray();
 }
 
 function mostrarArray() {
     let textoArray = document.getElementById("textoArray");
     textoArray.textContent = array.join(", ");
+    // graficaArray();
+}
+
+function graficaArray() {
+    const divGrafica = document.getElementById("graficaArray");
+    divGrafica.innerHTML = "";
+
+    for (let i = 0; i < array.length; i++) {
+        let div = document.createElement("div");
+        div.className = "numGrafica";
+        div.textContent = array[i];
+        div.style.width = array[i] * 10 + "px";
+        divGrafica.appendChild(div);
+    }
 }
 
 </script>
