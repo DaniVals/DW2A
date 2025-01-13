@@ -1,0 +1,1 @@
+es basicamente un elemento ``<img>`` pero que se asignan la misma foto en varias resoluciones y carga cada una dependiendo del dispositivo

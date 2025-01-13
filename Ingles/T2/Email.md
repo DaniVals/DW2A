@@ -43,3 +43,9 @@ Leer los correos de 2/9 y hacer un subject
 
 Information about CCTV products
 
+# Writing an enquing (asking for information)
+## Request
+Could you please \[ send | inform ] .......
+
+## Closing
+Im looking forward to hearing from you \[ soon ]
