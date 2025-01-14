@@ -1,0 +1,23 @@
+<html>
+<head><title>Portal Médico</title></head>
+<body>
+    {% if error %}
+        <div>{# Descomenta si necesitas depurar, te dará información del fallo que hay si no loguea
+         error.message|trans(error.messageData, 'security') #}
+         ¡Vaya! Las credenciales están mal.
+         </div>
+    {% endif %}
+
+    <form action="{{ path('app_login') }}" method="post">
+        <label for="username">Email:</label>
+        <input type="text" id="username" name="_username" value="{{ last_username }}">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="_password">
+        
+        Si cambias los atributos name del formulario, no funcionará.
+
+        <button type="submit">login</button>
+    </form>
+</body>
+</html>

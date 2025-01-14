@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TABLERO DIBUJO</title>
+<link type="text/css" rel="stylesheet" href="EjercicioTablero.css" />
+<script type="text/javascript" src="EjercicioTablero.js"></script>
+</head>
+<body>
+<p>TABLERO DE DIBUJO EN JAVASCRIPT</p>
+<table width="500" border="1" id="paleta" summary="Tabla de selección de colores">
+  <caption>
+    Haga CLICK en un color para comenzar a pintar
+  </caption>
+  <tr><td class="color1"></td><td class="color2"></td><td class="color3"></td><td class="color4"></td><td class="color5"></td><td class="color6"></td></tr>
+  <tr><td colspan="6" id="pincel">Estado del pincel</td></tr>
+</table>
+<p></p>
+<div id="zonadibujo"></div>
+</body>
+
+
+<script>
+	
+const zonadibujo = document.getElementById('zonadibujo');
+const pincel = document.getElementById('pincel');
+let pintar = false;
+zonadibujo.addEventListener('click', function() {
+	pintar = !pintar;
+	zonadibujo.style['cursor'] = pintar ? 'crosshair' : 'default';
+	zonadibujo.style['background'] = pintar ? 'black' : 'transparent';
+	pincel.innerText = pintar ? 'Pintando' : 'No pintando';
+});
+
+
+crearTabla('mouseover');
+	
+
+let colores  = document.getElementById('paleta').getElementsByTagName('td');
+for (let i = 0; i < colores.length; i++) {
+	colores[i].addEventListener('click', function() {
+		pincel.style['background-color'] = colores[i].style['background-color'];
+		alert('click hehco');
+	});
+}
+
+
+function crearTabla(nombreEvento) {
+		const tabla = document.createElement('table');
+		for (let i = 0; i < 30; i++) {
+			let fila = document.createElement('tr');
+			for (let j = 0; j < 30; j++) {
+				let celda = document.createElement('td');
+				celda.style['background-color'] = 'white';
+
+				celda.addEventListener(nombreEvento, function() {
+					if (pintar) {
+						celda.style['background-color'] = pincel.style['background-color'];
+					}
+				});
+
+				fila.appendChild(celda);
+			}
+			tabla.appendChild(fila);
+		}
+	zonadibujo.appendChild(tabla);
+}
+</script>
+
+</html>

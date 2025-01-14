@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>IMC</title>        
+    </head>
+    <body>
+    
+        <form action="{{ path('procesarIMC')}}" method="post">
+            Peso <input name="peso" type="number"> <br>
+            Altura <input name="altura" type="number"> <br>
+            <input type="submit" value="calcular">
+        </form>
+        
+    </body>
+</html>
