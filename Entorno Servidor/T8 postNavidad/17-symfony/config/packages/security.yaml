@@ -1,0 +1,32 @@
+security:
+    # Proveedores de usuarios que pueden usar los firewalls:
+    providers:
+        app_user_provider:                 
+            entity:
+                class: App\Entity\Medico    # La entidad
+                property: usuario           # Atributo de la clase que es el nombre de usuario
+    
+    # Hasheo de las claves de los usuarios
+    password_hashers:
+        App\Entity\Medico:
+                algorithm: plaintext
+    
+    # Firewalls (hay 2, si te fijas)
+    firewalls:
+        dev:                                # ===== Firewall de desarrollo ===== no lo toques, te permite acceder al profiler si estropeas algo
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+        main:                               # ===== Firewall principal =====
+            lazy: true                      # Todas las páginas se pueden ver estando autorizado (o no)
+            provider: app_user_provider     # Los usuarios salen del proveedor declarado arriba con la entidad Medico
+            form_login:
+                login_path: app_login       # Ruta al controlador de login
+                check_path: app_login       # Ruta a la que se envían el POST del formulario de login
+                default_target_path: portal_clinico # Si hay autenticación correcta, el controlador a dónde se manda al usuario
+            logout:
+                path: /logout               # Ruta inventada (y declarada aquí) para hacer el logout
+                target: app_login           # Si se le desloguea bien, a dónde se le manda
+
+    access_control:                         # Qué páginas se protegen y cuáles no: esta tarea se la delegamos a los controladores
+        # - { path: ^/admin, roles: ROLE_ADMIN }
+        # - { path: ^/profile, roles: ROLE_USER }
