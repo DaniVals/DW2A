@@ -129,8 +129,8 @@ class PedidosBase extends AbstractController
 	#[Route('/anadir', name:'anadir')]
     public function anadir(SessionInterface $session, Request $request) {
         // Leer el parámetros del array de POST 
-		$id = 		$_POST('cod');		
-		$unidades =	$_POST('unidades');	
+		$id = 		$_POST['cod'];		
+		$unidades =	$_POST['unidades'];	
 
 		// Leer de la sesión
         $carrito = 	$session->get('carrito');
