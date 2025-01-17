@@ -48,14 +48,14 @@ class Ej05 extends AbstractController
         return $this->render('changePassword.html.twig', ['error' => $error, 'success' => $success]);
     }
 
-	
+	// EJ 3 y 4
 	#[Route('/portaldermatologo', name:'portal_dermatologo')]
 	public function portalDermatologo()
 	{
 		$especialidad = $this->getUser()->getEspecialidad();
 		if ($especialidad == "Dermatologia")
 		{
-			return new Response("<h1>Hola, dermatologo</h1>");
+			return $this->render('portalDermatologia.html.twig');
 		}
 		
 		return $this->redirectToRoute('portal_clinico');

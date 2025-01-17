@@ -1,0 +1,25 @@
+security:
+    providers:
+        pedidos:
+            entity:
+                class: App\Entity\Restaurante
+                property: correo
+    password_hashers:
+        App\Entity\Restaurante:
+            algorithm: plaintext
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+        main:
+            lazy: true
+            provider: pedidos
+            form_login:
+                login_path: ctrl_login
+                check_path: ctrl_login
+                default_target_path: categorias
+            logout:
+                path:   ctrl_logout
+                target: ctrl_login    
+        
+        
