@@ -127,10 +127,15 @@ class PedidosBase extends AbstractController
     }
 
 	#[Route('/anadir', name:'anadir')]
-    public function anadir(SessionInterface $session, Request $request) {
+    public function anadir(SessionInterface $session, Request $request, EntityManagerInterface $entityManager) {
         // Leer el parámetros del array de POST 
 		$id = 		$_POST['cod'];		
-		$unidades =	$_POST['unidades'];	
+		$unidades =	$_POST['unidades'];
+		// $idCategoria =	$_POST['cat']; // EJ 1
+
+		// sacar el producto del entityManager
+		$producto = $entityManager->getRepository(Producto::class)->find($id);
+		$idCategoria = $producto->getCategoria()->getCodCat(); // EJ 1 v2
 
 		// Leer de la sesión
         $carrito = 	$session->get('carrito');
@@ -144,16 +149,22 @@ class PedidosBase extends AbstractController
         }else{
             $carrito[$id]['unidades'] = intval($unidades);
         }
+		// EJ 2
+		if ($producto->getStock() < $carrito[$id]['unidades']) {
+            $carrito[$id]['unidades'] = $producto->getStock();
+		}
         $session->set('carrito', $carrito);
 		
-        return $this->redirectToRoute('carrito');
+		// EJ 1
+        // return $this->redirectToRoute('carrito');
+        return $this->redirectToRoute('productos', ['id' => $idCategoria]);
     }
 
 	#[Route('/eliminar', name:'eliminar')]
     public function eliminar(SessionInterface $session, Request $request){
         // Leer el parámetros del array de POST 
-		$id 		= $_POST('cod');		
-		$unidades	= $_POST('unidades');		
+		$id 		= $_POST['cod'];		
+		$unidades	= $_POST['unidades'];		
         
 		// Leer de la sesión
 		$carrito = $session->get('carrito');

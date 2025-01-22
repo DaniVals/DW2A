@@ -1,0 +1,3 @@
+he dibujado a mano un balon de futbol y luego he girado la imagen en cada fotograma.
+
+despues he usado la opcion de optimizar gif para eliminar contenido inecesario y reducir el tamaño del archivo.

@@ -8,7 +8,7 @@
 		</script>       
 	</head>
 	<body>
-	  Autonomía:<select id="autonomias">
+	  Autonomï¿½a:<select id="autonomias">
 	  <option value='0'>--Elija una autonom&iacute;a--</option>
 	  <option value='galicia'>Galicia</option>
 	  <option value='asturias'>Asturias</option>
@@ -17,5 +17,21 @@
 	  </select>
 	  <select id="provincias">
 	  </select>
-	</body>
+</body>
+<script>
+document.getElementById("autonomias").addEventListener("change", function(){
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function(){
+		if(this.readyState == 4 && this.status == 200){
+
+			const provincias = this.responseText;
+			
+			const selectProvincias = document.getElementById("provincias");
+			selectProvincias.innerHTML = provincias;
+		}
+	};
+	xhttp.open("GET", "servidor2.php?autonomia=" + document.getElementById("autonomias").value, false); // este false indica que la funcion sea sincrona
+	xhttp.send();
+});
+</script>
 </html>

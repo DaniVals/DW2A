@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 
+		Sube un archivo html con una animación CSS de 4 botones. 
+
+		El archivo html debe contener:
+
+		- todo el código, el código CSS y el html. 
+		- Un <div class="solucion" id="vuestronombreyapellidos"> que englobe al resto de elementos
+		- Un Párrafo <h2> con el título de vuestro boton
+		- Un Párrafo <h3> con vuestro nombre
+		- Un Párrafo <p class="descripcion"> con la descripción de lo que hace la animación
+		- Un <div class="botones"> que englobe a todos los botones
+
+		y se deben de cumplir las siguientes condiciones:
+
+		- NO se puede usar  Javascript
+		- El código CSS debe de ser lo más limpio posible no deben de haber directivas que no se usen en el ejemplo.
+	-->
+	
+<div class="solucion" id="danielvals">
+	<h2>Boton</h2>
+	<h3>Daniel Vals</h3>
+	<p class="descripcion">Boton que se levanta</p>
+	<div class="botones">
+		<button class="boton">Boton 1</button>
+		<button class="boton">Boton 2</button>
+		<button class="boton">Boton 3</button>
+		<button class="boton">Boton 4</button>
+	</div>
+	<style>
+		.boton {
+			transition: 0.3s;
+		}
+
+		.boton:hover {
+			transform: translateY(-5px);
+		}
+	</style>
+</div>
+
+</body>
+</html>

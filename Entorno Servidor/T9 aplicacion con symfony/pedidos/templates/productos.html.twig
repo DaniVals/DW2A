@@ -5,17 +5,23 @@
     <table>
         <tr><th>Nombre</th><th>Descripción</th><th>Stock</th><th>Peso</th><th>Comprar</th></tr>
         {% for prod in productos %}
-            <tr>
-				<td>{{ prod.nombre }}</td>
-				<td>{{ prod.descripcion }}</td>
-				<td>{{ prod.stock }}</td><td>{{ prod.peso }}</td>
-				<td>
-					<form action = {{path('anadir')}} method = 'POST'>
-						<input name = 'unidades' type='number' min = '1' value = '1'>
-						<input type = 'submit' value='Comprar'><input name = 'cod' type='hidden' value = {{prod.codProd}}>
-					</form>
-				</td>
-            </tr>
+
+			{# EJ 3 #}
+			{% if 0 < prod.stock %}
+				<tr>
+					<td>{{ prod.nombre }}</td>
+					<td>{{ prod.descripcion }}</td>
+					<td>{{ prod.stock }}</td><td>{{ prod.peso }}</td>
+					<td>
+						<form action = {{path('anadir')}} method = 'POST'>
+							<input name = 'unidades' type='number' min = '1' value = '1'>
+							<input type = 'submit' value='Comprar'>
+							<input name = 'cod' type='hidden' value = {{prod.codProd}}>
+							<input name = 'cat' type='hidden' value = {{prod.Categoria.codCat}}>
+						</form>
+					</td>
+				</tr>
+			{% endif %}
         {% endfor %}
     </table>
 {% endblock %}
