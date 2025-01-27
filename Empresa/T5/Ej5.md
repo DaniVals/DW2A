@@ -44,3 +44,70 @@ C) 3.000 - 4.000 + 50.000 - 15.000 - 10.000 + 300 - 2.500 = 21.800
 D) 18530
 
 
+## Evaluo/128
+1. b
+2. a
+3. a
+4. d
+5. c **No cae**
+6. a
+7. d
+8. c **no cae**
+9. b
+10. b
+11. d
+
+
+---
+
+# Cuenta de perdidas y ganancias
+
+https://www.econosublime.com/2021/03/como-hacer-cuenta-perdidas-ganancias-pyg.html
+
+
+
+**Una empresa presenta los siguientes y resumen de gastos e ingresos. Elabora la cuenta de pérdidas y ganancias hasta llegar al resultado del ejercicio.**
+
+![[Pasted image 20250124090453.png]]
+
+Venta de mercancias 10.000 **A**
+compra de mercancias 1.000 **A**
+suministros 100 **A**
+intereses por deudad 3.000 **B**
+seguridad social 600 **A**
+sueldos y salarios 2.000 **A**
+otros ingresos financieros 2.000 **B**
+amortizacion inmaterial 3.000 **A**
+
+Impuesto 25% **D**
+
+~~10000 * 1.25 = 12500~~
+~~1000 - 100 - 3000 - 600 - 2000 - 2000- 3000 = -9700~~
+
+~~**+2800**~~
+
+apartado A) Resultado de explotación (BAII)) ingresos menos gastos) 10000 - 6700 = 3300
+
+apartado B) Resultado financiero) ingresos menos gastos) 2000 - 3000 = -1000
+
+apartado C) Resultado antes de impuestos) A+B) 3300 - 1000 = 2300
+
+apartado D) Resultado) C * D = 2300 - (2300 * 0.25) = (esa parte se lo queda es estado)
+
+
+# balance de situacion
+
+https://www.econfinados.com/post/actividad-resuelta-balance-de-situacion
+
+_Una sociedad presenta, al finalizar el ejercicio económico, las siguientes cuentas desordenadas y valoradas en euros._
+
+
+_Elabora el balance de situación de la empresa, agrupando las cuentas por masas patrimoniales homogéneas según el Plan General de Contabilidad, calculando el valor de la cuenta “Materias primas”._
+
+
+PN
+Ac corr
+PN
+Ac corr
+Pas nocor
+-Ac nocor
