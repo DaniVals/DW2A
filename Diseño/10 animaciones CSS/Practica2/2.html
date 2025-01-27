@@ -1,0 +1,57 @@
+<html>
+<style>
+
+	.carta{
+		width:  150px;
+		height: 150px;
+		position: relative;
+
+		margin:  10px;
+		padding: 10px;
+		
+		border: 1px solid black;
+		background-color: gray;
+		border-radius: 20px;
+		
+		float: left;
+		box-sizing: border-box;
+	}
+	
+	.carta img{
+		width:  calc(100% - 20px);
+		height: calc(100% - 20px);
+		position: absolute;
+
+		border-radius: 10px;
+		
+		backface-visibility: hidden;
+		transition: all 1s;
+	}
+
+	.carta img:first-child{transform: rotateY(0deg);}
+	.carta:hover img:first-child{transform: rotateY(180deg);}
+
+	.carta img:last-child{transform: rotateY(180deg);}
+	.carta:hover img:last-child{transform: rotateY(0deg);}
+
+
+</style>
+<body>
+	<div class="carta">
+		<img src="https://static.wikia.nocookie.net/misterbeast/images/9/94/01D61E7D-9AA3-40E2-BF9E-39B5444083BC.jpeg" alt="">
+		<img src="https://img.desmotivaciones.es/202007/amor-imagenes-97.jpg" alt="">
+	</div>
+	<div class="carta">
+		<img src="https://static.wikia.nocookie.net/misterbeast/images/9/94/01D61E7D-9AA3-40E2-BF9E-39B5444083BC.jpeg" alt="">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9m5zakGpVDfbvYuWDmn-8wJuDST7Fdhi5tQ&s" alt="">
+	</div>
+	<div class="carta">
+		<img src="https://static.wikia.nocookie.net/misterbeast/images/9/94/01D61E7D-9AA3-40E2-BF9E-39B5444083BC.jpeg" alt="">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg" alt="">
+	</div>
+	<div class="carta">
+		<img src="https://static.wikia.nocookie.net/misterbeast/images/9/94/01D61E7D-9AA3-40E2-BF9E-39B5444083BC.jpeg" alt="">
+		<img src="https://pbs.twimg.com/media/E3dqCkMXwAUCjVF.jpg:large" alt="">
+	</div>
+</body>
+</html>

@@ -3,6 +3,10 @@
 		{
 			"path": "..",
 			"name": "DW2A"
+		},
+		{
+			"path": "../../Practica-DW2AES-2",
+			"name": "Proyecto 2"
 		}
 	],
 	"settings": {

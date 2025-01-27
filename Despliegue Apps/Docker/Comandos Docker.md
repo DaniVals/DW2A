@@ -55,6 +55,12 @@ docker images
 docker rmi
 ```
 
+
+para borrar TODAS
+```bash
+docker system prune -a
+```
+
 ### Inspeccionar contenedores
 ```bash
 docker inspect
