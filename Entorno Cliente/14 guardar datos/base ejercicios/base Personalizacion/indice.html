@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Ejercicio Web Storage</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+  <div class="wrapper">
+    <h1>Web storage</h1>
+<p>Esta es una de las especificaciones incluidas en la parte de Javascript de HTML5, que permite a las páginas web almacenar información en la parte del cliente, es decir, el navegador web. Consta de dos mecanismos (explicados con detalle en apartados más adelante) parecidos a las cookies de sesión de HTTP, pero que permiten almacenar cantidades más grandes de datos, siempre en modo texto.
+El API WebStorage se divide en dos vertientes, el "SessionStorage", para guardar información que caducará al final de la sesión y el "LocalStorage", que permite almacenar datos que perduren entre distintas visitas del mismo usuario al sitio web.</p>
+
+<a href="https://developer.mozilla.org/es/docs/Web/API/Window/localStorage">Más información</a>
+    <form>
+      <div>
+        <label for="bgcolor">Elige color:</label>
+	    <input class="color" id="bgcolor" value="FF0000">
+      </div>
+      <div>
+        <label for="font">Elige font style:</label>
+        <select id="font">
+        	<option value="'Open Sans Condensed', sans-serif" selected>Sans-serif</option>
+        	<option value="'Bitter', serif">Serif</option>
+        	<option value="'Ubuntu Mono'">Monospace</option>
+        </select>
+      </div>
+      <div>
+        <label for="image">Elige imagen:</label>
+        <select id="image">
+        	<option value="images/firefoxos.png" selected>Firefox</option>
+        	<option value="images/crocodile.png">Crocodile</option>
+        	<option value="images/tortoise.png">Tortoise</option>
+        </select>
+      </div>
+    </form>
+
+    <footer></footer>
+    <img id="foto" src="images/firefoxos.png">
+  </div>
+  </body>
+  <script src="funciones.js"></script>
+</html>
